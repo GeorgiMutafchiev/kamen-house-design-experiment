@@ -13,9 +13,9 @@
   },
   "acehotel.com": {
     "source": "acehotel.com",
-    "status": "unavailable",
-    "checked_at": "2026-10-04T14:27:36.312Z",
-    "detail": "HTTP no response; VISUAL_CAPTURE_INCOMPLETE"
+    "status": "available",
+    "checked_at": "2026-10-04T19:04:06.190Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after visual audit: hero player error and privacy overlay."
   },
   "fogoislandinn.ca": {
     "source": "fogoislandinn.ca",
@@ -74,8 +74,8 @@
   "www.masseriamoroseta.it": {
     "source": "www.masseriamoroseta.it",
     "status": "available",
-    "checked_at": "2026-10-04T14:04:36.492Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T19:00:59.901Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
   },
   "www.aesop.com": {
     "source": "www.aesop.com",
@@ -110,8 +110,8 @@
   "www.hotelsinnombre.com": {
     "source": "www.hotelsinnombre.com",
     "status": "available",
-    "checked_at": "2026-10-04T18:58:34.618Z",
-    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: consent panel remained visible and mobile horizontal overflow."
+    "checked_at": "2026-10-04T19:04:06.198Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after visual audit: consent panel persists on both viewports."
   },
   "thecalilehotel.com": {
     "source": "thecalilehotel.com",

@@ -94,6 +94,16 @@ test("visible embedded player error invalidates an otherwise traversable capture
   assert.ok(result.final.samples.some(sample => sample.visible_error_messages.includes("Player error")));
 });
 
+test("a logged dismiss click does not qualify a capture while the control remains visible", async t => {
+  const html = `<!doctype html><html><body><div style="position:fixed;bottom:0;background:white;z-index:10"><button id="consent">Accept</button></div><main><section style="height:800px"><h1>Opening</h1></section><section style="height:800px"><h2>Continuation</h2></section></main></body></html>`;
+  const { root, browser, url } = await fixture(t, html);
+  const result = await captureVisualSession(browser, { url, viewport: { width: 800, height: 600 }, label: "desktop" },
+    { dir: join(root, "persistent-consent-session"), page: "home", dismissSelector: "#consent" });
+  assert.equal(result.session.status, "VISUAL_CAPTURE_INCOMPLETE");
+  assert.equal(result.session.interactions.length, 1);
+  assert.match(result.final.assessment.reasons.join(" "), /dismiss control remained visible/);
+});
+
 test("audit and incomplete captures cannot affect coverage, calibration, holdouts, or concept evidence", async t => {
   const root = await mkdtemp(join(tmpdir(), "kamen-capture-ledger-"));
   t.after(() => rm(root, { recursive: true, force: true }));

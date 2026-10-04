@@ -19,8 +19,9 @@
       ],
       "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
       "status": "CAPTURE_INCOMPLETE",
-      "attempt_count": 0,
-      "last_error": null
+      "attempt_count": 1,
+      "last_error": "Manual visual audit: natural/after-load hero shows player error dialog; privacy panel overlays the page. Manual visual audit: natural/after-load hero shows player error text; privacy panel overlays the page.",
+      "last_run_id": "37226517217"
     },
     {
       "candidate_id": "FOGO_V4",
@@ -230,9 +231,11 @@
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: large fixed overlay obstructed 5 sampled positions | home/mobile: large fixed overlay obstructed 6 sampled positions",
+      "last_run_id": "37226517217",
+      "dismiss_selector": ".spu-close-popup"
     },
     {
       "candidate_id": "AESOP",
@@ -359,10 +362,10 @@
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "status": "CAPTURE_INCOMPLETE",
-      "attempt_count": 3,
-      "last_error": "Manual visual audit of 37225739903: cookie consent panel remains visible in initial and scroll viewport captures; configured Decline selector failed. Mobile full-page capture also overflows to 768px.",
-      "dismiss_selector": "text=Accept",
-      "last_run_id": "37225739903"
+      "attempt_count": 4,
+      "last_error": "Manual visual audit: cookie consent banner persists after logged Accept click and across scroll-state screenshots.",
+      "dismiss_selector": "[data-tid=\"banner-accept\"]",
+      "last_run_id": "37226517217"
     },
     {
       "candidate_id": "CALILE",
@@ -404,6 +407,69 @@
       ],
       "source_discovery_provenance": "same_day_reused_capture | design-studio-v5/REUSED_EVIDENCE.md",
       "status": "AUDIT_READY",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "DEER_MOUNTAIN",
+      "url": "https://www.deermountaininn.com/",
+      "category": "small_destination",
+      "reason_for_interest": "Wooded inn with rooms and dining; test place-to-stay story and enquiry path",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.deermountaininn.com/"
+        }
+      ],
+      "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 9 | design-studio-v5/discovery/search-results-brave-2026-10-04.json | verified first-party HTTP 200 and product metadata",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "STOOS_LODGE",
+      "url": "https://stoos-lodge.ch/en/",
+      "category": "mountain_hotel",
+      "reason_for_interest": "Mountain design hotel with family, dining and booking paths",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://stoos-lodge.ch/en/"
+        }
+      ],
+      "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 7 | design-studio-v5/discovery/search-results-brave-2026-10-04.json | verified first-party HTTP 200 and product metadata",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "TRAILBORN",
+      "url": "https://www.trailborn.com/",
+      "category": "hospitality_group",
+      "reason_for_interest": "Outdoor hospitality group with destination and booking architecture",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.trailborn.com/"
+        }
+      ],
+      "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 2 | design-studio-v5/discovery/search-results-brave-2026-10-04.json | verified first-party HTTP 200 and product metadata",
+      "status": "QUEUED",
       "attempt_count": 0,
       "last_error": null
     }

@@ -150,8 +150,10 @@ async function captureAttempt(page, target, attempt, options, session) {
     await screenshot("00-initial");
     if (options.dismissSelector) {
       try {
-        await page.locator(options.dismissSelector).first().click({ timeout: 2500 });
+        const dismissControl = page.locator(options.dismissSelector).first();
+        await dismissControl.click({ timeout: 2500 });
         session.interactions.push({ action: "click", selector: options.dismissSelector, at: new Date().toISOString() });
+        await dismissControl.waitFor({ state: "hidden", timeout: 3000 });
       } catch (error) { session.readiness_warnings.push(`dismiss interaction failed: ${error.message}`); }
     }
   }
@@ -200,6 +202,10 @@ async function captureAttempt(page, target, attempt, options, session) {
   await page.screenshot({ path: fullPath, type: "jpeg", quality: 82, fullPage: true });
   evidence.push({ kind: "rendered_capture", location: fullPath, observed_at: new Date().toISOString(), viewport: target.label, page: `${options.page}-full-page-after-traversal`, evidence_class: "static_visual", url: page.url() });
   const assessment = assessSamples(samples, traversalComplete);
+  if (options.dismissSelector && await page.locator(options.dismissSelector).first().isVisible().catch(() => false)) {
+    assessment.reasons.push(`dismiss control remained visible after click: ${options.dismissSelector}`);
+    assessment.status = "VISUAL_CAPTURE_INCOMPLETE";
+  }
   return { attempt, dir, samples, traversal_complete: traversalComplete, assessment, evidence,
     document_height_initial: samples[0]?.document_height ?? null, document_height_final: samples.at(-1)?.document_height ?? null };
 }
