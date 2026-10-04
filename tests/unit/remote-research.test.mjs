@@ -69,7 +69,10 @@ async function manifest(root, bundles) {
 
 test("queue keeps all 19 V5 candidates and rejects unsafe or duplicate work", async () => {
   const queue = await loadQueue("design-studio-v5/discovery/research-queue.json");
+  const csv = await readFile("design-studio-v5/discovery/candidates.csv", "utf8");
+  const discoveredUrls = csv.trim().split("\n").slice(1).map(line => line.split(",")[0]);
   assert.equal(queue.items.length, 19);
+  assert.deepEqual(new Set(queue.items.map(x => x.url)), new Set(discoveredUrls));
   assert.equal(new Set(queue.items.map(x => x.candidate_id)).size, 19);
   assert.equal(selectQueue(queue, [], 3).length, 3);
   assert.throws(() => validateQueue({ ...queue, items: [queue.items[0], queue.items[0]] }), /duplicate/);

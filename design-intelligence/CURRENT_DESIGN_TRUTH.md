@@ -29,18 +29,22 @@ Supported: live websites, curated galleries, structured database exports, human-
 - www.oma.com: available (2026-10-04T14:05:08.834Z) — HTTP 200
 - www.kinfolk.com: available (2026-10-04T14:05:19.217Z) — HTTP 200
 - baltic.art: available (2026-10-04T14:05:27.969Z) — HTTP 200
+- www.villa-lena.it: available (2026-10-04T18:31:13.459Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
+- www.hotelsinnombre.com: available (2026-10-04T18:32:20.358Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
+- thecalilehotel.com: available (2026-10-04T18:33:14.235Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
+- github_actions_playwright: available (2026-10-04T18:35:10Z) — Remote proof run 37224526387 on ubuntu-latest captured complete desktop/mobile static, complete image-heavy desktop, and complete lazy-image desktop sessions; GitHub artifact 11310978254 downloaded, SHA-256 validated and ingested in an isolated proof ledger. V5 run 37224667588 then ingested six real candidate sessions; incomplete cookie-obstructed sessions remain excluded.
 
 ## Evidence and coverage
 
 Browser captures are qualified only by the latest render-complete desktop and mobile sessions. The current-run audit is in research/capture-audit-2026-10-04.md. Raw images without a passing session remain in the ledger but are excluded from positive research, calibration, holdouts, and synthesis.
 
 - Researched non-holdout references: 0.
-- Partial or candidate references: 13.
+- Partial or candidate references: 16.
 - Human-rejected or forbidden references: 2.
 - Researched holdouts: 0.
 - Browser captures awaiting audit: 10.
-- Incomplete browser captures: 2.
-- Render-complete browser references: 5.
+- Incomplete browser captures: 4.
+- Render-complete browser references: 6.
 - References with mobile evidence: 0.
 - Operating commercial references: 0.
 - Source types represented: none.

@@ -100,5 +100,29 @@
     "status": "available",
     "checked_at": "2026-10-04T14:05:27.969Z",
     "detail": "HTTP 200"
+  },
+  "www.villa-lena.it": {
+    "source": "www.villa-lena.it",
+    "status": "available",
+    "checked_at": "2026-10-04T18:31:13.459Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
+  },
+  "www.hotelsinnombre.com": {
+    "source": "www.hotelsinnombre.com",
+    "status": "available",
+    "checked_at": "2026-10-04T18:32:20.358Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
+  },
+  "thecalilehotel.com": {
+    "source": "thecalilehotel.com",
+    "status": "available",
+    "checked_at": "2026-10-04T18:33:14.235Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE"
+  },
+  "github_actions_playwright": {
+    "source": "github_actions_playwright",
+    "status": "available",
+    "checked_at": "2026-10-04T18:35:10Z",
+    "detail": "Remote proof run 37224526387 on ubuntu-latest captured complete desktop/mobile static, complete image-heavy desktop, and complete lazy-image desktop sessions; GitHub artifact 11310978254 downloaded, SHA-256 validated and ingested in an isolated proof ledger. V5 run 37224667588 then ingested six real candidate sessions; incomplete cookie-obstructed sessions remain excluded."
   }
 }

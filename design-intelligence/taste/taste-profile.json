@@ -41,7 +41,10 @@
     "KINFOLK",
     "BALTIC",
     "FOGO_V4",
-    "NEWT_V5"
+    "NEWT_V5",
+    "VILLALENA",
+    "SOMBRE",
+    "CALILE"
   ],
   "rule": "Only explicit human-owner feedback changes taste. AI judgments are diagnostic."
 }

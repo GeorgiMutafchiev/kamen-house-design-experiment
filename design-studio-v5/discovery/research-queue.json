@@ -333,9 +333,11 @@
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: large fixed overlay obstructed 10 sampled positions | home/mobile: large fixed overlay obstructed 12 sampled positions",
+      "last_run_id": "37224667588",
+      "dismiss_selector": ".upcc-cookie-advert .upcc-cookie-accept"
     },
     {
       "candidate_id": "SOMBRE",
@@ -354,9 +356,11 @@
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: large fixed overlay obstructed 14 sampled positions | home/mobile: large fixed overlay obstructed 18 sampled positions",
+      "last_run_id": "37224667588",
+      "dismiss_selector": "text=Decline"
     },
     {
       "candidate_id": "CALILE",
@@ -375,9 +379,10 @@
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "AUDIT_READY",
+      "attempt_count": 1,
+      "last_error": null,
+      "last_run_id": "37224667588"
     },
     {
       "candidate_id": "NEWT_V5",

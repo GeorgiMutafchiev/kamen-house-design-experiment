@@ -1,6 +1,6 @@
 # Current State — V5 studio discovery
 
-Project phase: product truth and predeclared evaluation criteria are complete; broad autonomous reference discovery is blocked on verified source access. Local evidence audits and CRO learning studies are checkpointed.
+Project phase: product truth and predeclared evaluation criteria are complete. The remote evidence transport has passed its end-to-end proof; V5 has resumed capture qualification from the existing 19-candidate pool. Local evidence audits and CRO learning studies remain checkpointed.
 
 Design status: **no new visual direction is accepted, locked, or being synthesized**. The previous House Register and Spatial directions are both human-rejected. Spatial is `HUMAN_REJECTED_VISUAL_DIRECTION_002`, recoverable at `human-rejected-spatial-ff9d9d4` (`ff9d9d43f71d4ebdfcba78044d9cb5c46447b73a`). The older House Register is recoverable at `human-rejected-baseline-001` (`98715a99bf60070cb21b26941fe72c504496ee0c`). The protected pre-autonomous checkpoint is `protected-pre-autonomous-studio-4c12769` (`4c127692a088758b1bb9e7cb1c1669c030568589`).
 
@@ -22,6 +22,8 @@ Earlier same-day render-complete captures and failed captures are preserved on t
 
 Local work completed without visual synthesis: a source-limited scout report and query plan; the five-home fast audition; a six-task local visitor journey audit; six isolated, rendered CRO storyboards (hypotheses, not user tests); a 15-image coherence audit and concept-photography rule set; and an anti-reference constitution separating owner rejection from studio diagnoses. Research findings, visitor-intent model, and the exact missing evidence are under `design-studio-v5/`. Eight reference-derived visual reproduction studies, visual/CRO constitutions, theses, composition studies, homepage territories and champion selection remain gated by broader qualified evidence.
 
+The later owner-adopted `KAMEN_HOUSE_REMOTE_RESEARCH_WORKER_FALLBACK.md` adds an evidence transport layer without changing V5 design gates. GitHub Actions run `37224526387` on `ubuntu-latest` proved complete static desktop/mobile, image-heavy desktop and lazy-image desktop capture, artifact upload, SHA-256 validation and ingestion into a separate proof ledger. See `design-intelligence/remote/PROOF_REPORT.md`. The real V5 run `37224667588` then captured three existing queued candidates: `CALILE` completed desktop and mobile; `VILLALENA` and `SOMBRE` stayed incomplete on both viewports because real cookie overlays covered the page. The six sessions were ingested with their original status. The pool remains 19, deep multi-page audition remains 0/12–20, and no reference role or design direction is assigned. The two overlay cases are queued for a logged real-click retry. Remote screenshot artifacts are stored in GitHub Actions for 14 days and materialized locally under ignored `design-intelligence/references/remote-evidence/`; selected long-lived evidence requires curation before expiration.
+
 ## Safety and conservation
 
 Only this isolated repository is in scope. Do not interact with other repositories, EINSOFIA or production infrastructure, and do not use production credentials. The existing public preview remains recoverable and is not a V5 approval. Product UI files are unchanged by the V5 reset. Site development stops at one isolated homepage checkpoint until the owner sees a serious result.
@@ -30,6 +32,6 @@ Run command: `npm run dev`. Validation commands: `npm test`, `npm run lint`, `np
 
 ## Immediate next actions
 
-1. Resume the stored product-derived search plan when content GETs and first-party pages actually work; expand the 19-candidate pool toward V5's suggested 40–80 without inventing URLs.
-2. Verify current URLs and run render-complete desktop/mobile captures on representative routes; preserve any failures without repeated blind retries.
-3. Fast-audition the expanded diversity, then deep-audition 12–20 credible multi-page references before assigning roles or starting reference-derived visual synthesis.
+1. Retry the two overlay-obstructed existing candidates with the recorded real consent actions; continue the remaining queued candidates with bounded GitHub-hosted runs.
+2. Audit the newly qualified captures and representative interior routes, then expand the 19-candidate discovery pool toward V5's suggested 40–80 using source-provenanced search/directories. Do not fill the pool from memory.
+3. Deep-audition 12–20 credible multi-page references before assigning roles or starting reference-derived visual synthesis.
