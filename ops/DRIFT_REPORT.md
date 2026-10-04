@@ -16,12 +16,12 @@ None. D-001 and D-002 remain intact.
 
 ## Golden-reference deviation
 
-Ten accepted golden references exist. The orchestrator explicitly accepted the beneficial hardening deltas after screenshot-only review, replaced the older five references, and added five task-page references. Every current capture is now byte-identical to its golden counterpart.
+Ten accepted golden references exist. CHALLENGER_001 altered only the Home and Room-detail mobile captures. After unanimous blind preference and passing objective gates, the orchestrator explicitly accepted those two updates. The other eight references stayed byte-identical. Every current capture is now byte-identical to its CHAMPION_001 golden counterpart.
 
 ## Champion baseline
 
-`CHAMPION_000` records the accepted product commit, screenshot hashes, passing gates, strengths, limits, and GREEN status. Protocol activation adds governance files only and causes no application, screenshot, design-direction, or golden-reference deviation.
+`CHAMPION_001` is the protected incumbent. `CHAMPION_000` remains recoverable and its original hashes are preserved. The promoted mutation changes one mobile secondary-text rule and conflicts with no constitution, direction, or LOCKED decision.
 
 ## Recommendation
 
-ACCEPT. Three consecutive clean reviews confirmed GREEN drift against the unchanged checkpoint. Preserve the release candidate in Conservation Mode and require every isolated Challenger to defeat CHAMPION_000 by the addendum's evidence gates.
+ACCEPT. Preserve CHAMPION_001 in Conservation Mode. Require every future isolated Challenger to defeat it through the same objective, blind, Pareto, and drift gates.

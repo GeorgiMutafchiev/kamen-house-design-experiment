@@ -65,3 +65,13 @@ Result after change: the site sets no cookies, localStorage, or sessionStorage, 
 ## Remaining watch item
 
 Generated concept studies cannot substitute for real property photography in a production project. Their disclosure is honest and their use is accepted for this isolated fictional experiment.
+
+## Decorative mobile microtype
+Location: mobile captions, factual labels, and footer disclosure
+Severity: Low
+Observed pattern: useful truthfulness and context text approached luxury-editorial fine-print scale.
+Why it felt generic: extreme microtype can perform sophistication instead of communicating.
+Evidence: blind review and CHALLENGER_001 pairwise panel.
+Recommended action: test a narrow mobile-only size increase without changing hierarchy.
+Decision: ACCEPTED through the first Champion/Challenger tournament.
+Result after change: all four blind judges preferred the more legible treatment; objective gates found no material regression. The change is locked in CHAMPION_001.

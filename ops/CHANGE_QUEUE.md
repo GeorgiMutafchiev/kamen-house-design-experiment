@@ -243,3 +243,25 @@ Do not modify: Wordmark, header, or decorative language.
 Risk: A · Owner role: Frontend Implementer
 
 Validation: Build emits `/icon.svg`; focused test and full suite pass.
+
+## Evolution cycle one — protocol validation
+
+### C-017 — Improve mobile secondary-text legibility
+Status: ACCEPTED — promoted as CHAMPION_001
+
+Problem:
+Mobile captions, factual labels, and footer disclosure sat at the lower edge of comfortable legibility and risked reading as decorative editorial microtype.
+
+Evidence:
+Prior blind review, objective mobile measurements, and the CHALLENGER_001 blind pairwise tournament.
+
+Scope:
+At 650px and below, change the existing secondary role from `.84rem` to `.88rem` with 1.35 line height and include `.footer-note` in that role.
+
+Do not modify:
+Font families or roles, desktop type, color, grid, navigation, copy, images, page structure, or unrelated spacing.
+
+Risk: A · Owner role: Frontend Implementer through isolated Challenger
+
+Validation:
+Unit, lint, build, and 23 Playwright checks passed before and after integration. Twelve width probes showed zero overflow/errors. Page-height deltas stayed below 0.5%. All four blind judges preferred the Challenger and identified no unacceptable regression. Drift is GREEN.

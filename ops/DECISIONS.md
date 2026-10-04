@@ -98,3 +98,27 @@ Narrow, evidence-backed Challengers in isolated branches/worktrees, followed by 
 
 Not allowed:
 Changing CHAMPION_000 during baseline capture; silently replacing it; merging effort without evidence; updating goldens without explicit acceptance; mass redesign; treating a tie or ambiguous result as a win; or leaving Conservation Mode merely because a Challenger exists.
+
+## D-006 — Promote CHALLENGER_001 as CHAMPION_001
+Status: LOCKED
+Date/Checkpoint: 2026-10-04 / first evolution tournament
+
+Decision:
+Promote the isolated mobile secondary-text mutation. Checkpoint `75589e05a0ea9ce3deba17a9ab02dfd749316579` preserves the accepted product and visuals; protected tag `champion-001` preserves that product together with the completed promotion governance.
+
+Reason:
+The Challenger passed every objective gate, preserved GREEN drift, stayed within its one-variable budget, and won all four blind pairwise perspectives with no unacceptable regression. The improvement is concrete: captions, facts, and the honest footer disclosure are easier to read without weakening hierarchy or materially extending the pages.
+
+Evidence:
+- `evolution/TOURNAMENT_LEDGER.md`
+- `tests/visual/golden/home-390.png`
+- `tests/visual/golden/room-detail-390.png`
+
+Allowed:
+Preserve the `.88rem` / 1.35 mobile secondary-text rule and use CHAMPION_001 as the incumbent in future evidence-based tournaments.
+
+Not allowed:
+Generalizing this local result into a typography redesign, changing desktop type, discarding CHAMPION_000 recovery evidence, or replacing CHAMPION_001 without the full protocol.
+
+Effect on prior decisions:
+D-002 and D-004 remain unchanged. D-003 still governs the ten-reference visual memory; D-006 explicitly supersedes only the Home and Room-detail mobile image contents recorded for CHAMPION_000.

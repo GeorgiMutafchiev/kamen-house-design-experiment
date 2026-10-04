@@ -198,3 +198,31 @@ The design was already locked and mature. Baseline capture therefore preserves t
 
 Remaining highest-impact issues:
 Run CHALLENGER_001 alone in isolation as a protocol validation, then promote only on complete evidence or record its rejection.
+
+## Iteration 7 — First isolated tournament
+
+Starting checkpoint:
+Protected CHAMPION_000 plus protocol activation checkpoint `1f18e3d`.
+
+Accepted problems:
+1. Test whether the protocol can improve one known minor weakness without exposing the incumbent to churn.
+2. Resolve mobile secondary text that a blind reviewer found near the edge of comfortable legibility.
+
+Changes:
+Created one isolated branch/worktree, changed one mobile secondary-text rule, ran objective gates, randomized the blind pair as A = Champion and B = Challenger, collected four independent perspective judgments, integrated only the winning line, and explicitly updated only two mobile goldens.
+
+Rendered evidence:
+Matching 390px Home and Stone Room full-page screenshots plus focused caption/footer crops. Desktop captures remained byte-identical.
+
+Tests:
+Unit, lint, production build, production audit, and all 23 Playwright checks passed in isolation and after integration. Twelve 320/375/390 probes had zero overflow/errors. Height deltas were 0.46% and 0.30%.
+
+Drift status: GREEN
+
+Outcome: ACCEPT — PROMOTE CHALLENGER_001 AS CHAMPION_001
+
+Why:
+Art Direction, Brand Specificity, Anti-AI, and UX judges unanimously selected the anonymous Challenger. The improvement is legible and specific, while all Pareto-protected dimensions remain intact.
+
+Remaining highest-impact issues:
+None established. Preserve CHAMPION_001 and await new evidence rather than manufacturing another mutation.

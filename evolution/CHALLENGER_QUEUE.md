@@ -2,7 +2,7 @@
 
 ## CHALLENGER_001 — Mobile secondary-text legibility
 
-Status: QUEUED — first protocol-validation experiment
+Status: PROMOTED — first protocol-validation experiment complete
 
 Hypothesis:
 Can a small increase to the mobile secondary-text token improve caption, factual-label, and footer-note legibility without weakening hierarchy, changing page composition, causing overflow, or increasing representative page height by more than 1%?
@@ -44,6 +44,9 @@ Use anonymized 390px Home and Stone Room screenshots plus focused caption/footer
 Promotion bar:
 At least three of four independent perspective judges must prefer the Challenger overall, no judge may identify an unacceptable regression, the technical gate must pass, and the rendered evidence must show a meaningful rather than merely detectable gain. Ambiguity preserves CHAMPION_000.
 
+Result:
+All objective gates passed. Blind assignment was A = CHAMPION_000 and B = CHALLENGER_001. Art Direction, Brand Specificity, Anti-AI, and UX judges all selected B with no unacceptable regression. The orchestrator promoted the one-line mutation and explicitly accepted the two changed mobile goldens. The accepted state is CHAMPION_001.
+
 ## Deferred hypotheses
 
-None. The protocol begins with one narrow, evidence-backed Challenger. New hypotheses require new evidence and may not be invented merely to fill the queue.
+None. New hypotheses require new evidence and may not be invented merely to fill the queue.
