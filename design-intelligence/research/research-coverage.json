@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T14:35:35.549Z",
+  "generated_at": "2026-10-04T17:42:03.747Z",
   "stage": "high_signal_exploration",
   "counts": {
     "researched": 0,
     "partial_or_candidate": 11,
-    "rejected": 1,
+    "rejected": 2,
     "holdout": 0,
     "mobile": 0,
     "operating_commercial": 0,

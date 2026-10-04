@@ -33,3 +33,7 @@ D-008 supersedes the browser-only prerequisite. The Design Intelligence layer no
 ## Capture integrity update
 
 D-009 quarantines all 15 current-run browser captures. Two failed render-complete recaptures are marked incomplete; the other 13 await audit. No browser screenshot or derived principle from this run contributes to positive coverage, owner calibration, holdout evaluation, or synthesis. Raw provenance is preserved. The research deficit is explicit rather than hidden by a false visual pass.
+
+## V5 autonomous discovery reset
+
+The Spatial direction at `ff9d9d4` has since been explicitly human-rejected and tagged `human-rejected-spatial-ff9d9d4`. `HUMAN_REJECTED_VISUAL_DIRECTION_002` is negative evidence. The new V5 branch starts at `protected-pre-autonomous-studio-4c12769`; it has not changed the product UI. The V4 branch's captures and notes remain recoverable, but its named role assignments are not V5 authority. V5 requires broad discovery and evidence-based audition before selecting any quality bar or reference role. Drift status remains HUMAN_REJECTED / NO NEW LOCK.

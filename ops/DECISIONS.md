@@ -176,3 +176,16 @@ Storing raw and corrected sessions side by side; retrying incomplete pages; usin
 
 Not allowed:
 Promoting old screenshots on apparent completeness alone, inferring intentional whitespace from a failed render, forcing animations off to manufacture a canonical reference, or modifying production UI during this correction.
+
+## D-010 — V5 dynamic reference and CRO studio workflow
+Status: ACTIVE — HUMAN OWNER INSTRUCTION
+Date/Checkpoint: 2026-10-04 / `protected-pre-autonomous-studio-4c12769`
+
+Decision:
+The owner adopted `KAMEN_HOUSE_AUTONOMOUS_HUMAN_DESIGN_CRO_STUDIO_V5.md` as the governing visual and CRO process. The Spatial direction is human-rejected (`HUMAN_REJECTED_VISUAL_DIRECTION_002`) and preserved at `human-rejected-spatial-ff9d9d4` as negative evidence. The V5 experiment starts from the protected pre-rejected checkpoint and does not overwrite the public preview.
+
+Required process:
+Product truth and evaluation criteria must be written before search. A broad candidate pool and staged, evidence-based auditions precede **dynamic** role assignment. Historical named examples are suggestions only. Visual and CRO evidence, small studies, theses, three divergent homepage territories and independent blind critics precede a single owner-facing homepage checkpoint. Full-site propagation waits for that checkpoint.
+
+Supersession:
+V5 supersedes the earlier fixed North Star/benchmark lists, the V4 and V3 visual/CRO workflows, the former six-concept count, and the 30-equal-reference approach. D-008's source resilience and D-009's render-complete integrity remain active. No internal review can substitute for the owner's final visual judgement or observed conversion behavior.

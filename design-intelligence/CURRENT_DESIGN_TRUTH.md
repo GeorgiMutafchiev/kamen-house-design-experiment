@@ -36,7 +36,7 @@ Browser captures are qualified only by the latest render-complete desktop and mo
 
 - Researched non-holdout references: 0.
 - Partial or candidate references: 11.
-- Human-rejected or forbidden references: 1.
+- Human-rejected or forbidden references: 2.
 - Researched holdouts: 0.
 - Browser captures awaiting audit: 13.
 - Incomplete browser captures: 2.
@@ -66,6 +66,7 @@ Browser captures are qualified only by the latest render-complete desktop and mo
 ## Human taste evidence
 
 - HUMAN_REJECTED_BASELINE_001: rejected — The rendered website was perceived as generic, visibly AI-generated, aesthetically weak, and below professionally art-directed commercial work. (HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md)
+- HUMAN_REJECTED_VISUAL_DIRECTION_002: rejected — The owner explicitly rejected the Spatial direction and instructed that it be preserved only for anti-reference comparison, regression detection and failed-assumption documentation. (Owner message adopting KAMEN_HOUSE_AUTONOMOUS_HUMAN_DESIGN_CRO_STUDIO_V5.md on 2026-10-04)
 
 Owner-approved positive references: 0. Unreviewed reference records are not owner preferences.
 

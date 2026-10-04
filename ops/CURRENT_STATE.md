@@ -1,69 +1,33 @@
-# Current State
+# Current State — V5 studio discovery
 
-Project phase: Design Quality Discovery — render-complete capture correction implemented; live corpus quarantined
-Design status: HUMAN_REJECTED; no replacement direction is accepted or locked
-Last recoverable product checkpoint: `HUMAN_REJECTED_BASELINE_001` at `98715a99bf60070cb21b26941fe72c504496ee0c`
-Current branch: `work`
-Run command: `npm run dev`
-Test command: `npm test && npm run lint && npm run build && npm run test:e2e`
-Browser/screenshot command: `npm run screenshots`
-Design research commands: `node design-intelligence/cli.mjs refresh` and `node design-intelligence/cli.mjs gate`
+Project phase: product truth and predeclared evaluation criteria are complete; broad autonomous reference discovery is active.
 
-## Human verdict
+Design status: **no new visual direction is accepted, locked, or being synthesized**. The previous House Register and Spatial directions are both human-rejected. Spatial is `HUMAN_REJECTED_VISUAL_DIRECTION_002`, recoverable at `human-rejected-spatial-ff9d9d4` (`ff9d9d43f71d4ebdfcba78044d9cb5c46447b73a`). The older House Register is recoverable at `human-rejected-baseline-001` (`98715a99bf60070cb21b26941fe72c504496ee0c`). The protected pre-autonomous checkpoint is `protected-pre-autonomous-studio-4c12769` (`4c127692a088758b1bb9e7cb1c1669c030568589`).
 
-The human owner rejected the rendered visual direction as generic, visibly AI-generated, aesthetically weak, and below professionally art-directed commercial work. This verdict supersedes the former design lock, Conservation Mode, AI review passes, GREEN visual status, and Champion promotions as visual-quality evidence.
+Current branch: `design/autonomous-human-cro-v5-20261004`, created directly at the protected checkpoint. The V4 research work is separately checkpointed at `design/human-cro-studio-v4-20261004` (`9b84ed6`) and is historical evidence, not a V5 role assignment. The public preview has not been overwritten by this V5 experiment.
 
-`AI_SELF_EVALUATION_FAILURE_001` is active: AI-only review approved a result the human owner immediately rejected. AI evaluation is now a diagnostic filter only and can never unlock full-site implementation.
+## Governing workflow
 
-## Preserved baseline
+The owner-adopted `KAMEN_HOUSE_AUTONOMOUS_HUMAN_DESIGN_CRO_STUDIO_V5.md` supersedes earlier visual/CRO workflows. V5 requires product truth, success criteria before search, 40–80 broadly discovered candidate sites, render-complete capture, fast and deep auditions, **dynamic** role assignment, visual and CRO constitutions, eight visual and six CRO studies, theses, twelve composition studies, exactly three serious homepage territories, separate blind critics, and one serious homepage checkpoint. No named site from older prompts is privileged. Homepage synthesis must wait for adequate verified evidence and learning.
 
-The complete site remains recoverable at annotated tag `human-rejected-baseline-001`. Its ten screenshots remain under `tests/visual/golden/` and are indexed in `design-v2/HUMAN_REJECTED_BASELINE_001.md`. Existing engineering and functionality may be reused later, but the visual direction is not trusted.
+`design-studio-v5/PRODUCT_TRUTH.md` and `design-studio-v5/EVALUATION_CRITERIA.md` are the root inputs. `design-intelligence/research/events.jsonl` persists research and human taste evidence; `design-intelligence/CURRENT_DESIGN_TRUTH.md` is generated coverage status, not design approval. Incomplete or unaudited browser images cannot enter positive evidence.
 
-Validation at capture:
-- unit: 1 passed;
-- lint: passed;
-- production build: passed, 28 static routes;
-- Playwright: 23 passed.
+## Product and conversion truth
 
-## Architecture and working functionality
+KAMEN HOUSE is an imagined hospitality concept with eleven room concepts, a fire kitchen and a mountain-place story. Existing images are generated studies. No real availability, address, pricing, booking, operation or enquiry transmission is verified. The eventual primary conversion is a truthful stay enquiry; the isolated current site offers only an enquiry preview. Do not claim a completed booking.
 
-Next.js App Router, React, TypeScript, authored CSS, Node tests, and Playwright. Existing routes, navigation, responsive behavior, accessibility coverage, differentiated rooms, honest non-transmitting inquiry states, metadata, icon, sitemap, and robots output remain intact in the preserved baseline.
+## Network and evidence
 
-## Active scope
+Earlier same-day render-complete captures and failed captures are preserved on the V4 branch. Their measured evidence may be reused after V5's broad discovery and audition, without assigning roles by historical name. A representative 2026-10-04 17:32 UTC HTTPS check returned 503 for four unrelated domains, classified `EXTERNAL_RESEARCH_BLOCKED_BY_ENVIRONMENT`; the V5 scout will make a small current check. No incomplete capture, source suggestion or model recollection may fill a discovery or audition gap.
 
-Homepage/design laboratory only. Secondary pages, full-site redesign, production integration, and Champion/Challenger visual evolution are stopped until a rendered concept receives explicit human approval.
+## Safety and conservation
 
-## Design Lab
+Only this isolated repository is in scope. Do not interact with other repositories, EINSOFIA or production infrastructure, and do not use production credentials. The existing public preview remains recoverable and is not a V5 approval. Product UI files are unchanged by the V5 reset. Site development stops at one isolated homepage checkpoint until the owner sees a serious result.
 
-Isolated concept work remains under `design-lab/`. The persistent research system is `design-intelligence/`; its event log is authoritative and its derived coverage and `CURRENT_DESIGN_TRUTH.md` explain exactly what is known. Concepts must remain independently inspectable and must not overwrite the preserved site.
+Run command: `npm run dev`. Validation commands: `npm test`, `npm run lint`, `npm run build`, `npm run test:e2e`. The current phase is research; technical passes do not establish visual or conversion quality.
 
-## Research gate
+## Immediate next actions
 
-The owner explicitly replaced the browser-only prerequisite with D-008, then D-009 tightened visual evidence integrity after Ace Hotel's incomplete screenshot was identified. Fifteen current-run first-party live captures are preserved and quarantined; 13 await render-complete audit and two (Ace and Fogo) failed recapture because HTTPS again returned HTTP 503. They contribute zero positive references or valid holdouts. Structured exports, human-supplied material, and valid local evidence remain usable independently. The synthesis gate is FALSE because the evidence is insufficient. Exact gaps are in `design-intelligence/CURRENT_DESIGN_TRUTH.md` and `design-intelligence/research/research-coverage.json`.
-
-Capture-correction validation: 13/13 unit/integration tests passed, including local Chromium fixtures; lint passed; production build emitted the same 28 routes. No product UI file changed.
-
-## Current drift status
-
-HUMAN_REJECTED. The former GREEN report is preserved as evidence of `AI_SELF_EVALUATION_FAILURE_001`, not as a quality claim.
-
-## Highest-priority next actions
-
-1. Revalidate quarantined first-party captures with render-complete sessions when HTTPS recovers; ingest any independently valid structured or owner-supplied visual evidence meanwhile.
-2. Extract atomic principles with provenance and fill the precise coverage gaps, including mobile and holdout evidence.
-3. When the synthesis gate passes, create isolated directions and six homepage concepts; benchmark and render finalists, then stop for explicit human approval.
-
-## Files to read before continuing
-
-1. `HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md`
-2. `ops/PROJECT_CONSTITUTION.md`
-3. `ops/DECISIONS.md`
-4. `ops/CURRENT_STATE.md`
-5. `ops/CHANGE_QUEUE.md`
-6. `design-v2/HUMAN_REJECTED_BASELINE_001.md`
-7. `design-lab/README.md`
-8. `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md`
-9. `design-intelligence/CURRENT_DESIGN_TRUTH.md`
-10. `design-intelligence/research/source-policy.md`
-11. `design-intelligence/research/render-complete-capture.md`
-12. `design-intelligence/research/capture-audit-2026-10-04.md`
+1. Generate product-derived search queries and a broad, source-provenanced candidate pool without hardcoded role assignments.
+2. Verify availability and run render-complete captures when the network permits; preserve failures without repeated blind retries.
+3. Fast-audition across diverse visual clusters, then deep-audition 12–20 credible references before roles, studies or homepage synthesis.

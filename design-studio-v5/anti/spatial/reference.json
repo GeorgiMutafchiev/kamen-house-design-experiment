@@ -1,0 +1,19 @@
+{
+  "id": "HUMAN_REJECTED_VISUAL_DIRECTION_002",
+  "source": "KAMEN HOUSE rejected Spatial checkpoint",
+  "source_type": "local_evidence",
+  "url_or_external_id": "git:ff9d9d43f71d4ebdfcba78044d9cb5c46447b73a",
+  "title": "Spatial homepage — human-rejected anti-reference",
+  "category": "hospitality",
+  "operating_commercial": false,
+  "holdout": false,
+  "researched_at": "2026-10-04",
+  "evidence": [
+    {"kind": "rendered_capture", "location": "design-studio-v5/anti/spatial/home-1440.png", "observed_at": "2026-10-04", "viewport": "desktop"},
+    {"kind": "rendered_capture", "location": "design-studio-v5/anti/spatial/home-390.png", "observed_at": "2026-10-04", "viewport": "mobile"}
+  ],
+  "usable_patterns": [],
+  "problematic_patterns": ["generic oversized sans identity", "decorative numbered labels", "arbitrary rust accent field", "portfolio pacing with weak hospitality desire"],
+  "provenance": {"git_tag": "human-rejected-spatial-ff9d9d4", "human_verdict": "Owner instruction adopting V5 on 2026-10-04"},
+  "notes": "Negative only; do not derive the new visual grammar from this composition."
+}

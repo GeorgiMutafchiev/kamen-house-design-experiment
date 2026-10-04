@@ -9,5 +9,16 @@
     "recorded_at": "2026-10-04",
     "confidence": "high",
     "limits": "No more granular owner preference was supplied; do not attribute specific typography, color, or layout objections to the owner."
+  },
+  {
+    "id": "HUMAN_REJECTED_VISUAL_DIRECTION_002",
+    "subject_id": "HUMAN_REJECTED_VISUAL_DIRECTION_002",
+    "by": "human_owner",
+    "status": "rejected",
+    "reason": "The owner explicitly rejected the Spatial direction and instructed that it be preserved only for anti-reference comparison, regression detection and failed-assumption documentation.",
+    "provenance": "Owner message adopting KAMEN_HOUSE_AUTONOMOUS_HUMAN_DESIGN_CRO_STUDIO_V5.md on 2026-10-04",
+    "recorded_at": "2026-10-04",
+    "confidence": "high",
+    "limits": "No new owner taste preference is inferred beyond explicit rejection."
   }
 ]

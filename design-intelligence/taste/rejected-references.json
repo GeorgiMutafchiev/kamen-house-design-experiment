@@ -3,5 +3,10 @@
     "reference_id": "HUMAN_REJECTED_BASELINE_001",
     "feedback_id": "AI_SELF_EVALUATION_FAILURE_001",
     "provenance": "HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md"
+  },
+  {
+    "reference_id": "HUMAN_REJECTED_VISUAL_DIRECTION_002",
+    "feedback_id": "HUMAN_REJECTED_VISUAL_DIRECTION_002",
+    "provenance": "Owner message adopting KAMEN_HOUSE_AUTONOMOUS_HUMAN_DESIGN_CRO_STUDIO_V5.md on 2026-10-04"
   }
 ]
