@@ -1,9 +1,9 @@
 {
   "cloud_https_tunnel": {
     "source": "cloud_https_tunnel",
-    "status": "unavailable",
-    "checked_at": "2026-10-04T17:53:00Z",
-    "detail": "EXTERNAL_RESEARCH_BLOCKED_BY_ENVIRONMENT: One Google search HEAD returned HTTP 200 at 17:50 UTC, but subsequent Google and Bing search GETs, one hospitality research GET, and HEADs for three distinct candidate first-party sites returned HTTP 503 from the cloud HTTPS tunnel. No search result, candidate URL, or complete funnel was verified from those requests. Earlier same-day completed visual sessions remain available from persisted artifacts."
+    "status": "unknown",
+    "checked_at": "2026-10-04T19:20:12.952Z",
+    "detail": "Intermittent recovery after earlier systemic HTTP 503: local curl GET returned HTTP 200 for three first-party discovery leads, while Node fetch failed and local Chromium required ignoreHTTPSErrors for some live-page inspection. GitHub Actions Playwright remains the proven capture transport; local connectivity is opportunistic and not a synthesis gate."
   },
   "example.com": {
     "source": "example.com",
@@ -116,7 +116,7 @@
   "thecalilehotel.com": {
     "source": "thecalilehotel.com",
     "status": "available",
-    "checked_at": "2026-10-04T18:33:14.235Z",
+    "checked_at": "2026-10-04T19:19:47.153Z",
     "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE"
   },
   "github_actions_playwright": {

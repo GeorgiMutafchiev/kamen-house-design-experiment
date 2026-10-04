@@ -393,10 +393,10 @@
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "QUEUED",
-      "attempt_count": 1,
+      "status": "AUDIT_READY",
+      "attempt_count": 2,
       "last_error": null,
-      "last_run_id": "37224667588"
+      "last_run_id": "37227743950"
     },
     {
       "candidate_id": "NEWT_V5",

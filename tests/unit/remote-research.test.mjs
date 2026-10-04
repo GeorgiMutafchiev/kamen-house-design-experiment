@@ -23,9 +23,10 @@ async function fixture(t) {
   return { root, artifactRoot, intelligenceRoot, queuePath, queue };
 }
 
-async function addBundle(artifactRoot, viewportClass, status = "VISUAL_CAPTURE_COMPLETE", fullWidth = null) {
+async function addBundle(artifactRoot, viewportClass, status = "VISUAL_CAPTURE_COMPLETE", fullWidth = null,
+  route = "home", requestedUrl = "https://example.com/") {
   const viewport = viewportClass === "desktop" ? { width: 1440, height: 1000 } : { width: 390, height: 844 };
-  const prefix = `TEST_SITE/home-${viewportClass}`;
+  const prefix = `TEST_SITE/${route}-${viewportClass}`;
   const artifacts = [], screenshots = [];
   const put = async (path, bytes) => {
     const absolute = join(artifactRoot, path);
@@ -44,15 +45,15 @@ async function addBundle(artifactRoot, viewportClass, status = "VISUAL_CAPTURE_C
   }
   const sample = { visible_failed_images: [], video_states: [], visible_hidden_reveals: [], visible_empty_sections: [],
     fixed_overlays: [], visible_images: 1, visible_media: 0, uniform_pixel_fraction: 0.4 };
-  const session = { status, requested_url: "https://example.com/", resolved_url: status === "VISUAL_CAPTURE_COMPLETE" ? "https://example.com/" : null, viewport };
+  const session = { status, requested_url: requestedUrl, resolved_url: status === "VISUAL_CAPTURE_COMPLETE" ? requestedUrl : null, viewport };
   const diagnostics = { status, attempts: status === "VISUAL_CAPTURE_COMPLETE" ? [{ traversal_complete: true,
     document_height_initial: viewport.height, document_height_final: viewport.height + 200, samples: [sample, sample] }] : [] };
   const session_path = `${prefix}/session.json`, diagnostics_path = `${prefix}/diagnostics.json`;
   await put(session_path, Buffer.from(JSON.stringify(session)));
   await put(diagnostics_path, Buffer.from(JSON.stringify(diagnostics)));
-  return { schema_version: 1, bundle_id: `bundle-${viewportClass}`, candidate_id: "TEST_SITE", category: "hospitality",
-    reason_for_interest: "flow test", source_discovery_provenance: "fixture", requested_url: "https://example.com/",
-    resolved_url: session.resolved_url, route: "home", captured_at: "2026-10-04T12:00:00Z",
+  return { schema_version: 1, bundle_id: `bundle-${route}-${viewportClass}`, candidate_id: "TEST_SITE", category: "hospitality",
+    reason_for_interest: "flow test", source_discovery_provenance: "fixture", requested_url: requestedUrl,
+    resolved_url: session.resolved_url, route, captured_at: "2026-10-04T12:00:00Z",
     capture_adapter: "github_actions_playwright", runner_id: "test-runner", run_id: "123", user_agent: "test-agent", browser_version: "1",
     viewport_class: viewportClass, viewport, device_scale_factor: 1, status, forced_visibility: false,
     navigation: { http_status: status === "VISUAL_CAPTURE_COMPLETE" ? 200 : 503, redirects: [], console_errors: [], browser_errors: [], failed_resources: [] },
@@ -113,6 +114,26 @@ test("ingestion is idempotent; desktop and mobile must both complete", async t =
   assert.equal(queue.items[0].status, "AUDIT_READY");
   assert.equal(queue.items[0].attempt_count, 1);
   assert.equal(queue.items[0].last_run_id, "123");
+});
+
+test("a multi-route run keeps one canonical reference and registers interior pages", async t => {
+  const f = await fixture(t);
+  f.queue.items[0].requested_routes.push({ name: "rooms", url: "https://example.com/rooms/" });
+  await writeFile(f.queuePath, JSON.stringify(f.queue));
+  const bundles = [];
+  for (const route of ["home", "rooms"]) for (const viewport of ["desktop", "mobile"]) {
+    bundles.push(await addBundle(f.artifactRoot, viewport, "VISUAL_CAPTURE_COMPLETE", null, route,
+      route === "home" ? "https://example.com/" : "https://example.com/rooms/"));
+  }
+  await manifest(f.artifactRoot, bundles);
+  const result = await ingestRemote(f);
+  assert.equal(result.ingested, 4);
+  const state = await readState(f.intelligenceRoot);
+  assert.equal(state.references.length, 1);
+  assert.equal(state.references[0].url_or_external_id, "https://example.com/");
+  assert.equal(state.capture_sessions.length, 4);
+  assert.equal(state.capture_sessions.filter(s => s.page === "rooms").length, 2);
+  assert.equal((await ingestRemote(f)).ingested, 0);
 });
 
 test("incomplete mobile session remains excluded from positive evidence", async t => {

@@ -9837,7 +9837,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "0db7f7a91daddd2a805801941974330421237753fd4b6a9e33a22632c22be798"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9852,7 +9852,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "c74cdbe4c8c5818130979b81a6b15e7c21ed91b6ee14a7f14a351b10aa0bc01f"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9867,7 +9867,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "686cccb4580ff27c581673449d3810f83617a1a5250b5cdf2a544d60ea8a3e54"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9882,7 +9882,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "02c6f538d05585a68a41ee77fa541e81ac23622937b8e3b9bf4cf084d4aeb215"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9897,7 +9897,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "7548c34e79a039d802a4e242a456738089486f37d018c5365a49ac7fe63508fc"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9912,7 +9912,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "7548c34e79a039d802a4e242a456738089486f37d018c5365a49ac7fe63508fc"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9927,7 +9927,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "d5f96b275e07e56f428bb5b044b718a3327ea1e3eb1b177b3c50754baf1375d8"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9942,7 +9942,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "f4db54e7db2132f9dc3935baa8aaadc8f0c2b04aa38c47ad8905ac12c5d3a6dd"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9957,7 +9957,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "f872bc37d6eaab497b8f81e2ca31c3c7bcca2d3884ad427e9e5a7ad9f6584734"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9972,7 +9972,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "095e546115d9d61adfcb7c33fc45331a57747f1003889b4c57387dce0d77b03d"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -9987,7 +9987,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "5a73bb79e2f6d1fb021733cf5a52f5e9fb15d1c91fb2dacec9ecfd6b3e324aea"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -10002,7 +10002,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "daf3d0b57e93d05ef5331c604269eb00d104381c8a3f05a578c996aedccf32a2"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -10017,7 +10017,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "0cc92f0a7d1476f839021f0d0466a0326144720bb404def00c55e0af538667b5"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -10032,7 +10032,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "0cc92f0a7d1476f839021f0d0466a0326144720bb404def00c55e0af538667b5"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -10047,7 +10047,7 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "0cc92f0a7d1476f839021f0d0466a0326144720bb404def00c55e0af538667b5"
         },
-        "qualified_for_visual_research": true
+        "qualified_for_visual_research": false
       },
       {
         "kind": "rendered_capture",
@@ -10062,14 +10062,720 @@
           "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37224667588/research-evidence-manifest.json",
           "sha256": "35c3e505e3f9415d9b9adbdafd9dd1676016a214689ca914f90569e2a115f36d"
         },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "0db7f7a91daddd2a805801941974330421237753fd4b6a9e33a22632c22be798"
+        },
         "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "4bfd10d1f643822e540863294acbd2c5dcd0ba6e55e0a33bbe6b09f124251bd1"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "b4e0904f3f7c9982d9283c6fac958d1fa2d405e932f6abaaa508e987050c0a8d"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "1361911ceb975175560e28159d51f145e2e01961a33185cc31bb79f3bb78d18d"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/02-scroll-08.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "be8cde9d5852b9a394301fe7a2d0a505f4a8a3a5041959b76a7671aa58216804"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "98bf4ec71d512778f8824e30d2b3df6347d1fd5989ce1a1ea7bbafe3224df85c"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "98bf4ec71d512778f8824e30d2b3df6347d1fd5989ce1a1ea7bbafe3224df85c"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:18:47.413Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "e23ce7f2-b0bf-47fb-8e4b-20f0fa5371ee",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "0b4860bb1a0a574c1d0ab143386ee39e73b3dfc2ea636e37f18b2b91ba6727a8"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "095e546115d9d61adfcb7c33fc45331a57747f1003889b4c57387dce0d77b03d"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "957ed5c9302fa62e94dd69ef5af8cfcfbd3c0364abf3718a1b09cc2003ae4eca"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "5a73bb79e2f6d1fb021733cf5a52f5e9fb15d1c91fb2dacec9ecfd6b3e324aea"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "daf3d0b57e93d05ef5331c604269eb00d104381c8a3f05a578c996aedccf32a2"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/02-scroll-08.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "0cc92f0a7d1476f839021f0d0466a0326144720bb404def00c55e0af538667b5"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "0cc92f0a7d1476f839021f0d0466a0326144720bb404def00c55e0af538667b5"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "0cc92f0a7d1476f839021f0d0466a0326144720bb404def00c55e0af538667b5"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:19:00.068Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "35403399-259c-4ea1-a52c-b39d55520768",
+        "url": "https://thecalilehotel.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "c601baa7bf5e4b425fe6a40abc8a221212cdf13cfaa6f4c7b83db4a84f54a41f"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "9d1e31d7dfbabea0f3b13605fc6d28a8a165ec3313b55be88a9f6be2d6aee218"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "93d847a705201d5058e92162a80ecd4549722d2cd2d1a61e6393850550778866"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "6437fad94e8897d4a9815dcb67e7bfb9a73304508f575d2acfd03984dc1508c0"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/02-scroll-04.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "29c7efc1a23ad4235fb57b1f1ace15b8d4d20547d201bf66a57f459858cc82b7"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/02-scroll-05.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "e106089d612db20e39a08216f571e55a5878f0e644d2abd9b4bab22ca89209c3"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "e106089d612db20e39a08216f571e55a5878f0e644d2abd9b4bab22ca89209c3"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:19:12.007Z",
+        "viewport": "desktop",
+        "page": "rooms-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "97ae6dc4-86c0-4b80-b14c-4218d87755f9",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "148036adea0120ae62d3826ea50203e016eb8bb0c059a794aa2c5d2c8ed4b5fd"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "6d19ddbd827d3e4eba465bcb5f54f584f8b9743d03b5389ae9ce6dcc1c43d99c"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "6d19ddbd827d3e4eba465bcb5f54f584f8b9743d03b5389ae9ce6dcc1c43d99c"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "b2d792e6018cf86f549c6308200eb71626167c32a3329ab806647614b9b3cb22"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "50fbf6c5bf8e978e77f2d5eecccdaab0ac4a7a73c06afa8afc86630900b4b8d7"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/02-scroll-08.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "fd95297e64e3a7890db72545216de3dbf7070ab8a44c8bf937a56b5c1b401b6d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "fd95297e64e3a7890db72545216de3dbf7070ab8a44c8bf937a56b5c1b401b6d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "fd95297e64e3a7890db72545216de3dbf7070ab8a44c8bf937a56b5c1b401b6d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/rooms-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:19:22.544Z",
+        "viewport": "mobile",
+        "page": "rooms-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "e23c32f8-2b7e-4f99-821e-2e896e9c415d",
+        "url": "https://thecalilehotel.com/luxury-accommodation-james-street/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "4a6768ca0a045cbd62a7a73ff018424516e8c02c58c8f282f869cf0994bfe064"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "a91416eb76e57c390051d51a3a80d95ea89dfdc6f8b1a7ae6fd727f50f91a43c"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "c783a01b0e022ef21c5ec3625b3c638c229bd34132e8b1d6d27938f31cb1902b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "052a9b810e3b029ce371260dd9e5abcf76699314b04638f6716d5c0f1b64399b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "d5be2907cdce734f66abbac495e327fe89997b62026ed740e286c8e948af3e39"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/02-scroll-07.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "416cfc55cddc5ebedf04df6d62baf76a4449e3efe37b7b99dfb247221ce71dcc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/02-scroll-08.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "416cfc55cddc5ebedf04df6d62baf76a4449e3efe37b7b99dfb247221ce71dcc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "f4e2ca25549b58269faaa0df37bc2d2df407017bedf3f474f4cf148a8dddf227"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:19:34.285Z",
+        "viewport": "desktop",
+        "page": "essential-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "52103054-8ecf-425b-9cdf-ac884907f250",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "39a3913ca7f582b4348c13ddd001b3c27c8da2f2e23837aad73889493a02c7ca"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "5f61edfb3f7014276542ee0575c69aea6e5948c4c3cdf9ea073cb7fe2c3c2b20"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "5f61edfb3f7014276542ee0575c69aea6e5948c4c3cdf9ea073cb7fe2c3c2b20"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "f362689c12f443f7ccc7eb62c3aed048b39bdc9db5166adb56ca5edbb530bd57"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "fc90d188eb4701edaeb7866ed99393e928a536eb85b4e91d7c59af5ffeca1e4e"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/02-scroll-07.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "6ab727bbb0f2f41b8013073940ecaeca8a2b39cb0157d0bbb6e32990dec1d9fc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/02-scroll-08.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "6ab727bbb0f2f41b8013073940ecaeca8a2b39cb0157d0bbb6e32990dec1d9fc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "6ab727bbb0f2f41b8013073940ecaeca8a2b39cb0157d0bbb6e32990dec1d9fc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/CALILE/essential-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:19:47.153Z",
+        "viewport": "mobile",
+        "page": "essential-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "a3e73c3b-0ff7-437e-8b5b-773eaa3fdf37",
+        "url": "https://thecalilehotel.com/rooms/essential/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227743950/research-evidence-manifest.json",
+          "sha256": "67e8d497021e018267bc0c95209815eaea996be0e8d35bf0291334b3477ccc5e"
+        },
+        "qualified_for_visual_research": false
       }
     ],
     "usable_patterns": [],
     "problematic_patterns": [],
     "provenance": {
       "remote_capture_runs": [
-        "37224667588"
+        "37224667588",
+        "37227743950"
       ],
       "discovery": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "capture_adapter": "github_actions_playwright"

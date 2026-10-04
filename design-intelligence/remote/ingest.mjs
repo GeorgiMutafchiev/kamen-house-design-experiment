@@ -66,14 +66,15 @@ export async function ingestRemote({ artifactRoot, intelligenceRoot, queuePath, 
   for (const bundle of manifest.bundles) {
     const state = await readState(intelligenceRoot);
     if (state.capture_sessions.some(s => s.id === bundle.bundle_id)) continue;
+    const item = queue.items.find(x => x.candidate_id === bundle.candidate_id);
     const existing = state.references.find(r => r.id === bundle.candidate_id);
-    if (existing && (existing.url_or_external_id !== bundle.requested_url || existing.source_type !== "live_website")) {
+    if (existing && (existing.url_or_external_id !== item.url || existing.source_type !== "live_website")) {
       throw new Error(`reference identity conflict: ${bundle.candidate_id}`);
     }
-    const source = new URL(bundle.requested_url).hostname;
+    const source = new URL(item.url).hostname;
     const evidence = evidenceFromBundle(targetRoot, bundle);
     await appendEvent(intelligenceRoot, "reference.upsert", {
-      id: bundle.candidate_id, source, source_type: "live_website", url_or_external_id: bundle.requested_url,
+      id: bundle.candidate_id, source, source_type: "live_website", url_or_external_id: item.url,
       title: existing?.title ?? source, category: existing?.category ?? bundle.category,
       operating_commercial: existing?.operating_commercial ?? false, holdout: existing?.holdout ?? false,
       researched_at: existing?.researched_at ?? null, evidence, usable_patterns: [], problematic_patterns: [],

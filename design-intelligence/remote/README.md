@@ -1,6 +1,6 @@
 # Remote research evidence worker for V5
 
-This is a transport layer only. It uses the same `captureVisualSession` traversal and completeness classifier as local Chromium. It never selects a reference role or changes the V5 synthesis gate. The existing 19 candidates are mapped in [`research-queue.json`](../../design-studio-v5/discovery/research-queue.json); the separate [`proof-queue.json`](proof-queue.json) has three transport probes that do not become V5 references.
+This is a transport layer only. It uses the same `captureVisualSession` traversal and completeness classifier as local Chromium. It never selects a reference role or changes the V5 synthesis gate. The original 19 candidates remain mapped in [`research-queue.json`](../../design-studio-v5/discovery/research-queue.json), which now also holds separately verified discovery leads; the separate [`proof-queue.json`](proof-queue.json) has three transport probes that do not become V5 references.
 
 ## Flow
 
@@ -12,7 +12,7 @@ The runner installs dependencies from the lockfile, installs Playwright Chromium
 
 ## Queue and EvidenceBundle
 
-Queue v1 validates candidate ID, public HTTPS URL, category, reason, priority 1–5, desktop/mobile request, up to three named same-host routes, discovery provenance, status, attempt count and last error. The 19 historical leads remain explicitly unverified until new remote sessions succeed. `AUDIT_READY` means captured and awaiting V5 audition; it is not an approved reference.
+Queue v1 validates candidate ID, public HTTPS URL, category, reason, priority 1–5, desktop/mobile request, up to three named same-host routes, discovery provenance, status, attempt count and last error. Original leads remain explicitly unverified until their remote sessions succeed; separately discovered leads require the same capture gate. `AUDIT_READY` means captured and awaiting V5 audition; it is not an approved reference.
 
 The artifact root contains `research-evidence-manifest.json` and one directory per candidate/route/viewport. Each directory holds the original `session.json`, `diagnostics.json`, and selected initial, scroll, bottom and final full-page screenshots. An EvidenceBundle records requested/resolved URL, IDs, route, timestamp, adapter, runner, browser version/user agent, exact viewport, navigation/redirect/resource/console information, readiness and traversal diagnostics, retry count, completeness result, artifact paths and SHA-256 hashes. Exact screenshot filenames follow the existing `.jpg` capture routine.
 
@@ -26,7 +26,7 @@ Dispatch the proof queue on the isolated branch with `gh workflow run remote-res
 node design-intelligence/remote/fetch.mjs --proof --run-id <numeric-github-run-id>
 ```
 
-This downloads the GitHub artifact via `gh`, validates every file and ingests into `/tmp/kamen-v5-remote-proof-runs/<run-id>`, leaving the 19-candidate V5 corpus untouched and allowing independent proof retries. Inspect the manifest and screenshots to establish one simple static site, one image-heavy site, one lazy/growing page, at least one mobile session, and real external connectivity. A green workflow alone is not proof. The local-only probe in the Codex environment produced incomplete sessions because the HTTPS tunnel still returned 503; it is a failure-handling test, not external proof.
+This downloads the GitHub artifact via `gh`, validates every file and ingests into `/tmp/kamen-v5-remote-proof-runs/<run-id>`, leaving the V5 corpus untouched and allowing independent proof retries. Inspect the manifest and screenshots to establish one simple static site, one image-heavy site, one lazy/growing page, at least one mobile session, and real external connectivity. A green workflow alone is not proof. The local-only probe in the Codex environment produced incomplete sessions because the HTTPS tunnel still returned 503; it is a failure-handling test, not external proof.
 
 After proof, dispatch `research` with up to three existing queued IDs; for example `gh workflow run remote-research.yml --ref design/autonomous-human-cro-v5-20261004 -f mode=research -f candidate_ids=VILLALENA,SOMBRE`. Then:
 
@@ -35,6 +35,8 @@ node design-intelligence/remote/fetch.mjs --run-id <numeric-github-run-id>
 ```
 
 `fetch.mjs` can find the latest completed run if the ID is omitted, but an explicit ID is safer. It downloads to a temporary directory, checks that the manifest run ID matches the selected run, validates and copies the evidence to `design-intelligence/references/remote-evidence/<run-id>`, appends reference/capture/source events, refreshes derived research truth, and updates queue status. It does not add a pattern, reference role or design direction. Preserve the artifact/run URL alongside any later V5 audition. Do not commit the bulk download without a curated storage decision.
+
+A multi-route bundle keeps the queue item's home URL as the single reference identity. Each capture session retains its own requested/resolved route URL, so home, rooms and room detail can be ingested under one candidate. An interrupted import can be repeated; existing bundle IDs are skipped, including when earlier bundles in the same run were already recorded.
 
 For local diagnostics without GitHub:
 

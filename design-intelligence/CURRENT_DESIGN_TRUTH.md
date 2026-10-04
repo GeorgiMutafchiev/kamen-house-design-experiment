@@ -12,7 +12,7 @@ Generated from `research/events.jsonl`. This file reports evidence, not design a
 ## Research channels
 
 Supported: live websites, curated galleries, structured database exports, human-supplied references, and local evidence. Each channel can fail independently. Availability is recorded below.
-- cloud_https_tunnel: unavailable (2026-10-04T17:53:00Z) — EXTERNAL_RESEARCH_BLOCKED_BY_ENVIRONMENT: One Google search HEAD returned HTTP 200 at 17:50 UTC, but subsequent Google and Bing search GETs, one hospitality research GET, and HEADs for three distinct candidate first-party sites returned HTTP 503 from the cloud HTTPS tunnel. No search result, candidate URL, or complete funnel was verified from those requests. Earlier same-day completed visual sessions remain available from persisted artifacts.
+- cloud_https_tunnel: unknown (2026-10-04T19:20:12.952Z) — Intermittent recovery after earlier systemic HTTP 503: local curl GET returned HTTP 200 for three first-party discovery leads, while Node fetch failed and local Chromium required ignoreHTTPSErrors for some live-page inspection. GitHub Actions Playwright remains the proven capture transport; local connectivity is opportunistic and not a synthesis gate.
 - example.com: unavailable (2026-10-04T12:46:05.639Z) — HTTP 503
 - acehotel.com: available (2026-10-04T19:04:06.190Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after visual audit: hero player error and privacy overlay.
 - fogoislandinn.ca: unavailable (2026-10-04T14:27:37.515Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
@@ -31,7 +31,7 @@ Supported: live websites, curated galleries, structured database exports, human-
 - baltic.art: available (2026-10-04T14:05:27.969Z) — HTTP 200
 - www.villa-lena.it: available (2026-10-04T18:58:34.612Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: final full-page images have large blank middle sections.
 - www.hotelsinnombre.com: available (2026-10-04T19:14:15.028Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
-- thecalilehotel.com: available (2026-10-04T18:33:14.235Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
+- thecalilehotel.com: available (2026-10-04T19:19:47.153Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
 - github_actions_playwright: available (2026-10-04T18:35:10Z) — Remote proof run 37224526387 on ubuntu-latest captured complete desktop/mobile static, complete image-heavy desktop, and complete lazy-image desktop sessions; GitHub artifact 11310978254 downloaded, SHA-256 validated and ingested in an isolated proof ledger. V5 run 37224667588 then ingested six real candidate sessions; incomplete cookie-obstructed sessions remain excluded.
 
 ## Evidence and coverage
