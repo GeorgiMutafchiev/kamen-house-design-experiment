@@ -95,9 +95,10 @@ export async function validateBundleFiles(root, bundle) {
         final.document_height_final !== bundle.render.document_height_final) throw new Error("completeness diagnostics disagree with bundle");
     for (const shot of bundle.screenshots.filter(s => ["initial", "scroll", "bottom", "full_after_traversal"].includes(s.role))) {
       const metadata = await sharp(artifacts.get(shot.path).bytes).metadata();
-      if (metadata.width !== bundle.viewport.width ||
-          (shot.role !== "full_after_traversal" && metadata.height !== bundle.viewport.height) ||
-          (shot.role === "full_after_traversal" && metadata.height < bundle.viewport.height)) {
+      const fullPage = shot.role === "full_after_traversal";
+      if ((!fullPage && (metadata.width !== bundle.viewport.width || metadata.height !== bundle.viewport.height)) ||
+          (fullPage && (metadata.width < bundle.viewport.width || metadata.width > bundle.viewport.width * 3 ||
+            metadata.height < bundle.viewport.height))) {
         throw new Error(`screenshot dimensions disagree with viewport: ${shot.path}`);
       }
     }

@@ -84,6 +84,16 @@ test("an invisible fixed layer is not misclassified as an obstructing overlay", 
   assert.ok(result.final.samples.every(sample => sample.fixed_overlays.length === 0));
 });
 
+test("visible embedded player error invalidates an otherwise traversable capture", async t => {
+  const html = `<!doctype html><html><body><main><section style="height:800px"><h1>Property</h1><div><span>Player error</span></div><p>The player is having trouble.</p></section><section style="height:800px"><h2>Stay</h2></section></main></body></html>`;
+  const { root, browser, url } = await fixture(t, html);
+  const result = await captureVisualSession(browser, { url, viewport: { width: 800, height: 600 }, label: "desktop" },
+    { dir: join(root, "player-error-session"), page: "home" });
+  assert.equal(result.session.status, "VISUAL_CAPTURE_INCOMPLETE");
+  assert.match(result.final.assessment.reasons.join(" "), /visible player\/page error/i);
+  assert.ok(result.final.samples.some(sample => sample.visible_error_messages.includes("Player error")));
+});
+
 test("audit and incomplete captures cannot affect coverage, calibration, holdouts, or concept evidence", async t => {
   const root = await mkdtemp(join(tmpdir(), "kamen-capture-ledger-"));
   t.after(() => rm(root, { recursive: true, force: true }));

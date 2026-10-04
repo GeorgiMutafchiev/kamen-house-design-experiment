@@ -980,6 +980,9 @@
     "url_or_external_id": "https://hotelcorazon.com/",
     "title": "Hotel Corazón – Home",
     "category": "hospitality",
+    "operating_commercial": true,
+    "holdout": true,
+    "researched_at": null,
     "evidence": [
       {
         "kind": "rendered_capture",
@@ -1020,21 +1023,248 @@
         "url": "https://hotelcorazon.com/",
         "status": 200,
         "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "e4e448011ec73ce075f7610a77d04bed75e0d82ac903ebaa20288a929ffb45e5"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "e4e448011ec73ce075f7610a77d04bed75e0d82ac903ebaa20288a929ffb45e5"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "503510a60c8300b5fd0ed7a7f8dbba8e6dc677103146f83325d3666090668d28"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3fb64e284f8da376d58a71641a78c76fff4f6b33bbf8f47aa9ede19372834951"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/02-scroll-07.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3fb64e284f8da376d58a71641a78c76fff4f6b33bbf8f47aa9ede19372834951"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3fb64e284f8da376d58a71641a78c76fff4f6b33bbf8f47aa9ede19372834951"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T18:47:31.452Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "4e6e7b51-2df8-4356-afde-476ef1a42a39",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "41257399520773f10c00cfa6753dc3b589bb9e412fe7b8c346fd2b620b1c107e"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "112dab6fd2411ad81754b844223ff4698f312acbab12c3ccc4da27b343fb77fa"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "112dab6fd2411ad81754b844223ff4698f312acbab12c3ccc4da27b343fb77fa"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "6fa2f558b79443ac07c799099e9237e42f1bee1a0dfbf0fbc2fe2e14cb34a769"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "ffd20ba1b7229bc80e14086ecc6882bf6009a4fbc5a8ebdd3b625db273e94e97"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "16eece3f6f21d4df9c4d874eded534c7030be69f842ba0906a3913212c782033"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/02-scroll-10.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "16eece3f6f21d4df9c4d874eded534c7030be69f842ba0906a3913212c782033"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "16eece3f6f21d4df9c4d874eded534c7030be69f842ba0906a3913212c782033"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/CORAZON/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T18:47:41.996Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "0cb0f5be-3bbf-4820-a165-012d12e8616a",
+        "url": "https://hotelcorazon.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3ab79503576ed14adc38841ef93869543898647a72f7954fd6a2fe33850e82ea"
+        },
+        "qualified_for_visual_research": false
       }
     ],
-    "operating_commercial": true,
-    "holdout": true,
     "usable_patterns": [],
     "problematic_patterns": [],
     "provenance": {
       "adapter": "live-browser",
       "source_url": "https://hotelcorazon.com/",
-      "captured_by": "design-intelligence/cli.mjs"
+      "captured_by": "design-intelligence/cli.mjs",
+      "remote_capture_runs": [
+        "37225739903"
+      ],
+      "discovery": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "capture_adapter": "github_actions_playwright"
     },
-    "human_status": "unreviewed",
     "notes": "",
-    "researched_at": null,
-    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+    "human_status": "unreviewed",
+    "capture_status": "VISUAL_CAPTURE_INCOMPLETE"
   },
   {
     "id": "DAVIDCHIPPERFIELD",
@@ -3821,6 +4051,261 @@
           "sha256": "727bc0432719c36a91b1194fd8837031097320ed7ded0e3ebc6c8dede698be62"
         },
         "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "bbec6849f71ebefc632b8956185373fa030ecde258e91195d6418cde72418daf"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "848dc35a08fb22e8b568ee0ec5dcd4ba697880d2ff5271bf83f0e7c3c770ebab"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "1b9435ea3aa1d4a120c01d9a120a5677470a7ecfa5e2b2d41f5164f1d8360a95"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "1ce8673566fd6037e6511cb0f613b785893c7ba2b35cd7f9a41090fb90ec58ba"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/02-scroll-08.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3355ef7fa1e0d2903f6f3057c41bf4ae7ed1473336aa8ca390fd56163c0ae95d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3355ef7fa1e0d2903f6f3057c41bf4ae7ed1473336aa8ca390fd56163c0ae95d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3355ef7fa1e0d2903f6f3057c41bf4ae7ed1473336aa8ca390fd56163c0ae95d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T18:47:54.195Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "ea12ad89-b3e4-4ffb-a1aa-9e79361f21e2",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "737a8d4da3134ad70a2b3e9b7fde3c1d87cdac92a9cbe4ba499f7d75783cb55b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "364a0fc577eb57e4468c9796d4214fa076736df5307860353b88a0e09b2c95e2"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "65815c08b117ae26f94d850881b5c89603a8f0c5df600d908872f0ef8fd71d26"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "adc7095f1ab76ebe240ea5338f173d004a5a4003abed3f4ba50b22a9fbafab27"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "bc37c1e8fa7cf691f36c630d90cd1ea411ebc0beb36ebab325ed45a24b285f4d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "1ca4d5085efa4cf48fccb372ca25cedc68c96f66aae2e6aa29c6dd8c7f0771aa"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/02-scroll-10.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3b99082c4ee0b32af7a6409ba7c12419b045e717bac322495700f246cd17f043"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/02-scroll-11.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3b99082c4ee0b32af7a6409ba7c12419b045e717bac322495700f246cd17f043"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3b99082c4ee0b32af7a6409ba7c12419b045e717bac322495700f246cd17f043"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/VILLALENA/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T18:48:06.592Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "42b4ab42-7db5-42b6-a2b2-d2803d75101f",
+        "url": "https://www.villa-lena.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3383e5c898fd5cea835b5350b780562cb25c0dfd5e0a563bdf5e1e3116e8c555"
+        },
+        "qualified_for_visual_research": false
       }
     ],
     "usable_patterns": [],
@@ -3828,7 +4313,8 @@
     "provenance": {
       "remote_capture_runs": [
         "37224667588",
-        "37225083725"
+        "37225083725",
+        "37225739903"
       ],
       "discovery": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "capture_adapter": "github_actions_playwright"
@@ -5047,6 +5533,306 @@
           "sha256": "e176aae082bd11fb7030983676d4fa318142be6299f8ac68193024b206aa49bd"
         },
         "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "11eabd52bfaf6948b061b6f4ae6a827b6255d8ed3f2e33f02c74c3bcb81b3de6"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "11eabd52bfaf6948b061b6f4ae6a827b6255d8ed3f2e33f02c74c3bcb81b3de6"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "6f3e96d5ad951878fd8c78625bf91f9138d7be145467c08fc24a5311a830a84d"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "24381820be620daebab615d2ed0a39eba59e4d8272f7adf87a1d5fa3b0adcb1f"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "e43bdbe786b34835232c4266f8a8cedeb4a60e334706b22bdddac3f71f1f17b2"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "6391299cce52fd8359f44b1794c05375fb85ec88bc0afe1f5a52199f054afe0b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/02-scroll-13.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "6391299cce52fd8359f44b1794c05375fb85ec88bc0afe1f5a52199f054afe0b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "6391299cce52fd8359f44b1794c05375fb85ec88bc0afe1f5a52199f054afe0b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T18:48:19.445Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "60a6b68d-94a6-4d38-ab6f-e667ce748c99",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "627eca419ff0ba8b53be47182749db4ce8c43cd925e9020f4ed62500fa6dd1b6"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3fb138f217fe2064088d1562685363b349708aa8264d0ddce10e5cb437c2699b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "3fb138f217fe2064088d1562685363b349708aa8264d0ddce10e5cb437c2699b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "ca1d31e4faff66f7cdcda4d5e33d48ab4b3d97d533bcac3ff973d5de99557200"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "46d93610c5cbcb38e4e32c2253f5685e86145e6efcf6655c9e22b40b823926fd"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "d1f6576bbc3cbfd26c82b6b71ec3d389f7540db462d16f315d36e2f5437a3bd5"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "b5f5b7828cccfd31e554b81beeae4c35d2e7770453d82edb78305cc34b961d23"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-15.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "bf8da7c4116f9687d073724cf722b0e2a799796f08c8fe834fd17acb527c851b"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-16.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "97fb4d80e637c4f5a2f70aa69a1eade8acb4ba566eee609bf5f01cae824d28b7"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/02-scroll-17.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "97fb4d80e637c4f5a2f70aa69a1eade8acb4ba566eee609bf5f01cae824d28b7"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "97fb4d80e637c4f5a2f70aa69a1eade8acb4ba566eee609bf5f01cae824d28b7"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/SOMBRE/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T18:48:36.384Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "d8aa170c-282b-41d0-823c-0688a5d820b6",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37225739903/research-evidence-manifest.json",
+          "sha256": "e176aae082bd11fb7030983676d4fa318142be6299f8ac68193024b206aa49bd"
+        },
+        "qualified_for_visual_research": false
       }
     ],
     "usable_patterns": [],
@@ -5054,7 +5840,8 @@
     "provenance": {
       "remote_capture_runs": [
         "37224667588",
-        "37225083725"
+        "37225083725",
+        "37225739903"
       ],
       "discovery": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "capture_adapter": "github_actions_playwright"

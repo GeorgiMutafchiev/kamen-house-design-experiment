@@ -44,8 +44,8 @@
   "hotelcorazon.com": {
     "source": "hotelcorazon.com",
     "status": "available",
-    "checked_at": "2026-10-04T14:02:08.245Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T18:58:34.602Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: hero player error on desktop and mobile."
   },
   "www.davidchipperfield.com": {
     "source": "www.davidchipperfield.com",
@@ -104,14 +104,14 @@
   "www.villa-lena.it": {
     "source": "www.villa-lena.it",
     "status": "available",
-    "checked_at": "2026-10-04T18:40:25.510Z",
-    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
+    "checked_at": "2026-10-04T18:58:34.612Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: final full-page images have large blank middle sections."
   },
   "www.hotelsinnombre.com": {
     "source": "www.hotelsinnombre.com",
     "status": "available",
-    "checked_at": "2026-10-04T18:41:32.533Z",
-    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
+    "checked_at": "2026-10-04T18:58:34.618Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: consent panel remained visible and mobile horizontal overflow."
   },
   "thecalilehotel.com": {
     "source": "thecalilehotel.com",

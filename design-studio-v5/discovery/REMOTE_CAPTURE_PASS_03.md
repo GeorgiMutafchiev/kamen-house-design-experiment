@@ -1,0 +1,13 @@
+# Existing-pool remote capture pass 03 — 4 October 2026
+
+GitHub Actions [run 37225739903](https://github.com/GeorgiMutafchiev/kamen-house-design-experiment/actions/runs/37225739903) captured `VILLALENA`, `SOMBRE`, and `CORAZON` at 1440×1000 and 390×844. The workflow's final validation failed because Sombre's mobile **full-page** capture measured 768px wide while its viewport captures measured 390px. This is actual site horizontal overflow. The contract was corrected to accept a wider full-page image while still requiring exact viewport screenshots, and the uploaded artifact (`11311543183`, 6,758,775 compressed bytes) was then SHA-256 checked and ingested. The materialized manifest SHA-256 is `f0a77065db7595045bf76f2092af37704073150916661bac7f77bedb6485e5c2`.
+
+The runner marked all six sessions `VISUAL_CAPTURE_COMPLETE` based on its initial DOM and traversal diagnostics. A separate visual review of the stored screenshots rejected all six as positive evidence. Audit events in the capture ledger record the original bundle IDs, screenshot paths, observed reasons, and later `VISUAL_CAPTURE_INCOMPLETE` verdicts. The queue records the same state; no reference role or pattern was assigned.
+
+| Candidate | Visual audit | Next action |
+| --- | --- | --- |
+| `VILLALENA` | Both full-page-after-traversal screenshots contain large blank middle sections. Individual scroll captures show content, so this is a final-capture/reveal discrepancy, not a conclusion that the site has intentional whitespace. | Keep incomplete. Inspect its dynamic rendering before a further bounded retry. |
+| `SOMBRE` | Initial and scroll screenshots still show cookie consent. The configured `text=Decline` selector failed in this run. Mobile also overflows horizontally to 768px in its full-page screenshot, a real mobile quality defect. | Retry a real logged `text=Accept` click. Do not confuse a valid overflow screenshot with a good mobile design. |
+| `CORAZON` | Desktop and mobile hero embeds visibly state “Player error” and “The player is having trouble.” Normal HTTP 200 and a complete scroll cannot override this visual failure. | Keep incomplete. The capture classifier now checks visible player/page error text; retry only if the source changes or this is worth diagnosing. |
+
+The artifact remains available for forensic review, but its original automatic status is superseded by the explicit visual audit. `CALILE` remains the only newly two-viewport qualified candidate from remote passes 01–03. V5 still has 19 source-backed candidates, 0 deep multi-page auditions, 0 role assignments, and no homepage synthesis.

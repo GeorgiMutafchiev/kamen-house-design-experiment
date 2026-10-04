@@ -23,7 +23,7 @@ async function fixture(t) {
   return { root, artifactRoot, intelligenceRoot, queuePath, queue };
 }
 
-async function addBundle(artifactRoot, viewportClass, status = "VISUAL_CAPTURE_COMPLETE") {
+async function addBundle(artifactRoot, viewportClass, status = "VISUAL_CAPTURE_COMPLETE", fullWidth = null) {
   const viewport = viewportClass === "desktop" ? { width: 1440, height: 1000 } : { width: 390, height: 844 };
   const prefix = `TEST_SITE/home-${viewportClass}`;
   const artifacts = [], screenshots = [];
@@ -38,7 +38,8 @@ async function addBundle(artifactRoot, viewportClass, status = "VISUAL_CAPTURE_C
     ["bottom", "98-bottom.jpg", viewport.height], ["full_after_traversal", "99-full-page-after-traversal.jpg", viewport.height + 200],
   ]) {
     const path = `${prefix}/attempt-01/${name}`;
-    await put(path, await sharp({ create: { width: viewport.width, height, channels: 3, background: "#abcdef" } }).jpeg().toBuffer());
+    await put(path, await sharp({ create: { width: role === "full_after_traversal" ? fullWidth ?? viewport.width : viewport.width,
+      height, channels: 3, background: "#abcdef" } }).jpeg().toBuffer());
     screenshots.push({ path, role });
   }
   const sample = { visible_failed_images: [], video_states: [], visible_hidden_reveals: [], visible_empty_sections: [],
@@ -122,4 +123,14 @@ test("incomplete mobile session remains excluded from positive evidence", async 
   assert.equal(computeCoverage(state).counts.capture_complete, 0);
   const queue = JSON.parse(await readFile(f.queuePath, "utf8"));
   assert.equal(queue.items[0].status, "CAPTURE_INCOMPLETE");
+});
+
+test("a faithful mobile full-page capture may expose site horizontal overflow", async t => {
+  const f = await fixture(t);
+  const bundle = await addBundle(f.artifactRoot, "mobile", "VISUAL_CAPTURE_COMPLETE", 768);
+  await validateManifestFiles(f.artifactRoot, await manifest(f.artifactRoot, [bundle]));
+  const initial = bundle.screenshots.find(s => s.role === "initial");
+  const full = bundle.screenshots.find(s => s.role === "full_after_traversal");
+  assert.equal((await sharp(join(f.artifactRoot, initial.path)).metadata()).width, 390);
+  assert.equal((await sharp(join(f.artifactRoot, full.path)).metadata()).width, 768);
 });

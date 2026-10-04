@@ -124,9 +124,10 @@
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "Manual visual audit of 37225739903: hero video displays “Player error” and cannot serve as complete reference evidence.",
+      "last_run_id": "37225739903"
     },
     {
       "candidate_id": "DAVIDCHIPPERFIELD",
@@ -335,10 +336,10 @@
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "status": "CAPTURE_INCOMPLETE",
-      "attempt_count": 2,
-      "last_error": "home/desktop: large fixed overlay obstructed 10 sampled positions | home/mobile: large fixed overlay obstructed 12 sampled positions",
+      "attempt_count": 3,
+      "last_error": "Manual visual audit of 37225739903: full-page after-traversal capture has large blank middle sections on both viewports despite populated scroll views.",
       "dismiss_selector": ".upcc-cookie-buttons .upcc-cookie-accept",
-      "last_run_id": "37225083725"
+      "last_run_id": "37225739903"
     },
     {
       "candidate_id": "SOMBRE",
@@ -358,10 +359,10 @@
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "status": "CAPTURE_INCOMPLETE",
-      "attempt_count": 2,
-      "last_error": "home/desktop: large fixed overlay obstructed 14 sampled positions | home/mobile: large fixed overlay obstructed 18 sampled positions",
-      "dismiss_selector": "text=Decline",
-      "last_run_id": "37225083725"
+      "attempt_count": 3,
+      "last_error": "Manual visual audit of 37225739903: cookie consent panel remains visible in initial and scroll viewport captures; configured Decline selector failed. Mobile full-page capture also overflows to 768px.",
+      "dismiss_selector": "text=Accept",
+      "last_run_id": "37225739903"
     },
     {
       "candidate_id": "CALILE",

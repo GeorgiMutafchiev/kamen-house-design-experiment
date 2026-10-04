@@ -36,6 +36,7 @@ export async function bundleFromCapture(out, item, route, viewportClass, result,
   const screenshots = artifacts.filter(a => a.path.endsWith(".jpg") && screenshotRole(a.path))
     .map(a => ({ path: a.path, role: screenshotRole(a.path) }));
   const samples = final?.samples ?? [];
+  const maxDocumentWidth = Math.max(standardViewports[viewportClass].width, ...samples.map(s => s.document_width ?? 0));
   return {
     schema_version: 1, bundle_id: randomUUID(), candidate_id: item.candidate_id, category: item.category,
     reason_for_interest: item.reason_for_interest, source_discovery_provenance: item.source_discovery_provenance,
@@ -56,6 +57,7 @@ export async function bundleFromCapture(out, item, route, viewportClass, result,
       traversal_steps: samples.length, document_grew: Boolean(final && final.document_height_final > final.document_height_initial),
       second_pass: session.attempts.length > 1, retry_count: Math.max(0, session.attempts.length - 1),
       traversal_complete: final?.traversal_complete ?? false, image_readiness: session.base_readiness?.visible_failed_images ?? [],
+      max_document_width: maxDocumentWidth, horizontal_overflow_px: maxDocumentWidth - standardViewports[viewportClass].width,
       font_readiness: session.base_readiness?.font_status ?? "unknown",
       hidden_reveal_count: samples.reduce((sum, s) => sum + s.visible_hidden_reveals.length, 0),
       suspicious_blank_count: samples.filter(s => s.uniform_pixel_fraction > 0.92 && (s.visible_hidden_reveals.length || s.visible_empty_sections.length)).length,

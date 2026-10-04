@@ -19,7 +19,7 @@ Supported: live websites, curated galleries, structured database exports, human-
 - stjohnrestaurant.com: available (2026-10-04T13:59:22.720Z) — HTTP 200
 - www.apartamentomagazine.com: available (2026-10-04T13:59:30.822Z) — HTTP 200
 - www.heckfieldplace.com: available (2026-10-04T18:39:20.222Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
-- hotelcorazon.com: available (2026-10-04T14:02:08.245Z) — HTTP 200
+- hotelcorazon.com: available (2026-10-04T18:58:34.602Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: hero player error on desktop and mobile.
 - www.davidchipperfield.com: available (2026-10-04T14:02:18.674Z) — HTTP 200
 - noma.dk: available (2026-10-04T14:02:27.285Z) — HTTP 200
 - framacph.com: available (2026-10-04T14:02:38.028Z) — HTTP 200
@@ -29,8 +29,8 @@ Supported: live websites, curated galleries, structured database exports, human-
 - www.oma.com: available (2026-10-04T14:05:08.834Z) — HTTP 200
 - www.kinfolk.com: available (2026-10-04T14:05:19.217Z) — HTTP 200
 - baltic.art: available (2026-10-04T14:05:27.969Z) — HTTP 200
-- www.villa-lena.it: available (2026-10-04T18:40:25.510Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
-- www.hotelsinnombre.com: available (2026-10-04T18:41:32.533Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
+- www.villa-lena.it: available (2026-10-04T18:58:34.612Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: final full-page images have large blank middle sections.
+- www.hotelsinnombre.com: available (2026-10-04T18:58:34.618Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: consent panel remained visible and mobile horizontal overflow.
 - thecalilehotel.com: available (2026-10-04T18:33:14.235Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
 - github_actions_playwright: available (2026-10-04T18:35:10Z) — Remote proof run 37224526387 on ubuntu-latest captured complete desktop/mobile static, complete image-heavy desktop, and complete lazy-image desktop sessions; GitHub artifact 11310978254 downloaded, SHA-256 validated and ingested in an isolated proof ledger. V5 run 37224667588 then ingested six real candidate sessions; incomplete cookie-obstructed sessions remain excluded.
 
@@ -42,8 +42,8 @@ Browser captures are qualified only by the latest render-complete desktop and mo
 - Partial or candidate references: 16.
 - Human-rejected or forbidden references: 2.
 - Researched holdouts: 0.
-- Browser captures awaiting audit: 9.
-- Incomplete browser captures: 5.
+- Browser captures awaiting audit: 8.
+- Incomplete browser captures: 6.
 - Render-complete browser references: 6.
 - References with mobile evidence: 0.
 - Operating commercial references: 0.

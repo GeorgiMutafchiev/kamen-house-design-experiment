@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:42:28.344Z",
+  "generated_at": "2026-10-04T18:58:34.628Z",
   "stage": "high_signal_exploration",
   "counts": {
     "researched": 0,
@@ -8,8 +8,8 @@
     "holdout": 0,
     "mobile": 0,
     "operating_commercial": 0,
-    "capture_audit_required": 9,
-    "capture_incomplete": 5,
+    "capture_audit_required": 8,
+    "capture_incomplete": 6,
     "capture_complete": 6
   },
   "source_types": [],

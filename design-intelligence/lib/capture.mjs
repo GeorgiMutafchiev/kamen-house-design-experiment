@@ -41,6 +41,11 @@ export async function inspectViewport(page) {
         !element.querySelector("img,video,canvas") && css.backgroundImage === "none";
     }).map(element => ({ tag: element.tagName, class_name: String(element.className).slice(0, 100) }));
     const textElements = [...document.querySelectorAll("main h1,main h2,main h3,main p,main a,article h1,article h2,article p")].filter(visible);
+    const visibleErrorMessages = [...document.querySelectorAll("body h1,body h2,body h3,body p,body span,body div")]
+      .filter(element => {
+        const ownText = [...element.childNodes].filter(node => node.nodeType === Node.TEXT_NODE).map(node => node.textContent).join(" ").trim();
+        return ownText.length < 180 && /\b(player error|an unknown error occurred|this video is unavailable|video unavailable|something went wrong)\b/i.test(ownText) && visible(element);
+      }).slice(0, 10).map(element => (element.innerText || "").trim().slice(0, 180));
     const fixedOverlays = [...document.querySelectorAll("body *")].filter(element => {
       const css = getComputedStyle(element);
       const rect = element.getBoundingClientRect();
@@ -61,6 +66,7 @@ export async function inspectViewport(page) {
     return {
       scroll_y: scrollY, viewport_width: width, viewport_height: height,
       document_height: document.documentElement.scrollHeight,
+      document_width: document.documentElement.scrollWidth,
       font_status: document.fonts?.status ?? "unknown",
       total_images: images.length, lazy_images: images.filter(img => img.loading === "lazy").length,
       visible_images: visibleImages.length, visible_failed_images: failedImages.map(img => ({ src: img.currentSrc || img.src, complete: img.complete, natural_width: img.naturalWidth })).slice(0, 20),
@@ -68,6 +74,7 @@ export async function inspectViewport(page) {
       zero_sized_media: zeroSizedMedia, offscreen_reveals: offscreenReveals,
       visible_hidden_reveals: hidden, visible_empty_sections: emptySections,
       visible_main_text_chars: textElements.reduce((n, e) => n + (e.innerText || "").trim().length, 0),
+      visible_error_messages: visibleErrorMessages,
       fixed_overlays: fixedOverlays,
     };
   });
@@ -114,6 +121,8 @@ export function assessSamples(samples, traversalComplete) {
   if (failed.length) reasons.push(`unloaded or failed visible images at ${failed.length} sampled scroll positions`);
   const failedVideo = samples.filter(s => s.video_states.some(v => v.error || (v.network_state === 3 && v.ready_state < 2)));
   if (failedVideo.length) reasons.push(`failed visible video at ${failedVideo.length} sampled scroll positions`);
+  const errorMessages = [...new Set(samples.flatMap(s => s.visible_error_messages ?? []))];
+  if (errorMessages.length) reasons.push(`visible player/page error: ${errorMessages.join(" | ")}`);
   const hidden = samples.filter(s => s.visible_hidden_reveals.length);
   if (hidden.length) reasons.push(`large hidden/reveal elements at ${hidden.length} sampled scroll positions`);
   const empty = samples.filter(s => s.visible_empty_sections.length && s.visible_main_text_chars < 18 && !s.visible_media);
