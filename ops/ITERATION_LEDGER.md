@@ -319,5 +319,8 @@ HTTPS resumed briefly. STJOHN, DAVIDCHIPPERFIELD and CASABONAY passed render-com
 Functional validation:
 13/13 unit/integration tests; lint pass; production build of 28 static routes; Playwright 32/32 pass. Static export under the GitHub Pages repository subpath passed local HTTP route, image and client navigation checks. Representative route scans at 320, 375, 390, 650, 768, 1024 and 1440 px found no document overflow. Full-page desktop/laptop/mobile captures of the finished routes were preserved.
 
+Publication checkpoint:
+The source candidate was committed as `455574881ac94c316569f3a98f18ce48e9077d5d` on `work` and pushed to the same isolated experiment repository. The previous `gh-pages` preview commit was tagged `preview-86de868-archive` before the new static export was committed as `25b2b9f070c39992d71aac5bf8a64fb8858a379a` and published. GitHub Pages reported `built`. A fresh HTTPS Chromium visit returned HTTP 200 on Home, Rooms, Food and Stay, loaded their first images, followed the Stay link, and produced no console or page errors. No other repository or production infrastructure was used.
+
 Drift status:
 Working candidate, with original human-rejected visual family preserved rather than promoted. Human judgment of the finished result remains pending.

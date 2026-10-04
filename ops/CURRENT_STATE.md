@@ -4,7 +4,8 @@ Project phase: autonomous Design Studio — complete working candidate ready for
 Branch: `work`.
 Current visual status: WORKING CHAMPION / HUMAN REVIEW PENDING. The earlier House Register remains `HUMAN_REJECTED_BASELINE_001`; no AI-only score converts either version into human approval.
 Recovery tags: `human-rejected-baseline-001` (`98715a99bf60070cb21b26941fe72c504496ee0c`) and `protected-pre-autonomous-studio-4c12769` (`4c127692a088758b1bb9e7cb1c1669c030568589`).
-Current technical implementation checkpoint: this studio closeout commit; exact SHA is in the final report.
+Current technical implementation checkpoint: `455574881ac94c316569f3a98f18ce48e9077d5d`. The final documentation closeout commit follows it without changing the rendered product.
+Live preview: `https://georgimutafchiev.github.io/kamen-house-design-experiment/` from `gh-pages` commit `25b2b9f070c39992d71aac5bf8a64fb8858a379a`. The former Pages preview is recoverable at tag `preview-86de868-archive`.
 
 ## Working product
 
@@ -27,6 +28,7 @@ Lane A remains evidence strict. STJOHN, DAVIDCHIPPERFIELD and CASABONAY passed f
 - Next production build: passed, 28 static routes.
 - Playwright: 32 passed, covering ten route accessibility samples, navigation and internal destinations, all eleven differentiated room details, inquiry states, 404, no console errors, mobile overflow and target size, asset loading after scrolling, and ten visual captures.
 - Static preview export: passed with `/kamen-house-design-experiment` base path; eleven representative routes and images returned HTTP 200 under a local static server, and the client-side Stay link opened its form.
+- Published preview: GitHub Pages build reported `built`; a real Chromium HTTPS session returned HTTP 200 and loaded images on Home, Rooms, Food and Stay, followed the client-side Stay action, and recorded zero console/page errors.
 - Responsive inspection: 320, 375, 390, 650, 768, 1024 and 1440 px checks found no horizontal document overflow on the representative route set. Full-page champion captures exist at desktop, laptop and mobile widths.
 
 ## Current limitations and next action
