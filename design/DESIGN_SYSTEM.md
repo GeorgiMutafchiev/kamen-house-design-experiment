@@ -44,6 +44,7 @@ Image hover scale is limited to 1.012. No entrance choreography or scroll hijack
 - Desktop: exposed primary navigation and factual margin columns.
 - At 900px: sticky masthead, text-labeled menu, simplified spans.
 - At 650px: single reading flow, facts before long prose, full-width images, 44px minimum controls, no essential horizontal scrolling.
+- At 650px: secondary captions, factual labels, and footer disclosure use `.88rem` with 1.35 line height so useful information does not become decorative microtype.
 - Room neighbour navigation becomes a clear two-column previous/next row with the inquiry action above.
 
 ## Shared behavior
