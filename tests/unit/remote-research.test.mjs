@@ -107,6 +107,7 @@ test("ingestion is idempotent; desktop and mobile must both complete", async t =
   const queue = JSON.parse(await readFile(f.queuePath, "utf8"));
   assert.equal(queue.items[0].status, "AUDIT_READY");
   assert.equal(queue.items[0].attempt_count, 1);
+  assert.equal(queue.items[0].last_run_id, "123");
 });
 
 test("incomplete mobile session remains excluded from positive evidence", async t => {

@@ -38,7 +38,8 @@ async function updateQueue(queuePath, queue, manifest) {
   for (const item of queue.items) {
     const bundles = byId.get(item.candidate_id);
     if (!bundles?.length) continue;
-    item.attempt_count += 1;
+    if (item.last_run_id !== manifest.run_id) item.attempt_count += 1;
+    item.last_run_id = manifest.run_id;
     const expected = item.requested_routes.flatMap(route => item.requested_viewports.map(viewport => `${route.name}:${viewport}`));
     const complete = expected.every(key => bundles.some(b => `${b.route}:${b.viewport_class}` === key && b.status === "VISUAL_CAPTURE_COMPLETE"));
     item.status = complete ? "AUDIT_READY" : "CAPTURE_INCOMPLETE";
@@ -97,7 +98,7 @@ export async function ingestRemote({ artifactRoot, intelligenceRoot, queuePath, 
     ingested++;
   }
   await refreshDerived(intelligenceRoot);
-  if (updateQueueStatus && ingested) await updateQueue(queuePath, queue, manifest);
+  if (updateQueueStatus && manifest.bundles.length) await updateQueue(queuePath, queue, manifest);
   return { run_id: manifest.run_id, bundles: manifest.bundles.length, ingested, destination: targetRoot };
 }
 

@@ -72,6 +72,29 @@ export async function inspectViewport(page) {
   });
 }
 
+async function inspectAfterNavigation(page, session) {
+  for (let retry = 0; retry < 4; retry++) {
+    try { return await inspectViewport(page); }
+    catch (error) {
+      if (!/Execution context was destroyed|navigation|Target closed/i.test(error.message) || retry === 3) throw error;
+      session.readiness_warnings.push(`transient navigation during inspection; retry ${retry + 1}`);
+      await page.waitForLoadState("domcontentloaded", { timeout: 5000 }).catch(() => {});
+      await pause(750);
+    }
+  }
+}
+
+async function waitForStablePage(page) {
+  let previous = "";
+  let stable = 0;
+  for (let i = 0; i < 10 && stable < 2; i++) {
+    await pause(450);
+    const state = `${page.url()}|${await page.evaluate(() => document.readyState).catch(() => "navigating")}`;
+    stable = state === previous && !state.endsWith("navigating") ? stable + 1 : 0;
+    previous = state;
+  }
+}
+
 export async function analyzeBlankViewport(page) {
   const buffer = await page.screenshot({ type: "jpeg", quality: 55, fullPage: false });
   const { data, info } = await sharp(buffer).resize({ width: 24, height: 24, fit: "fill" }).removeAlpha().raw().toBuffer({ resolveWithObject: true });
@@ -131,11 +154,11 @@ async function captureAttempt(page, target, attempt, options, session) {
   const waitMs = attempt === 1 ? 420 : 900;
   for (let i = 0; i < 100; i++) {
     await pause(waitMs);
-    let sample = await inspectViewport(page);
+    let sample = await inspectAfterNavigation(page, session);
     const initialSignals = { failed_images: sample.visible_failed_images.length, hidden_reveals: sample.visible_hidden_reveals.length };
     for (let settle = 0; settle < 3 && (sample.visible_failed_images.length || sample.visible_hidden_reveals.length); settle++) {
       await pause(attempt === 1 ? 450 : 800);
-      sample = await inspectViewport(page);
+      sample = await inspectAfterNavigation(page, session);
     }
     sample.initial_signals = initialSignals;
     sample.uniform_pixel_fraction = await analyzeBlankViewport(page);
@@ -182,11 +205,21 @@ export async function captureVisualSession(browser, target, options) {
     viewport: target.viewport, device_scale_factor: 1, browser: "chromium", captured_at: new Date().toISOString(),
     adapter: options.adapter ?? "design-intelligence/lib/capture.mjs", runner: options.runner ?? "local",
     browser_version: browser.version(), user_agent: await page.evaluate(() => navigator.userAgent),
-    redirects: [], navigation_status: null, navigation_timing: null,
+    redirects: [], navigation_history: [], navigation_status: null, navigation_timing: null,
     console_errors: [], browser_errors: [], failed_resources: [], readiness_warnings: [], interactions: [], attempts: [], milestones: [],
     forced_visibility: false, status: "REQUESTED",
   };
   page.on("pageerror", error => session.browser_errors.push(error.message));
+  page.on("response", response => {
+    try {
+      if (response.request().isNavigationRequest() && response.frame() === page.mainFrame()) {
+        session.navigation_status = response.status();
+        session.resolved_url = response.url();
+        session.navigation_timing = response.request().timing();
+        session.navigation_history.push({ url: response.url(), status: response.status(), at: new Date().toISOString() });
+      }
+    } catch { /* a detached navigation response is recorded only by its failed request */ }
+  });
   page.on("console", message => { if (message.type() === "error") session.console_errors.push(message.text()); });
   page.on("requestfailed", request => session.failed_resources.push({ url: request.url(), error: request.failure()?.errorText ?? "unknown" }));
   page.on("response", response => { if (response.status() >= 400) session.failed_resources.push({ url: response.url(), status: response.status() }); });
@@ -204,12 +237,14 @@ export async function captureVisualSession(browser, target, options) {
       session.redirects.unshift({ from: request.redirectedFrom().url(), to: request.url() });
     }
     await bounded(page.waitForLoadState("load", { timeout: 5000 }), 5500, "load", session);
+    await waitForStablePage(page);
     await bounded(page.evaluate(() => document.fonts.ready), 4000, "fonts", session);
     await bounded(page.waitForFunction(() => [...document.querySelectorAll("video")]
       .filter(video => { const rect = video.getBoundingClientRect(); return rect.width * rect.height > 0 && rect.top < innerHeight && rect.bottom > 0; })
       .every(video => video.readyState >= 2 || video.networkState === 3), null, { timeout: 3500 }), 4000, "hero media", session);
     await pause(900);
-    const readiness = await inspectViewport(page);
+    const readiness = await inspectAfterNavigation(page, session);
+    session.resolved_url = page.url();
     session.base_readiness = readiness;
     session.status = readiness.visible_failed_images.length || readiness.video_states.some(v => v.error || v.ready_state < 2 && v.network_state === 3) ? "ASSETS_PARTIALLY_READY" : "ASSETS_READY";
     session.milestones.push({ state: session.status, at: new Date().toISOString() });

@@ -43,6 +43,7 @@ export function validateQueue(input) {
     if (!queueStatuses.has(item.status)) throw new Error(`${label}.status is invalid`);
     if (!Number.isInteger(item.attempt_count) || item.attempt_count < 0) throw new Error(`${label}.attempt_count is invalid`);
     if (item.last_error !== null && typeof item.last_error !== "string") throw new Error(`${label}.last_error must be text or null`);
+    if (item.last_run_id !== undefined && (typeof item.last_run_id !== "string" || !/^[A-Za-z0-9_-]{1,100}$/.test(item.last_run_id))) throw new Error(`${label}.last_run_id is invalid`);
     if (!Array.isArray(item.requested_viewports) || !item.requested_viewports.length ||
         new Set(item.requested_viewports).size !== item.requested_viewports.length ||
         item.requested_viewports.some(v => !(v in standardViewports))) throw new Error(`${label}.requested_viewports is invalid`);
@@ -59,7 +60,8 @@ export function validateQueue(input) {
     return { candidate_id, url, category, reason_for_interest, priority: item.priority,
       requested_viewports: item.requested_viewports, requested_routes: routes,
       source_discovery_provenance, status: item.status, attempt_count: item.attempt_count, last_error: item.last_error,
-      ...(item.dismiss_selector ? { dismiss_selector: item.dismiss_selector } : {}) };
+      ...(item.dismiss_selector ? { dismiss_selector: item.dismiss_selector } : {}),
+      ...(item.last_run_id ? { last_run_id: item.last_run_id } : {}) };
   });
   return { schema_version: 1, items };
 }
