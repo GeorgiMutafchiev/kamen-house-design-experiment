@@ -36,11 +36,19 @@ Concept imagery is coherent and honestly captioned but remains generated study m
 
 GREEN — the ten current captures are byte-identical to the explicitly accepted goldens. The locked direction remains intact.
 
+## Evolution status
+
+Champion/Challenger protocol: ACTIVE under D-005.
+Incumbent: `CHAMPION_000` at `86de868be640a8560a7680d8716b7c1829d324b7`, protected by tag `champion-000`.
+Challengers attempted: 0.
+Challengers promoted: 0.
+First validation experiment: `CHALLENGER_001`, mobile secondary-text legibility, queued for isolated execution.
+
 ## Highest-priority next actions
 
-1. Preserve the release candidate; accept only evidenced bugs, accessibility, performance, responsive, copy, or factual fixes.
-2. Reopen design only under the conditions in D-004 and the governing brief.
-3. Collect real human responses with `ops/HUMAN_TEST_PACKET.md` when available; do not prefill them.
+1. Run only CHALLENGER_001 in an isolated worktree and keep CHAMPION_000 unchanged.
+2. Apply the objective gates and randomized blind pairwise panel exactly as recorded in `evolution/JUDGE_PROTOCOL.md`.
+3. Preserve CHAMPION_000 unless the complete promotion bar is satisfied; do not fabricate human evidence.
 
 ## Files to read before continuing
 
@@ -49,3 +57,6 @@ GREEN — the ten current captures are byte-identical to the explicitly accepted
 3. `ops/DECISIONS.md`
 4. `ops/CURRENT_STATE.md`
 5. `ops/CHANGE_QUEUE.md`
+6. `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md`
+7. `evolution/CHAMPION.md`
+8. `evolution/TOURNAMENT_LEDGER.md`

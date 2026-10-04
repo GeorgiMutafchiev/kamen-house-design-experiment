@@ -170,3 +170,31 @@ All seven Conservation Mode conditions are satisfied. D-004 locks the transition
 
 Remaining highest-impact issues:
 None established. Await real human feedback or a qualifying maintenance defect.
+
+## Iteration 6 — Champion baseline registration
+
+Starting checkpoint:
+Conservation Mode checkpoint `86de868` with a clean worktree.
+
+Accepted problems:
+1. Activate the new evolution protocol without changing or weakening the accepted product.
+2. Make the incumbent recoverable and every future replacement evidence-dependent.
+
+Changes:
+Copied the addendum into the repository, registered the unchanged product as `CHAMPION_000`, created the required evolution ledgers and convergence directory, defined the blind judging and promotion rules, and queued one narrow evidence-backed validation Challenger. No application or visual file changed.
+
+Rendered evidence:
+Ten regenerated current captures remained byte-identical to the accepted goldens; their hashes are recorded in `evolution/CHAMPION.md`.
+
+Tests:
+Unit, lint, production build, 23 Playwright checks, and production dependency audit passed. The build emitted 28 static routes.
+
+Drift status: GREEN
+
+Outcome: ACCEPT — PROTOCOL ACTIVE, CHAMPION_000 PROTECTED
+
+Why:
+The design was already locked and mature. Baseline capture therefore preserves the incumbent and adds only recoverable experimental governance.
+
+Remaining highest-impact issues:
+Run CHALLENGER_001 alone in isolation as a protocol validation, then promote only on complete evidence or record its rejection.

@@ -82,3 +82,19 @@ A new visual direction, homepage concept, decorative language, typography replac
 
 Reopen only for:
 New human direction, severe human feedback, later RED drift, a fundamental usability failure, or strong evidence that the site still appears obviously AI-generated.
+
+## D-005 — Activate Champion/Challenger governance
+Status: LOCKED
+Date/Checkpoint: 2026-10-04 / Phase 8 addendum activation
+
+Decision:
+Adopt `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md` as a non-disruptive addendum and register the existing accepted product at commit `86de868be640a8560a7680d8716b7c1829d324b7` as protected incumbent `CHAMPION_000`.
+
+Reason:
+The direction was already locked, the product had entered Conservation Mode, all baseline gates passed, and ten regenerated screenshots remained byte-identical to the accepted goldens. Evolutionary experiments can therefore be isolated and judged without reopening or overwriting the accepted state.
+
+Allowed:
+Narrow, evidence-backed Challengers in isolated branches/worktrees, followed by objective gates, randomized blind pairwise evaluation, Pareto protection, drift checks, and explicit orchestrator resolution.
+
+Not allowed:
+Changing CHAMPION_000 during baseline capture; silently replacing it; merging effort without evidence; updating goldens without explicit acceptance; mass redesign; treating a tie or ambiguous result as a win; or leaving Conservation Mode merely because a Challenger exists.

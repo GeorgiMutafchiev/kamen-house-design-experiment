@@ -18,6 +18,10 @@ None. D-001 and D-002 remain intact.
 
 Ten accepted golden references exist. The orchestrator explicitly accepted the beneficial hardening deltas after screenshot-only review, replaced the older five references, and added five task-page references. Every current capture is now byte-identical to its golden counterpart.
 
+## Champion baseline
+
+`CHAMPION_000` records the accepted product commit, screenshot hashes, passing gates, strengths, limits, and GREEN status. Protocol activation adds governance files only and causes no application, screenshot, design-direction, or golden-reference deviation.
+
 ## Recommendation
 
-ACCEPT. Three consecutive clean reviews confirmed GREEN drift against the unchanged checkpoint. Preserve the release candidate in Conservation Mode.
+ACCEPT. Three consecutive clean reviews confirmed GREEN drift against the unchanged checkpoint. Preserve the release candidate in Conservation Mode and require every isolated Challenger to defeat CHAMPION_000 by the addendum's evidence gates.
