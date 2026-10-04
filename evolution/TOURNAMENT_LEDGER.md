@@ -1,5 +1,11 @@
 # Tournament Ledger
 
+## Human override — AI_SELF_EVALUATION_FAILURE_001
+
+Status: PRIOR AI VISUAL VERDICTS INVALIDATED
+
+The human owner rejected the rendered direction that this ledger's AI-only tournament had accepted. The earlier technical measurements and the local mobile-legibility result remain factual history, but neither the unanimous AI preference nor the promotion is evidence that the visual design is professionally competitive. Champion/Challenger visual evolution is suspended until a replacement direction passes the absolute human gate.
+
 ## Baseline registration
 
 Incumbent: `CHAMPION_000`

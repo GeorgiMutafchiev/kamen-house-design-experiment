@@ -226,3 +226,29 @@ Art Direction, Brand Specificity, Anti-AI, and UX judges unanimously selected th
 
 Remaining highest-impact issues:
 None established. Preserve CHAMPION_001 and await new evidence rather than manufacturing another mutation.
+
+## Iteration 8 — Human visual reset
+
+Starting checkpoint:
+Former `CHAMPION_001` closeout at `98715a9`.
+
+Authoritative finding:
+The human owner rejected the rendered visual direction as generic, visibly AI-generated, aesthetically weak, and below professionally art-directed commercial work.
+
+Actions:
+Stopped Champion/Challenger visual evolution; validated and tagged the unchanged product as `human-rejected-baseline-001`; preserved screenshot hashes; invalidated AI-only visual approvals as quality gates; reopened design only inside an isolated homepage Design Lab.
+
+Tests before reset documentation:
+Unit 1/1, lint pass, production build pass with 28 routes, Playwright 23/23.
+
+Drift status:
+HUMAN_REJECTED. The previous GREEN judgment is retained only as evidence of `AI_SELF_EVALUATION_FAILURE_001`.
+
+Outcome:
+ACCEPT HUMAN OVERRIDE — BEGIN DESIGN QUALITY DISCOVERY
+
+Next:
+Verify actual browser access, inspect real operating websites, create the reference atlases and holdout set, then build six isolated homepage concepts. Stop for explicit human approval after finalist renders.
+
+Research-gate result:
+BLOCKED. System Chromium returned `net::ERR_TUNNEL_CONNECTION_FAILED` for both `https://www.acehotel.com/` and `https://www.aesop.com/`. No page content was inspected, no reference was fabricated, and no concept generation began.

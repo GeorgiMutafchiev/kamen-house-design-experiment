@@ -1,65 +1,62 @@
 # Current State
 
-Project phase: Phase 8 — Conservation Mode
-Design status: LOCKED — The House Register
-Last accepted checkpoint: CHAMPION_001 complete promotion closeout (`champion-001`); product/visual checkpoint `75589e0`
-Current branch: work
+Project phase: Design Quality Discovery — human-directed visual reset
+Design status: HUMAN_REJECTED; no replacement direction is accepted or locked
+Last recoverable product checkpoint: `HUMAN_REJECTED_BASELINE_001` at `98715a99bf60070cb21b26941fe72c504496ee0c`
+Current branch: `work`
 Run command: `npm run dev`
 Test command: `npm test && npm run lint && npm run build && npm run test:e2e`
 Browser/screenshot command: `npm run screenshots`
 
-## Architecture
+## Human verdict
 
-Next.js App Router, React, TypeScript, authored CSS, Playwright browser tests.
+The human owner rejected the rendered visual direction as generic, visibly AI-generated, aesthetically weak, and below professionally art-directed commercial work. This verdict supersedes the former design lock, Conservation Mode, AI review passes, GREEN visual status, and Champion promotions as visual-quality evidence.
 
-## Implemented pages
+`AI_SELF_EVALUATION_FAILURE_001` is active: AI-only review approved a result the human owner immediately rejected. AI evaluation is now a diagnostic filter only and can never unlock full-site implementation.
 
-Home, Rooms overview, eleven room detail routes, Fire Kitchen, Around, The House, Journal index, three journal articles, Find us, inquiry, Privacy, 404, loading, and error states.
+## Preserved baseline
 
-## Working functionality
+The complete site remains recoverable at annotated tag `human-rejected-baseline-001`. Its ten screenshots remain under `tests/visual/golden/` and are indexed in `design-v2/HUMAN_REJECTED_BASELINE_001.md`. Existing engineering and functionality may be reused later, but the visual direction is not trusted.
 
-Primary navigation, mobile menu with focus restoration, responsive layouts, non-transmitting inquiry validation/loading/error/success, eleven individualized room routes, three distinct journal routes, recovery links, metadata, icon, sitemap, and robots output. The site sets no cookies or browser storage.
+Validation at capture:
+- unit: 1 passed;
+- lint: passed;
+- production build: passed, 28 static routes;
+- Playwright: 23 passed.
 
-## Known failures
+## Architecture and working functionality
 
-No known product failure. Full npm audit reports a high-severity development-only advisory in the Next.js ESLint toolchain (`braces` through `micromatch`/`fast-glob`) with no non-breaking fix offered; production dependency audit reports zero vulnerabilities.
+Next.js App Router, React, TypeScript, authored CSS, Node tests, and Playwright. Existing routes, navigation, responsive behavior, accessibility coverage, differentiated rooms, honest non-transmitting inquiry states, metadata, icon, sitemap, and robots output remain intact in the preserved baseline.
 
-## Locked decisions that matter most
+## Active scope
 
-D-001 technical baseline, D-002 House Register direction, D-003 release-candidate visual memory, D-004 Conservation Mode, D-005 evolution protocol, and D-006 CHAMPION_001 promotion. Ten golden screenshots under `tests/visual/golden/` are the accepted visual memory.
+Homepage/design laboratory only. Secondary pages, full-site redesign, production integration, and Champion/Challenger visual evolution are stopped until a rendered concept receives explicit human approval.
 
-## Current anti-AI concerns
+## Design Lab
 
-Concept imagery is coherent and honestly captioned but remains generated study material rather than real documentary photography. Mobile captions and footer legal copy are intentionally secondary and should not shrink further.
+Isolated work lives under `design-lab/`. Research and new visual evidence live under `design-v2/`. Concepts must remain independently inspectable and must not overwrite the preserved site.
+
+## Research gate
+
+BLOCKED. Playwright with system Chromium attempted `https://www.acehotel.com/` and `https://www.aesop.com/`; both failed before content loaded with `net::ERR_TUNNEL_CONNECTION_FAILED`. No reference was claimed as inspected. Discovery is paused before corpus creation and concept generation; imagined references remain prohibited.
 
 ## Current drift status
 
-GREEN — the ten current captures are byte-identical to the explicitly accepted CHAMPION_001 goldens. The locked direction remains intact.
-
-## Evolution status
-
-Champion/Challenger protocol: ACTIVE under D-005.
-Incumbent: `CHAMPION_001`, product/visual checkpoint `75589e05a0ea9ce3deba17a9ab02dfd749316579`, protected with its complete promotion record by tag `champion-001`.
-Historical Champion: `CHAMPION_000` remains recoverable at tag `champion-000`.
-Challengers attempted: 1.
-Challengers promoted: 1.
-Queue: empty pending new evidence.
+HUMAN_REJECTED. The former GREEN report is preserved as evidence of `AI_SELF_EVALUATION_FAILURE_001`, not as a quality claim.
 
 ## Highest-priority next actions
 
-1. Preserve CHAMPION_001; do not invent another Challenger merely to continue activity.
-2. If new evidence supports a hypothesis, isolate it and apply `evolution/JUDGE_PROTOCOL.md` in full.
-3. Collect real human responses when available; never fabricate preference evidence.
+1. Resume in an environment whose Chromium can open external professional reference sites.
+2. Assemble positive, negative, and holdout sets only from actually inspected pages and viewports.
+3. Then build six isolated homepage concepts, benchmark them, render surviving desktop/mobile candidates, and stop for the human gate.
 
 ## Files to read before continuing
 
-1. `ops/PROJECT_CONSTITUTION.md`
-2. `design/DESIGN_DIRECTION.md`
+1. `HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md`
+2. `ops/PROJECT_CONSTITUTION.md`
 3. `ops/DECISIONS.md`
 4. `ops/CURRENT_STATE.md`
 5. `ops/CHANGE_QUEUE.md`
-6. `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md`
-7. `evolution/CHAMPION.md`
-8. `evolution/TOURNAMENT_LEDGER.md`
-9. `evolution/CHALLENGER_QUEUE.md`
-10. `evolution/JUDGE_PROTOCOL.md`
+6. `design-v2/HUMAN_REJECTED_BASELINE_001.md`
+7. `design-lab/README.md`
+8. `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md`

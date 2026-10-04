@@ -1,6 +1,13 @@
 # Design Direction — The House Register
 
-DESIGN_STATUS = LOCKED
+DESIGN_STATUS = HUMAN_REJECTED
+
+> Historical record only. On 2026-10-04 the human owner rejected this visual
+> direction as generic, visibly AI-generated, aesthetically weak, and below a
+> professionally art-directed commercial standard. It must not be evolved or
+> restored as the active direction. A replacement may become locked only after
+> the human owner reviews rendered Design Lab candidates and explicitly chooses
+> one.
 
 ## Brand feeling
 

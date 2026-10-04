@@ -1,27 +1,27 @@
 # Drift Report
 
-Status: GREEN — 2026-10-04 release-candidate visual checkpoint
+Status: HUMAN_REJECTED — former AI GREEN invalidated as visual-quality evidence
+
+## Human evidence
+
+The human owner reviewed the rendered product and rejected the complete visual direction as generic, visibly AI-generated, aesthetically weak, and below a professionally art-directed commercial standard.
+
+## AI self-evaluation failure
+
+`AI_SELF_EVALUATION_FAILURE_001`: internal AI review, blind judging, numerical assessments, drift checks, and Conservation Mode accepted a result that failed immediate human inspection. Those records remain historically useful but cannot prove design quality or unlock implementation.
 
 ## Constitution drift
 
-The complete product remains a truthful, usable hospitality site. It does not fabricate real bookings, availability, reviews, endorsements, history, or integrations.
+The product's engineering, truthfulness, accessibility, and functional behavior remain reusable. The creative and anti-AI objectives are not satisfied according to the authoritative human verdict.
 
-## Design-direction drift
+## Design-direction status
 
-The 12-column register, varied density, factual margins, serif/grotesk roles, documentary study images, square surfaces, and content-led page tempos match The House Register. Home, Rooms, Food, Around, House, Journal, Find Us, and Stay vary their openings by task while sharing one grammar.
+The House Register is HUMAN_REJECTED and no longer locked. It must not be incrementally optimized or used as the parent family for new Challengers.
 
-## Locked-decision conflicts
+## Golden-reference status
 
-None. D-001 and D-002 remain intact.
-
-## Golden-reference deviation
-
-Ten accepted golden references exist. CHALLENGER_001 altered only the Home and Room-detail mobile captures. After unanimous blind preference and passing objective gates, the orchestrator explicitly accepted those two updates. The other eight references stayed byte-identical. Every current capture is now byte-identical to its CHAMPION_001 golden counterpart.
-
-## Champion baseline
-
-`CHAMPION_001` is the protected incumbent. `CHAMPION_000` remains recoverable and its original hashes are preserved. The promoted mutation changes one mobile secondary-text rule and conflicts with no constitution, direction, or LOCKED decision.
+The ten former goldens are preserved as rejected-baseline evidence at tag `human-rejected-baseline-001`. They are not targets for new design work and must not be described as accepted visual memory.
 
 ## Recommendation
 
-ACCEPT. Preserve CHAMPION_001 in Conservation Mode. Require every future isolated Challenger to defeat it through the same objective, blind, Pareto, and drift gates.
+STOP full-site visual work. Research real operating websites in a real browser, create isolated homepage concepts, and require explicit human selection before any direction lock or production integration.

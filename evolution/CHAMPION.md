@@ -1,10 +1,14 @@
 # Champion Registry
 
-Current incumbent: `CHAMPION_001`
+Current incumbent: NONE — explicit human visual approval required
+
+## Human override status
+
+The former `CHAMPION_001` is preserved as `HUMAN_REJECTED_BASELINE_001` at tag `human-rejected-baseline-001`. The human owner rejected its visual family. No pre-approval concept may be called a Champion, and Champion/Challenger visual evolution is suspended until the human owner explicitly approves a rendered replacement direction.
 
 ## CHAMPION_001 — Incumbent
 
-Status: PROTECTED
+Status: HUMAN_REJECTED — preserved historical baseline
 Promoted: 2026-10-04
 Accepted product/visual checkpoint: `75589e05a0ea9ce3deba17a9ab02dfd749316579`
 Protected recovery tag: `champion-001` (complete promotion closeout)

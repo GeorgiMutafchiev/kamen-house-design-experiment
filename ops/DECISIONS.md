@@ -17,7 +17,7 @@ Not allowed:
 Changing stack or adopting a dominant component library without a Class C decision.
 
 ## D-002 — Lock The House Register direction
-Status: LOCKED
+Status: SUPERSEDED — HUMAN_REJECTED_VISUAL_DIRECTION
 Date/Checkpoint: 2026-10-04 / Phase 3
 
 Decision:
@@ -37,7 +37,7 @@ Not allowed:
 Decorative metadata, card-heavy composition, luxury-template styling, or silent replacement of the direction.
 
 ## D-003 — Accept the release-candidate visual memory
-Status: LOCKED
+Status: SUPERSEDED — human visual acceptance withdrawn
 Date/Checkpoint: 2026-10-04 / Phase 7
 
 Decision:
@@ -58,7 +58,7 @@ Not allowed:
 Silent golden replacement, cosmetic churn, or a new visual direction without a Class C decision.
 
 ## D-004 — Enter Conservation Mode
-Status: LOCKED
+Status: SUPERSEDED — exited by human owner override
 Date/Checkpoint: 2026-10-04 / Phase 8
 
 Decision:
@@ -84,7 +84,7 @@ Reopen only for:
 New human direction, severe human feedback, later RED drift, a fundamental usability failure, or strong evidence that the site still appears obviously AI-generated.
 
 ## D-005 — Activate Champion/Challenger governance
-Status: LOCKED
+Status: SUSPENDED — retained only for post-human-approval use
 Date/Checkpoint: 2026-10-04 / Phase 8 addendum activation
 
 Decision:
@@ -100,7 +100,7 @@ Not allowed:
 Changing CHAMPION_000 during baseline capture; silently replacing it; merging effort without evidence; updating goldens without explicit acceptance; mass redesign; treating a tie or ambiguous result as a win; or leaving Conservation Mode merely because a Challenger exists.
 
 ## D-006 — Promote CHALLENGER_001 as CHAMPION_001
-Status: LOCKED
+Status: SUPERSEDED AS VISUAL-QUALITY EVIDENCE — historical technical result preserved
 Date/Checkpoint: 2026-10-04 / first evolution tournament
 
 Decision:
@@ -122,3 +122,22 @@ Generalizing this local result into a typography redesign, changing desktop type
 
 Effect on prior decisions:
 D-002 and D-004 remain unchanged. D-003 still governs the ten-reference visual memory; D-006 explicitly supersedes only the Home and Room-detail mobile image contents recorded for CHAMPION_000.
+
+## D-007 — Human owner rejects the visual direction and imposes an absolute human gate
+Status: LOCKED — HUMAN OWNER OVERRIDE
+Date/Checkpoint: 2026-10-04 / `HUMAN_REJECTED_BASELINE_001`
+
+Decision:
+The House Register and every prior AI-only visual PASS, GREEN status, Champion promotion, design lock, Conservation Mode declaration, anti-AI pass, blind-jury approval, and numerical design-quality claim are invalid as proof of visual quality. The current implementation is preserved as `HUMAN_REJECTED_BASELINE_001`, while design work moves to an isolated homepage-only Design Lab.
+
+Reason:
+The human owner personally reviewed the rendered site and found it generic, visibly AI-generated, aesthetically weak, and not comparable with a professionally art-directed commercial website. The AI evaluation loop approved a result that failed the immediate human design gate; this is recorded as `AI_SELF_EVALUATION_FAILURE_001`.
+
+Required next process:
+Ground discovery in browser-inspected websites of real operating organizations; maintain positive, negative, and validation sets; produce at least six genuinely different homepage concepts in isolation; benchmark them against real professional work; render desktop and mobile finalists; then stop for explicit human choice.
+
+Allowed:
+Preserving and reusing sound engineering, accessibility, content, and functionality; isolated homepage experiments; factual research records; diagnostic AI filtering that never substitutes for human approval.
+
+Not allowed:
+Defending or incrementally optimizing the rejected family; expanding a new design across secondary pages; declaring a direction accepted or locked; entering Conservation Mode; treating an AI score or review as final approval; or resuming Champion/Challenger evolution before explicit human approval.

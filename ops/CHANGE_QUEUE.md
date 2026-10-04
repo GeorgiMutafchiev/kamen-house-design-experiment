@@ -265,3 +265,42 @@ Risk: A · Owner role: Frontend Implementer through isolated Challenger
 
 Validation:
 Unit, lint, build, and 23 Playwright checks passed before and after integration. Twelve width probes showed zero overflow/errors. Page-height deltas stayed below 0.5%. All four blind judges preferred the Challenger and identified no unacceptable regression. Drift is GREEN.
+
+## Human visual reset
+
+### C-018 — Preserve the human-rejected baseline
+Status: ACCEPTED
+
+Problem:
+The human owner rejected the visual direction, while its engineering and evaluation history still need a recoverable reference.
+
+Scope:
+Tag commit `98715a9` as `human-rejected-baseline-001`, preserve the ten screenshots and validation record, and mark former visual approvals as historical rather than authoritative.
+
+Do not modify:
+Application UI, content, routes, production functionality, or the preserved screenshots.
+
+Risk: A · Owner role: Orchestrator
+
+Validation:
+Unit 1/1, lint, build with 28 routes, and Playwright 23/23 passed before reset documentation was introduced.
+
+### C-019 — Establish real-world Design Quality Discovery
+Status: BLOCKED — cloud browser egress unavailable
+
+Problem:
+The prior process allowed AI to generate, judge, approve, and lock a visual direction without a trustworthy external professional anchor.
+
+Scope:
+Create an isolated homepage Design Lab; inspect a substantial real-world corpus in a browser; document positive, negative, and validation sets; create six genuinely distinct homepage concepts; benchmark and render finalists for explicit human selection.
+
+Do not modify:
+The preserved baseline application, secondary pages, production integration, or the human gate.
+
+Risk: C · Owner role: Orchestrator, research specialists, isolated concept implementers, and independent reviewers
+
+Validation:
+Real URLs and inspection evidence; independently inspectable concepts; desktop/mobile renders; concrete comparison records; no direction lock without explicit human approval.
+
+Blocker evidence:
+Playwright using system Chromium returned `net::ERR_TUNNEL_CONNECTION_FAILED` when opening both `https://www.acehotel.com/` and `https://www.aesop.com/`. No site content was available for inspection. Work stops before reference claims or concept generation, as required by the human override.
