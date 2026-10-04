@@ -6,13 +6,13 @@ export default defineConfig({
   workers: 1,
   reporter: "line",
   use: {
-    baseURL: "http://127.0.0.1:3000",
+    baseURL: "http://127.0.0.1:3100",
     trace: "retain-on-failure",
     launchOptions: { executablePath: "/usr/bin/chromium" },
   },
   webServer: {
-    command: "npm run dev",
-    url: "http://127.0.0.1:3000",
+    command: "npm run build && npm run start -- -p 3100",
+    url: "http://127.0.0.1:3100",
     reuseExistingServer: true,
     timeout: 120_000,
   },

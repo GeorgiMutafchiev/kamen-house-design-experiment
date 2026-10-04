@@ -1,24 +1,23 @@
 # Drift Report
 
-Status: GREEN
+Status: GREEN — 2026-10-04 release-candidate visual checkpoint
 
 ## Constitution drift
 
-None observed during bootstrap.
+The complete product remains a truthful, usable hospitality site. It does not fabricate real bookings, availability, reviews, endorsements, history, or integrations.
 
 ## Design-direction drift
 
-No direction is locked yet.
+The 12-column register, varied density, factual margins, serif/grotesk roles, documentary study images, square surfaces, and content-led page tempos match The House Register. Home, Rooms, Food, Around, House, Journal, Find Us, and Stay vary their openings by task while sharing one grammar.
 
 ## Locked-decision conflicts
 
-None.
+None. D-001 and D-002 remain intact.
 
 ## Golden-reference deviation
 
-Golden references do not exist yet.
+Ten accepted golden references exist. The orchestrator explicitly accepted the beneficial hardening deltas after screenshot-only review, replaced the older five references, and added five task-page references. Every current capture is now byte-identical to its golden counterpart.
 
 ## Recommendation
 
-ACCEPT bootstrap scope and continue to research.
-
+ACCEPT. Three consecutive clean reviews confirmed GREEN drift against the unchanged checkpoint. Preserve the release candidate in Conservation Mode.
