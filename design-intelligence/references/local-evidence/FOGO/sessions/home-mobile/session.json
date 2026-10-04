@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "requested_url": "https://fogoislandinn.ca/",
+  "resolved_url": null,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "device_scale_factor": 1,
+  "browser": "chromium",
+  "captured_at": "2026-10-04T14:27:37.375Z",
+  "adapter": "design-intelligence/lib/capture.mjs",
+  "redirects": [],
+  "navigation_status": null,
+  "browser_errors": [
+    "HTTP 503"
+  ],
+  "failed_resources": [
+    {
+      "url": "https://fogoislandinn.ca/",
+      "status": 503
+    }
+  ],
+  "readiness_warnings": [],
+  "interactions": [],
+  "attempts": [],
+  "forced_visibility": false,
+  "status": "VISUAL_CAPTURE_INCOMPLETE"
+}

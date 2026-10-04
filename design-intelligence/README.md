@@ -4,13 +4,13 @@ This is the persistent research layer for the isolated homepage Design Lab. It d
 
 ## Current state
 
-Read `CURRENT_DESIGN_TRUTH.md` first. The protected `HUMAN_REJECTED_BASELINE_001` is present as negative human evidence. There are no owner-approved positive references yet. The prior HTTP 200 site checks are candidate reachability, not completed research. Live HTTPS currently returns a cloud tunnel 503; other adapters remain usable. The synthesis gate is closed because the corpus is genuinely insufficient.
+Read `CURRENT_DESIGN_TRUTH.md` first. The protected `HUMAN_REJECTED_BASELINE_001` is present as negative human evidence. There are no owner-approved positive references yet. The current-run live captures are quarantined under `research/capture-audit-2026-10-04.md`; other adapters remain usable. Live HTTPS again returns a cloud tunnel 503. The synthesis gate is closed because the corpus is genuinely insufficient.
 
 ## Source channels
 
 | Channel | Operational entry | Evidence needed |
 | --- | --- | --- |
-| Real production websites | `capture-live`, then `ingest` annotation and `pattern` | Actual rendered captures, interior/mobile inspection where relevant, observed principle |
+| Real production websites | `capture-live`, then `ingest` annotation and `pattern` | Render-complete desktop/mobile sessions, interior inspection where relevant, observed principle |
 | Curated galleries | `capture-live --source-type curated_gallery` or `adapter-ingest` | Permitted screenshot or retained screen metadata; gallery listing does not prove linked site inspection |
 | Structured database / MCP export | `adapter-ingest` | Permitted screen ID or visual evidence and provenance; no bulk mirroring |
 | Human supplied | `adapter-ingest`, then `feedback` | Owner attachment or URL; owner preference only from explicit feedback |
@@ -20,7 +20,7 @@ See `research/source-adapters.md` for commands and a manifest. No proprietary co
 
 ## Persistence and failure behavior
 
-`research/events.jsonl` is append-only and flushed on every event. Reference records, patterns, owner feedback, and source health use separate event types. Derived JSON files and `CURRENT_DESIGN_TRUTH.md` can be regenerated with `node design-intelligence/cli.mjs refresh`. A sparse reimport merges with previous research instead of deleting captures or human feedback. A failed live capture writes `source.status = unavailable` and leaves earlier captures and other source records intact. Each successful viewport capture is persisted before the next attempt.
+`research/events.jsonl` is append-only and flushed on every event. Reference records, patterns, owner feedback, capture sessions, and source health use separate event types. Derived JSON files and `CURRENT_DESIGN_TRUTH.md` can be regenerated with `node design-intelligence/cli.mjs refresh`. A sparse reimport merges with previous research instead of deleting captures or human feedback. A failed live capture writes `source.status = unavailable` and leaves earlier captures and other source records intact. Each viewport session is persisted before the next attempt. Only render-complete desktop and mobile sessions can qualify a browser reference; incomplete captures cannot influence coverage, owner calibration, holdout evaluation, or concept briefs. See `research/render-complete-capture.md`.
 
 The former baseline's human rejection is event `AI_SELF_EVALUATION_FAILURE_001`. Taste is updated only by explicit `human_owner` feedback with reason and provenance. The model does not infer a liked font or layout from a generic rejection.
 

@@ -16,19 +16,22 @@
         "kind": "rendered_capture",
         "location": "tests/visual/golden/home-1440.png",
         "observed_at": "2026-10-04",
-        "viewport": "desktop"
+        "viewport": "desktop",
+        "qualified_for_visual_research": true
       },
       {
         "kind": "rendered_capture",
         "location": "tests/visual/golden/home-390.png",
         "observed_at": "2026-10-04",
-        "viewport": "mobile"
+        "viewport": "mobile",
+        "qualified_for_visual_research": true
       },
       {
         "kind": "document",
         "location": "design-v2/HUMAN_REJECTED_BASELINE_001.md",
         "observed_at": "2026-10-04",
-        "viewport": "unspecified"
+        "viewport": "unspecified",
+        "qualified_for_visual_research": true
       }
     ],
     "usable_patterns": [],
@@ -37,6 +40,872 @@
     "provenance": {
       "human_override": "HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md",
       "recovery_tag": "human-rejected-baseline-001"
-    }
+    },
+    "capture_status": "NOT_BROWSER_CAPTURED"
+  },
+  {
+    "id": "ACE",
+    "source": "acehotel.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://acehotel.com/",
+    "title": "Ace Hotel | Hotels in North America, Japan, Australia & Greece",
+    "category": "hospitality",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/ACE/home-desktop.png",
+        "observed_at": "2026-10-04T13:59:06.154Z",
+        "viewport": "desktop",
+        "page": "home-desktop",
+        "url": "https://acehotel.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/ACE/home-mobile.png",
+        "observed_at": "2026-10-04T13:59:08.381Z",
+        "viewport": "mobile",
+        "page": "home-mobile",
+        "url": "https://acehotel.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://acehotel.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "VISUAL_CAPTURE_INCOMPLETE"
+  },
+  {
+    "id": "FOGO",
+    "source": "fogoislandinn.ca",
+    "source_type": "live_website",
+    "url_or_external_id": "https://fogoislandinn.ca/",
+    "title": "Fogo Island Inn | All-Inclusive Hospitality & Regenerative Travel",
+    "category": "hospitality",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO/home-desktop.png",
+        "observed_at": "2026-10-04T13:59:13.766Z",
+        "viewport": "desktop",
+        "page": "home-desktop",
+        "url": "https://fogoislandinn.ca/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO/home-mobile.png",
+        "observed_at": "2026-10-04T13:59:17.149Z",
+        "viewport": "mobile",
+        "page": "home-mobile",
+        "url": "https://fogoislandinn.ca/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://fogoislandinn.ca/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "VISUAL_CAPTURE_INCOMPLETE"
+  },
+  {
+    "id": "STJOHN",
+    "source": "stjohnrestaurant.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://stjohnrestaurant.com/",
+    "title": "St. JOHN",
+    "category": "restaurant",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/STJOHN/home-desktop.png",
+        "observed_at": "2026-10-04T13:59:20.813Z",
+        "viewport": "desktop",
+        "page": "home-desktop",
+        "url": "https://stjohnrestaurant.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/STJOHN/home-mobile.png",
+        "observed_at": "2026-10-04T13:59:22.716Z",
+        "viewport": "mobile",
+        "page": "home-mobile",
+        "url": "https://stjohnrestaurant.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://stjohnrestaurant.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "APARTAMENTO",
+    "source": "www.apartamentomagazine.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.apartamentomagazine.com/",
+    "title": "Apartamento – Everyday Interiors Magazine & Publisher",
+    "category": "editorial",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/APARTAMENTO/home-desktop.png",
+        "observed_at": "2026-10-04T13:59:28.056Z",
+        "viewport": "desktop",
+        "page": "home-desktop",
+        "url": "https://www.apartamentomagazine.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/APARTAMENTO/home-mobile.png",
+        "observed_at": "2026-10-04T13:59:30.820Z",
+        "viewport": "mobile",
+        "page": "home-mobile",
+        "url": "https://www.apartamentomagazine.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.apartamentomagazine.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "HECKFIELD",
+    "source": "www.heckfieldplace.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.heckfieldplace.com/",
+    "title": "Heckfield Place | Luxury 5-Star Hotel in Hampshire",
+    "category": "hospitality",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/HECKFIELD/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:01:56.172Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://www.heckfieldplace.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/HECKFIELD/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:01:56.172Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://www.heckfieldplace.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/HECKFIELD/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:01:59.856Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://www.heckfieldplace.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/HECKFIELD/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:01:59.856Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://www.heckfieldplace.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.heckfieldplace.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "CORAZON",
+    "source": "hotelcorazon.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://hotelcorazon.com/",
+    "title": "Hotel Corazón – Home",
+    "category": "hospitality",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CORAZON/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:04.786Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://hotelcorazon.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CORAZON/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:02:04.787Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://hotelcorazon.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CORAZON/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:08.243Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://hotelcorazon.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CORAZON/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:02:08.243Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://hotelcorazon.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": true,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://hotelcorazon.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "DAVIDCHIPPERFIELD",
+    "source": "www.davidchipperfield.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.davidchipperfield.com/",
+    "title": "Home • David Chipperfield Architects",
+    "category": "architecture",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/DAVIDCHIPPERFIELD/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:14.233Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://davidchipperfield.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/DAVIDCHIPPERFIELD/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:02:14.233Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://davidchipperfield.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/DAVIDCHIPPERFIELD/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:18.672Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://davidchipperfield.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/DAVIDCHIPPERFIELD/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:02:18.672Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://davidchipperfield.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.davidchipperfield.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "NOMA",
+    "source": "noma.dk",
+    "source_type": "live_website",
+    "url_or_external_id": "https://noma.dk/",
+    "title": "noma",
+    "category": "restaurant",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NOMA/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:23.449Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://noma.dk/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NOMA/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:02:23.449Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://noma.dk/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NOMA/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:27.283Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://noma.dk/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NOMA/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:02:27.283Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://noma.dk/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://noma.dk/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "FRAMA",
+    "source": "framacph.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://framacph.com/",
+    "title": "FRAMA Official Site - Timeless Design & Honest Materials",
+    "category": "physical_products",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FRAMA/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:33.685Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://framacph.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FRAMA/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:02:33.685Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://framacph.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FRAMA/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:02:38.025Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://framacph.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FRAMA/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:02:38.025Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://framacph.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": true,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://framacph.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "CASABONAY",
+    "source": "casabonay.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://casabonay.com/",
+    "title": "Casa Bonay – Boutique hotel in Barcelona | Official Website",
+    "category": "hospitality",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CASABONAY/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:04:17.522Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://casabonay.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CASABONAY/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:04:17.523Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://casabonay.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CASABONAY/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:04:20.980Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://casabonay.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/CASABONAY/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:04:20.980Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://casabonay.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://casabonay.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "MOROSETA",
+    "source": "www.masseriamoroseta.it",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.masseriamoroseta.it/",
+    "title": "Masseria Moroseta",
+    "category": "hospitality",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/MOROSETA/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:04:30.477Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://www.masseriamoroseta.it/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/MOROSETA/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:04:30.477Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://www.masseriamoroseta.it/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/MOROSETA/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:04:36.490Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://www.masseriamoroseta.it/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/MOROSETA/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:04:36.490Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://www.masseriamoroseta.it/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.masseriamoroseta.it/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "AESOP",
+    "source": "www.aesop.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.aesop.com/",
+    "title": "Aesop USA | Formulations for Skin, Hair & Body",
+    "category": "physical_products",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/AESOP/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:04:47.656Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://www.aesop.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/AESOP/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:04:47.657Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://www.aesop.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/AESOP/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:04:59.657Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://www.aesop.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/AESOP/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:04:59.657Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://www.aesop.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.aesop.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "OMA",
+    "source": "www.oma.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.oma.com/",
+    "title": "OMA",
+    "category": "architecture",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/OMA/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:05:05.402Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://www.oma.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/OMA/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:05:05.403Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://www.oma.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/OMA/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:05:08.832Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://www.oma.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/OMA/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:05:08.832Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://www.oma.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": true,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.oma.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "KINFOLK",
+    "source": "www.kinfolk.com",
+    "source_type": "live_website",
+    "url_or_external_id": "https://www.kinfolk.com/",
+    "title": "Home - Kinfolk",
+    "category": "editorial",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/KINFOLK/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:05:14.873Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://www.kinfolk.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/KINFOLK/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:05:14.873Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://www.kinfolk.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/KINFOLK/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:05:19.214Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://www.kinfolk.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/KINFOLK/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:05:19.214Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://www.kinfolk.com/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": false,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://www.kinfolk.com/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+  },
+  {
+    "id": "BALTIC",
+    "source": "baltic.art",
+    "source_type": "live_website",
+    "url_or_external_id": "https://baltic.art/",
+    "title": "Welcome to Baltic | Baltic Centre for Contemporary Art",
+    "category": "cultural",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/BALTIC/home-desktop-viewport.jpg",
+        "observed_at": "2026-10-04T14:05:24.005Z",
+        "viewport": "desktop",
+        "page": "home-desktop-viewport",
+        "url": "https://baltic.art/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/BALTIC/home-desktop-full.jpg",
+        "observed_at": "2026-10-04T14:05:24.005Z",
+        "viewport": "desktop",
+        "page": "home-desktop-full",
+        "url": "https://baltic.art/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/BALTIC/home-mobile-viewport.jpg",
+        "observed_at": "2026-10-04T14:05:27.967Z",
+        "viewport": "mobile",
+        "page": "home-mobile-viewport",
+        "url": "https://baltic.art/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/BALTIC/home-mobile-full.jpg",
+        "observed_at": "2026-10-04T14:05:27.967Z",
+        "viewport": "mobile",
+        "page": "home-mobile-full",
+        "url": "https://baltic.art/",
+        "status": 200,
+        "qualified_for_visual_research": false
+      }
+    ],
+    "operating_commercial": true,
+    "holdout": true,
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "provenance": {
+      "adapter": "live-browser",
+      "source_url": "https://baltic.art/",
+      "captured_by": "design-intelligence/cli.mjs"
+    },
+    "human_status": "unreviewed",
+    "notes": "",
+    "researched_at": null,
+    "capture_status": "CAPTURE_AUDIT_REQUIRED"
   }
 ]

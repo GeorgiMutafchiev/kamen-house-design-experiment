@@ -1,6 +1,6 @@
 # Current State
 
-Project phase: Design Quality Discovery — resilient research infrastructure complete; evidence collection next
+Project phase: Design Quality Discovery — render-complete capture correction implemented; live corpus quarantined
 Design status: HUMAN_REJECTED; no replacement direction is accepted or locked
 Last recoverable product checkpoint: `HUMAN_REJECTED_BASELINE_001` at `98715a99bf60070cb21b26941fe72c504496ee0c`
 Current branch: `work`
@@ -39,9 +39,9 @@ Isolated concept work remains under `design-lab/`. The persistent research syste
 
 ## Research gate
 
-The owner explicitly replaced the browser-only prerequisite with D-008. The live HTTPS source currently returns HTTP 503, but structured database exports, curated sources when reachable, human-supplied references, and existing local evidence can be ingested independently. Successful records persist before later failures. Initial HTTP 200 reachability is not counted as research. The current synthesis gate is FALSE because no positive reference has sufficient evidence and atomic extraction yet. Exact gaps are in `design-intelligence/CURRENT_DESIGN_TRUTH.md` and `design-intelligence/research/research-coverage.json`.
+The owner explicitly replaced the browser-only prerequisite with D-008, then D-009 tightened visual evidence integrity after Ace Hotel's incomplete screenshot was identified. Fifteen current-run first-party live captures are preserved and quarantined; 13 await render-complete audit and two (Ace and Fogo) failed recapture because HTTPS again returned HTTP 503. They contribute zero positive references or valid holdouts. Structured exports, human-supplied material, and valid local evidence remain usable independently. The synthesis gate is FALSE because the evidence is insufficient. Exact gaps are in `design-intelligence/CURRENT_DESIGN_TRUTH.md` and `design-intelligence/research/research-coverage.json`.
 
-Infrastructure validation: 10/10 unit tests passed, lint passed, production build emitted 28 routes, and the live adapter correctly recorded an actual HTTP 503 without creating a reference. No product UI file changed.
+Capture-correction validation: 13/13 unit/integration tests passed, including local Chromium fixtures; lint passed; production build emitted the same 28 routes. No product UI file changed.
 
 ## Current drift status
 
@@ -49,7 +49,7 @@ HUMAN_REJECTED. The former GREEN report is preserved as evidence of `AI_SELF_EVA
 
 ## Highest-priority next actions
 
-1. Collect 20–30 diverse, evidence-rich references through available adapters; use live Chromium opportunistically when the channel recovers.
+1. Revalidate quarantined first-party captures with render-complete sessions when HTTPS recovers; ingest any independently valid structured or owner-supplied visual evidence meanwhile.
 2. Extract atomic principles with provenance and fill the precise coverage gaps, including mobile and holdout evidence.
 3. When the synthesis gate passes, create isolated directions and six homepage concepts; benchmark and render finalists, then stop for explicit human approval.
 
@@ -65,3 +65,5 @@ HUMAN_REJECTED. The former GREEN report is preserved as evidence of `AI_SELF_EVA
 8. `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md`
 9. `design-intelligence/CURRENT_DESIGN_TRUTH.md`
 10. `design-intelligence/research/source-policy.md`
+11. `design-intelligence/research/render-complete-capture.md`
+12. `design-intelligence/research/capture-audit-2026-10-04.md`

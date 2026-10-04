@@ -13,6 +13,22 @@
       "limits": "No more granular owner preference was supplied; do not attribute specific typography, color, or layout objections to the owner."
     }
   ],
-  "unreviewed_references": [],
+  "unreviewed_references": [
+    "ACE",
+    "FOGO",
+    "STJOHN",
+    "APARTAMENTO",
+    "HECKFIELD",
+    "CORAZON",
+    "DAVIDCHIPPERFIELD",
+    "NOMA",
+    "FRAMA",
+    "CASABONAY",
+    "MOROSETA",
+    "AESOP",
+    "OMA",
+    "KINFOLK",
+    "BALTIC"
+  ],
   "rule": "Only explicit human-owner feedback changes taste. AI judgments are diagnostic."
 }

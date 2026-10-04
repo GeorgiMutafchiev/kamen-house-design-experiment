@@ -275,3 +275,23 @@ INFRASTRUCTURE ACCEPTED; DESIGN SYNTHESIS STILL BLOCKED BY SPECIFIC COVERAGE GAP
 
 Validation:
 10/10 unit tests passed, including a sufficient mixed corpus remaining eligible after a source outage, offline adapter ingest during a browser outage, rejected feedback persistence, holdout filtering, provenance, independent reviewer checks, and concurrent writes. Lint passed. Production build passed with the same 28 routes. A real `capture-live` attempt against `example.com` returned HTTP 503 and recorded only source health, without creating a false reference.
+
+## Iteration 10 — Research capture integrity correction
+
+Starting checkpoint:
+Design Intelligence infrastructure at `8609a55c5c9ac15e3ba9be13b38dc7d4c021452b`.
+
+Owner finding:
+Ace Hotel's first full-page screenshot contained large blank regions and was not reliable evidence of the actual design. The owner supplied a render-complete capture protocol and required quarantine before further broad research.
+
+Actions:
+Captured 15 first-party homepages before the correction, then stopped. All 15 were explicitly quarantined with raw files intact. Added session capture, real progressive scrolling, dynamic-height and asset diagnostics, retry/incomplete states, and gates that exclude questionable evidence from coverage, calibration, holdout review, and concept briefs. Reviewed the old desktop and mobile files; Ace and Fogo recapture attempts returned HTTP 503 on both sizes. The shared tunnel again returned HTTP 503 for unrelated probe domains.
+
+Evidence status:
+0 valid positive references, 13 audit-required references, 2 incomplete recapture references, 0 valid holdouts, and no extracted positive atomic principles. The rejected KAMEN baseline remains negative human evidence. No new design direction exists.
+
+Validation:
+Deterministic local Chromium fixtures and ledger tests passed. Lint and unchanged 28-route production build passed. The production UI was not changed.
+
+Next:
+Use valid alternative visual exports if available, or recapture first-party sites when external access returns. Inspect the complete viewport sessions before promoting any source, then resume gap-directed research and prepare owner taste calibration.

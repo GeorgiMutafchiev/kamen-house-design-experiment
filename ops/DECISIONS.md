@@ -160,3 +160,19 @@ Persisting partial successful inspections, extracting cited atomic principles, u
 
 Not allowed:
 Fabricating live inspections; counting HTTP 200 or metadata as a researched visual reference; treating AI scores as owner preference; designing from an insufficient corpus; copying external sites; or modifying the protected production UI during infrastructure work.
+
+## D-009 — Qualify live research only after render-complete sessions
+Status: LOCKED — OWNER CAPTURE CORRECTION
+Date/Checkpoint: 2026-10-04 / current-run live evidence quarantine
+
+Decision:
+The owner found the prior Ace Hotel full-page capture visually incomplete. All 15 current-run live captures are preserved but quarantined. Desktop and mobile browser evidence must pass real viewport traversal, asset and reveal diagnostics, and explicit `VISUAL_CAPTURE_COMPLETE` session status before contributing to positive research, calibration, holdout review, or synthesis.
+
+Reason:
+Modern scroll-triggered sites can return HTTP 200 and generate a full-page image while important visual sections remain unloaded or hidden. Treating those blanks as design would corrupt the research model.
+
+Allowed:
+Storing raw and corrected sessions side by side; retrying incomplete pages; using other valid source categories during a tunnel outage; reporting precise coverage gaps.
+
+Not allowed:
+Promoting old screenshots on apparent completeness alone, inferring intentional whitespace from a failed render, forcing animations off to manufacture a canonical reference, or modifying production UI during this correction.

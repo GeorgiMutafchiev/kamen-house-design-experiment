@@ -1,0 +1,10 @@
+{
+  "status": "VISUAL_CAPTURE_INCOMPLETE",
+  "error": "HTTP 503",
+  "failed_resources": [
+    {
+      "url": "https://acehotel.com/",
+      "status": 503
+    }
+  ]
+}

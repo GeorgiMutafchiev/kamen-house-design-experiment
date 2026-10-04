@@ -12,15 +12,35 @@ Generated from `research/events.jsonl`. This file reports evidence, not design a
 ## Research channels
 
 Supported: live websites, curated galleries, structured database exports, human-supplied references, and local evidence. Each channel can fail independently. Availability is recorded below.
-- cloud_https_tunnel: unavailable (2026-10-04) — Fresh curl https://example.com/ returned HTTP 503 during Design Intelligence implementation; see design-v2/NETWORK_RESEARCH_BLOCKER.md.
+- cloud_https_tunnel: unavailable (2026-10-04T14:30:29.867Z) — Fresh HEAD probes for example.com, Heckfield Place, and ArchDaily all returned HTTP 503; direct no-proxy HTTPS connection also failed. Previously stored research artifacts remain local.
 - example.com: unavailable (2026-10-04T12:46:05.639Z) — HTTP 503
+- acehotel.com: unavailable (2026-10-04T14:27:36.312Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
+- fogoislandinn.ca: unavailable (2026-10-04T14:27:37.515Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
+- stjohnrestaurant.com: available (2026-10-04T13:59:22.720Z) — HTTP 200
+- www.apartamentomagazine.com: available (2026-10-04T13:59:30.822Z) — HTTP 200
+- www.heckfieldplace.com: available (2026-10-04T14:01:59.858Z) — HTTP 200
+- hotelcorazon.com: available (2026-10-04T14:02:08.245Z) — HTTP 200
+- www.davidchipperfield.com: available (2026-10-04T14:02:18.674Z) — HTTP 200
+- noma.dk: available (2026-10-04T14:02:27.285Z) — HTTP 200
+- framacph.com: available (2026-10-04T14:02:38.028Z) — HTTP 200
+- casabonay.com: available (2026-10-04T14:04:20.984Z) — HTTP 200
+- www.masseriamoroseta.it: available (2026-10-04T14:04:36.492Z) — HTTP 200
+- www.aesop.com: available (2026-10-04T14:04:59.664Z) — HTTP 200
+- www.oma.com: available (2026-10-04T14:05:08.834Z) — HTTP 200
+- www.kinfolk.com: available (2026-10-04T14:05:19.217Z) — HTTP 200
+- baltic.art: available (2026-10-04T14:05:27.969Z) — HTTP 200
 
 ## Evidence and coverage
 
+Browser captures are qualified only by the latest render-complete desktop and mobile sessions. The current-run audit is in research/capture-audit-2026-10-04.md. Raw images without a passing session remain in the ledger but are excluded from positive research, calibration, holdouts, and synthesis.
+
 - Researched non-holdout references: 0.
-- Partial or candidate references: 0.
+- Partial or candidate references: 11.
 - Human-rejected or forbidden references: 1.
 - Researched holdouts: 0.
+- Browser captures awaiting audit: 13.
+- Incomplete browser captures: 2.
+- Render-complete browser references: 0.
 - References with mobile evidence: 0.
 - Operating commercial references: 0.
 - Source types represented: none.

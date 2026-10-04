@@ -324,3 +324,20 @@ Risk: B · Owner role: Orchestrator
 
 Validation:
 Unit and CLI tests for persistence, source failure, coverage, provenance, holdout filtering, human feedback, synthesis gate, independent evaluation, and concurrency; lint and build; source tree comparison.
+
+### C-021 — Correct live visual capture and quarantine unreliable evidence
+Status: ACCEPTED — correction implemented; live revalidation limited by global HTTP 503
+
+Problem:
+The owner found large blank regions in the first Ace Hotel screenshot. HTTP success and a full-page capture were insufficient to establish visual completeness.
+
+Scope:
+Add render-complete visual sessions with progressive bidirectional scrolling, dynamic-height handling, asset/reveal/blank-region diagnostics, retries, explicit status, provenance, and tests. Quarantine and audit every current-run live capture. Keep all raw evidence.
+
+Do not modify:
+Protected product UI or design direction; do not promote incomplete or unaudited images to taste calibration or research coverage.
+
+Risk: B · Owner role: Orchestrator
+
+Validation:
+Deterministic local Chromium fixtures test lazy media, reveal state, growing document height, retries, invalidation, and provenance. All 15 old live captures are quarantined; two new attempts failed with real HTTP 503 and remain incomplete. Coverage remains zero valid positive references.

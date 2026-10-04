@@ -2,13 +2,103 @@
   "cloud_https_tunnel": {
     "source": "cloud_https_tunnel",
     "status": "unavailable",
-    "checked_at": "2026-10-04",
-    "detail": "Fresh curl https://example.com/ returned HTTP 503 during Design Intelligence implementation; see design-v2/NETWORK_RESEARCH_BLOCKER.md."
+    "checked_at": "2026-10-04T14:30:29.867Z",
+    "detail": "Fresh HEAD probes for example.com, Heckfield Place, and ArchDaily all returned HTTP 503; direct no-proxy HTTPS connection also failed. Previously stored research artifacts remain local."
   },
   "example.com": {
     "source": "example.com",
     "status": "unavailable",
     "checked_at": "2026-10-04T12:46:05.639Z",
     "detail": "HTTP 503"
+  },
+  "acehotel.com": {
+    "source": "acehotel.com",
+    "status": "unavailable",
+    "checked_at": "2026-10-04T14:27:36.312Z",
+    "detail": "HTTP no response; VISUAL_CAPTURE_INCOMPLETE"
+  },
+  "fogoislandinn.ca": {
+    "source": "fogoislandinn.ca",
+    "status": "unavailable",
+    "checked_at": "2026-10-04T14:27:37.515Z",
+    "detail": "HTTP no response; VISUAL_CAPTURE_INCOMPLETE"
+  },
+  "stjohnrestaurant.com": {
+    "source": "stjohnrestaurant.com",
+    "status": "available",
+    "checked_at": "2026-10-04T13:59:22.720Z",
+    "detail": "HTTP 200"
+  },
+  "www.apartamentomagazine.com": {
+    "source": "www.apartamentomagazine.com",
+    "status": "available",
+    "checked_at": "2026-10-04T13:59:30.822Z",
+    "detail": "HTTP 200"
+  },
+  "www.heckfieldplace.com": {
+    "source": "www.heckfieldplace.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:01:59.858Z",
+    "detail": "HTTP 200"
+  },
+  "hotelcorazon.com": {
+    "source": "hotelcorazon.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:02:08.245Z",
+    "detail": "HTTP 200"
+  },
+  "www.davidchipperfield.com": {
+    "source": "www.davidchipperfield.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:02:18.674Z",
+    "detail": "HTTP 200"
+  },
+  "noma.dk": {
+    "source": "noma.dk",
+    "status": "available",
+    "checked_at": "2026-10-04T14:02:27.285Z",
+    "detail": "HTTP 200"
+  },
+  "framacph.com": {
+    "source": "framacph.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:02:38.028Z",
+    "detail": "HTTP 200"
+  },
+  "casabonay.com": {
+    "source": "casabonay.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:04:20.984Z",
+    "detail": "HTTP 200"
+  },
+  "www.masseriamoroseta.it": {
+    "source": "www.masseriamoroseta.it",
+    "status": "available",
+    "checked_at": "2026-10-04T14:04:36.492Z",
+    "detail": "HTTP 200"
+  },
+  "www.aesop.com": {
+    "source": "www.aesop.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:04:59.664Z",
+    "detail": "HTTP 200"
+  },
+  "www.oma.com": {
+    "source": "www.oma.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:05:08.834Z",
+    "detail": "HTTP 200"
+  },
+  "www.kinfolk.com": {
+    "source": "www.kinfolk.com",
+    "status": "available",
+    "checked_at": "2026-10-04T14:05:19.217Z",
+    "detail": "HTTP 200"
+  },
+  "baltic.art": {
+    "source": "baltic.art",
+    "status": "available",
+    "checked_at": "2026-10-04T14:05:27.969Z",
+    "detail": "HTTP 200"
   }
 }

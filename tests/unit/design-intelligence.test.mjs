@@ -21,10 +21,28 @@ function reference(id, extras = {}) {
     id, source: extras.source ?? "sample.org", source_type: extras.source_type ?? "live_website",
     url_or_external_id: `https://sample.org/${id}`, title: `Sample ${id}`, category: extras.category ?? "hospitality",
     operating_commercial: true, holdout: extras.holdout ?? false, human_status: "unreviewed",
-    evidence: extras.evidence ?? [{ kind: "rendered_capture", location: `/tmp/${id}.png`, observed_at: "2026-10-04", viewport: "mobile" }],
+    evidence: extras.evidence ?? ["desktop", "mobile"].map(viewport => ({ kind: "rendered_capture", location: `/tmp/${id}-${viewport}.png`, observed_at: "2026-10-04", viewport })),
     researched_at: extras.researched_at === undefined ? "2026-10-04" : extras.researched_at, usable_patterns: [], problematic_patterns: [],
     provenance: { source_record: `fixture-${id}` },
   };
+}
+
+async function appendValidReference(root, id, extras = {}) {
+  const r = reference(id, extras);
+  await appendEvent(root, "reference.upsert", r);
+  if (["live_website", "curated_gallery"].includes(r.source_type)) {
+    for (const viewport of ["desktop", "mobile"]) {
+      await appendEvent(root, "capture.session", {
+        id: `${id}-${viewport}-valid`, reference_id: id, viewport, page: "home",
+        status: "VISUAL_CAPTURE_COMPLETE", requested_url: r.url_or_external_id,
+        resolved_url: r.url_or_external_id, captured_at: "2026-10-04", reason: "fixture traversal passed",
+        traversal_complete: true, forced_visibility: false,
+        session_path: `/tmp/${id}-${viewport}-session.json`, diagnostics_path: `/tmp/${id}-${viewport}-diagnostics.json`,
+        evidence_locations: r.evidence.filter(e => e.viewport === viewport).map(e => e.location),
+      });
+    }
+  }
+  return r;
 }
 
 function pattern(id, referenceIds, extras = {}) {
@@ -37,13 +55,13 @@ function pattern(id, referenceIds, extras = {}) {
 
 test("successful research persists across a source failure and restart", async t => {
   const root = await scratch(t);
-  await appendEvent(root, "reference.upsert", reference("R-1"));
+  await appendValidReference(root, "R-1");
   await appendEvent(root, "pattern.add", pattern("P-1", ["R-1"]));
   await appendEvent(root, "source.status", { source: "sample.org", status: "unavailable", checked_at: "2026-10-04", detail: "HTTP 503" });
   await appendEvent(root, "reference.upsert", reference("R-1", { evidence: [], researched_at: null }));
   const restarted = await readState(root);
   assert.equal(restarted.references.length, 1);
-  assert.equal(restarted.references[0].evidence.length, 1);
+  assert.equal(restarted.references[0].evidence.length, 2);
   assert.equal(restarted.references[0].researched_at, "2026-10-04");
   assert.equal(restarted.patterns.length, 1);
   assert.equal(restarted.sources["sample.org"].status, "unavailable");
@@ -107,8 +125,8 @@ test("explicit human rejection persists and import cannot overwrite it", async t
 
 test("atomic patterns require provenance and holdouts stay out of concept briefs", async t => {
   const root = await scratch(t);
-  await appendEvent(root, "reference.upsert", reference("R-1"));
-  await appendEvent(root, "reference.upsert", reference("H-1", { holdout: true }));
+  await appendValidReference(root, "R-1");
+  await appendValidReference(root, "H-1", { holdout: true });
   await assert.rejects(appendEvent(root, "pattern.add", pattern("BAD", ["missing"])), /unknown reference/);
   await appendEvent(root, "pattern.add", pattern("P-1", ["R-1"]));
   await appendEvent(root, "pattern.add", pattern("H-P-1", ["H-1"]));
@@ -121,7 +139,7 @@ test("atomic patterns require provenance and holdouts stay out of concept briefs
 
 test("coverage is gap-directed and synthesis refuses a small homogeneous corpus", async t => {
   const root = await scratch(t);
-  await appendEvent(root, "reference.upsert", reference("R-1"));
+  await appendValidReference(root, "R-1");
   await appendEvent(root, "pattern.add", pattern("P-1", ["R-1"]));
   const state = await readState(root);
   const coverage = computeCoverage(state);
@@ -145,10 +163,10 @@ test("sufficient mixed evidence survives a live channel outage", async t => {
   const categories = ["hospitality", "restaurant", "architecture", "premium consumer"];
   for (let index = 0; index < 24; index++) {
     const id = index < 20 ? `R-${index}` : `H-${index}`;
-    await appendEvent(root, "reference.upsert", reference(id, {
+    await appendValidReference(root, id, {
       source_type: types[index % types.length], source: `source-${index % types.length}`,
       category: categories[index % categories.length], holdout: index >= 20,
-    }));
+    });
     await appendEvent(root, "pattern.add", pattern(`P-${index}`, [id]));
   }
   for (const dimension of dimensions.filter(d => d !== "typography")) {
@@ -172,8 +190,8 @@ test("sufficient mixed evidence survives a live channel outage", async t => {
 
 test("direction provenance, distinct grammar, and independent rendered evaluation are enforced", async t => {
   const root = await scratch(t);
-  await appendEvent(root, "reference.upsert", reference("R-1"));
-  await appendEvent(root, "reference.upsert", reference("H-1", { holdout: true }));
+  await appendValidReference(root, "R-1");
+  await appendValidReference(root, "H-1", { holdout: true });
   await appendEvent(root, "pattern.add", pattern("P-1", ["R-1"]));
   await appendEvent(root, "pattern.add", pattern("H-P-1", ["H-1"]));
   await appendEvent(root, "pattern.add", pattern("AVOID-1", ["R-1"], { polarity: "avoid" }));
@@ -205,6 +223,12 @@ test("direction provenance, distinct grammar, and independent rendered evaluatio
   }
   assert.equal(candidateReview(state, "D-A").filter_passed, false);
   state.evaluations[0].verdict = "filter_pass";
+  assert.equal(candidateReview(state, "D-A").filter_passed, false, "one holdout is not a valid jury set");
+  for (let i = 2; i <= 4; i++) {
+    state.references.push(reference(`H-${i}`, { holdout: true, source_type: "local_evidence",
+      evidence: [{ kind: "human_attachment", location: `/tmp/H-${i}.png`, observed_at: "2026-10-04", viewport: "mobile" }] }));
+    state.patterns.push(pattern(`H-P-${i}`, [`H-${i}`]));
+  }
   assert.equal(candidateReview(state, "D-A").filter_passed, true);
   assert.equal(candidateReview(state, "D-A").human_approved, false);
 });

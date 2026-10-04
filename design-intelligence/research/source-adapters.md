@@ -8,7 +8,7 @@ node design-intelligence/cli.mjs refresh
 
 ## Live production website or curated gallery
 
-`capture-live` opens real pages in Chromium and persists each successful desktop/mobile capture before moving to the next view. An interior URL adds two more captures. A later failure marks only the source unavailable; earlier captures remain in the event log and on disk. Captures alone do not make a reference researched. Add an observed pattern and date after inspecting them.
+`capture-live` opens real pages in Chromium and runs the render-complete visual session described in `render-complete-capture.md`. Each desktop/mobile session is persisted before moving to the next view. An interior URL adds two more sessions. A later failure marks only that source unavailable; earlier files and events remain. A screenshot alone does not make a reference researched. Inspect valid sessions, then add an observed pattern and date. Optional `--dismiss-selector 'button.example'` logs a real consent/modal click after the natural initial state is captured.
 
 ```bash
 node design-intelligence/cli.mjs capture-live --id R-001 --url https://example.org/ --interior https://example.org/about/ --category hospitality --commercial
@@ -58,5 +58,7 @@ node design-intelligence/cli.mjs adapter-ingest /path/to/manifest.json
 ```
 
 `ingest` accepts already normalized ledger records. `pattern` accepts an atomic pattern JSON record. `feedback` accepts explicit human owner feedback. `source-status` records a channel's health. `gate` reports exact missing knowledge and returns exit code 2 while synthesis is blocked. `export-concept-brief` writes a holdout-filtered brief for an isolated concept producer.
+
+`capture-audit` imports explicit session status events. `export-calibration` writes only researched, render-complete, non-holdout references and strips quarantined browser artifacts. Inspect the session's viewport images and diagnostics before asking the owner for taste feedback.
 
 Use `--root /tmp/test-design-intelligence` for scratch runs or tests. The production UI is never a command target.

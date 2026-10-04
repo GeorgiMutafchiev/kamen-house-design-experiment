@@ -14,7 +14,8 @@ export const sourceTypes = [
 
 export const humanStatuses = ["unreviewed", "approved", "liked", "neutral", "rejected", "forbidden"];
 export const feedbackStatuses = ["approved", "partially_approved", "rejected"];
-const eventTypes = new Set(["reference.upsert", "pattern.add", "feedback.add", "source.status", "direction.add", "evaluation.add"]);
+const eventTypes = new Set(["reference.upsert", "pattern.add", "feedback.add", "source.status", "direction.add", "evaluation.add", "capture.session"]);
+export const captureStatuses = ["CAPTURE_AUDIT_REQUIRED", "VISUAL_CAPTURE_COMPLETE", "VISUAL_CAPTURE_INCOMPLETE"];
 
 function object(value, label) {
   if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error(`${label} must be an object`);
@@ -92,7 +93,7 @@ export function validateFeedback(input) {
 }
 
 export function emptyState() {
-  return { references: [], patterns: [], feedback: [], sources: {}, directions: [], evaluations: [] };
+  return { references: [], patterns: [], feedback: [], sources: {}, directions: [], evaluations: [], capture_sessions: [] };
 }
 
 export function applyEvent(state, event) {
@@ -138,6 +139,29 @@ export function applyEvent(state, event) {
     required(data.source, "source.status.source");
     if (!["available", "unavailable", "unknown"].includes(data.status)) throw new Error("invalid source status");
     state.sources[data.source] = data;
+  } else if (event.type === "capture.session") {
+    object(data, "capture.session");
+    required(data.id, "capture.session.id");
+    required(data.reference_id, "capture.session.reference_id");
+    if (!state.references.some(r => r.id === data.reference_id)) throw new Error("capture session reference is unknown");
+    if (!["desktop", "laptop", "mobile"].includes(data.viewport)) throw new Error("invalid capture viewport");
+    if (!captureStatuses.includes(data.status)) throw new Error("invalid capture status");
+    required(data.page, "capture.session.page");
+    required(data.requested_url, "capture.session.requested_url");
+    required(data.captured_at, "capture.session.captured_at");
+    required(data.reason, "capture.session.reason");
+    if (data.status === "VISUAL_CAPTURE_COMPLETE") {
+      required(data.resolved_url, "capture.session.resolved_url");
+      required(data.session_path, "capture.session.session_path");
+      required(data.diagnostics_path, "capture.session.diagnostics_path");
+      if (data.traversal_complete !== true || data.forced_visibility === true) throw new Error("complete capture requires faithful traversal");
+      if (!Array.isArray(data.evidence_locations) || !data.evidence_locations.length ||
+        data.evidence_locations.some(location => !state.references.find(r => r.id === data.reference_id)?.evidence.some(e => e.kind === "rendered_capture" && e.location === location))) {
+        throw new Error("complete capture requires stored rendered evidence for this reference");
+      }
+    }
+    if (state.capture_sessions.some(s => s.id === data.id)) throw new Error(`duplicate capture session: ${data.id}`);
+    state.capture_sessions.push(data);
   } else if (event.type === "direction.add") {
     validateDirection(data, state);
     if (state.directions.some(x => x.id === data.id)) throw new Error(`duplicate direction: ${data.id}`);
@@ -244,12 +268,43 @@ export async function saveJson(path, value) {
 export function referenceIsResearched(r, state) {
   if (!r.researched_at || r.holdout) return false;
   if (r.human_status === "rejected" || r.human_status === "forbidden") return false;
+  if (!visualEvidenceValid(r, state)) return false;
   return hasVisualEvidence(r) &&
-    state.patterns.some(p => p.polarity === "usable" && p.reference_ids.includes(r.id));
+    state.patterns.some(p => p.polarity === "usable" && p.reference_ids.includes(r.id) &&
+      p.reference_ids.every(id => visualEvidenceValid(state.references.find(ref => ref.id === id), state)));
 }
 
 function hasVisualEvidence(r) {
   return r.evidence.some(e => e.kind === "rendered_capture" || e.kind === "human_attachment" || e.kind === "structured_screen");
+}
+
+export function captureStatus(r, state) {
+  if (!r || !["live_website", "curated_gallery"].includes(r.source_type) ||
+    !r.evidence.some(e => e.kind === "rendered_capture")) return "NOT_BROWSER_CAPTURED";
+  const sessions = state.capture_sessions.filter(s => s.reference_id === r.id && s.page === "home");
+  const latest = viewport => sessions.filter(s => s.viewport === viewport).at(-1);
+  const desktop = latest("desktop");
+  const mobile = latest("mobile");
+  if ([desktop, mobile].some(s => s?.status === "VISUAL_CAPTURE_INCOMPLETE")) return "VISUAL_CAPTURE_INCOMPLETE";
+  if (desktop?.status === "VISUAL_CAPTURE_COMPLETE" && mobile?.status === "VISUAL_CAPTURE_COMPLETE") return "VISUAL_CAPTURE_COMPLETE";
+  return "CAPTURE_AUDIT_REQUIRED";
+}
+
+export function visualEvidenceValid(r, state) {
+  if (!r) return false;
+  if (["live_website", "curated_gallery"].includes(r.source_type) &&
+    r.evidence.some(e => e.kind === "rendered_capture")) return captureStatus(r, state) === "VISUAL_CAPTURE_COMPLETE";
+  return hasVisualEvidence(r);
+}
+
+export function qualifiedEvidence(r, state) {
+  if (!["live_website", "curated_gallery"].includes(r.source_type) ||
+    !r.evidence.some(e => e.kind === "rendered_capture")) return r.evidence;
+  const sessions = state.capture_sessions.filter(s => s.reference_id === r.id && s.page === "home");
+  const latest = ["desktop", "mobile"].map(viewport => sessions.filter(s => s.viewport === viewport).at(-1));
+  if (latest.some(s => s?.status !== "VISUAL_CAPTURE_COMPLETE")) return [];
+  const locations = new Set(latest.flatMap(s => s.evidence_locations ?? []));
+  return r.evidence.filter(e => locations.has(e.location));
 }
 
 export function computeCoverage(state) {
@@ -265,10 +320,11 @@ export function computeCoverage(state) {
   }
   const types = unique(researched.map(r => r.source_type));
   const categories = unique(researched.map(r => r.category));
-  const mobile = researched.filter(r => r.evidence.some(e => e.viewport === "mobile")).length;
+  const mobile = researched.filter(r => r.evidence.some(e => e.viewport === "mobile") && visualEvidenceValid(r, state)).length;
   const commercial = researched.filter(r => r.operating_commercial).length;
-  const holdouts = state.references.filter(r => r.holdout && r.researched_at && hasVisualEvidence(r) &&
-    state.patterns.some(p => p.polarity === "usable" && p.reference_ids.includes(r.id)));
+  const holdouts = state.references.filter(r => r.holdout && r.researched_at && visualEvidenceValid(r, state) &&
+    state.patterns.some(p => p.polarity === "usable" && p.reference_ids.includes(r.id) &&
+      p.reference_ids.every(id => visualEvidenceValid(state.references.find(ref => ref.id === id), state))));
   const gaps = dimensions.filter(d => !["medium", "high"].includes(byDimension[d].confidence));
   const synthesis_ready = researched.length >= 20 && types.length >= 3 && categories.length >= 4 &&
     commercial / researched.length >= 0.7 && mobile >= 8 && holdouts.length >= 4 && gaps.length === 0;
@@ -279,6 +335,9 @@ export function computeCoverage(state) {
       partial_or_candidate: state.references.filter(r => !r.holdout && !["rejected", "forbidden"].includes(r.human_status) && !researched.includes(r)).length,
       rejected: state.references.filter(r => ["rejected", "forbidden"].includes(r.human_status)).length,
       holdout: holdouts.length, mobile, operating_commercial: commercial,
+      capture_audit_required: state.references.filter(r => captureStatus(r, state) === "CAPTURE_AUDIT_REQUIRED").length,
+      capture_incomplete: state.references.filter(r => captureStatus(r, state) === "VISUAL_CAPTURE_INCOMPLETE").length,
+      capture_complete: state.references.filter(r => captureStatus(r, state) === "VISUAL_CAPTURE_COMPLETE").length,
     },
     source_types: types, categories, dimensions: byDimension, unresolved_gaps: gaps,
     synthesis_ready,
@@ -301,13 +360,20 @@ export function nextResearchTasks(coverage) {
 }
 
 export function publicConceptEvidence(state) {
-  const references = state.references.filter(r => !r.holdout);
+  const references = state.references.filter(r => !r.holdout &&
+    (referenceIsResearched(r, state) || (r.source_type === "local_evidence" && r.human_status === "rejected")))
+    .map(r => ({ ...r, evidence: qualifiedEvidence(r, state) }));
   const ids = new Set(references.map(r => r.id));
   return {
     references,
     patterns: state.patterns.filter(p => p.reference_ids.every(id => ids.has(id))),
     feedback: state.feedback.filter(f => ids.has(f.subject_id) || f.subject_id === "HUMAN_REJECTED_BASELINE_001"),
   };
+}
+
+export function calibrationCandidates(state) {
+  return state.references.filter(r => !r.holdout && referenceIsResearched(r, state))
+    .map(r => ({ ...r, evidence: qualifiedEvidence(r, state) }));
 }
 
 export function tasteModel(state) {
@@ -324,10 +390,12 @@ export function candidateReview(state, directionId) {
   const roles = unique(reviews.map(e => e.role));
   const reviewers = unique(reviews.map(e => e.reviewer));
   const hasHoldout = roles.includes("holdout");
+  const validHoldoutSet = computeCoverage(state).counts.holdout >= 4;
   const human = state.feedback.filter(f => f.subject_id === directionId && f.by === "human_owner").at(-1);
   return {
     direction_id: directionId, independent_review_count: reviewers.length, reviewer_roles: roles,
-    holdout_reviewed: hasHoldout, filter_passed: reviewers.length >= 4 && roles.length >= 4 && hasHoldout && reviews.every(e => e.verdict === "filter_pass"),
+    holdout_reviewed: hasHoldout, valid_holdout_set: validHoldoutSet,
+    filter_passed: reviewers.length >= 4 && roles.length >= 4 && hasHoldout && validHoldoutSet && reviews.every(e => e.verdict === "filter_pass"),
     human_status: human?.status ?? "unreviewed", human_approved: human?.status === "approved",
   };
 }
@@ -354,10 +422,15 @@ ${sourceLines.length ? sourceLines.join("\n") : "- No live source has been check
 
 ## Evidence and coverage
 
+Browser captures are qualified only by the latest render-complete desktop and mobile sessions. The current-run audit is in research/capture-audit-2026-10-04.md. Raw images without a passing session remain in the ledger but are excluded from positive research, calibration, holdouts, and synthesis.
+
 - Researched non-holdout references: ${coverage.counts.researched}.
 - Partial or candidate references: ${coverage.counts.partial_or_candidate}.
 - Human-rejected or forbidden references: ${coverage.counts.rejected}.
 - Researched holdouts: ${coverage.counts.holdout}.
+- Browser captures awaiting audit: ${coverage.counts.capture_audit_required}.
+- Incomplete browser captures: ${coverage.counts.capture_incomplete}.
+- Render-complete browser references: ${coverage.counts.capture_complete}.
 - References with mobile evidence: ${coverage.counts.mobile}.
 - Operating commercial references: ${coverage.counts.operating_commercial}.
 - Source types represented: ${coverage.source_types.join(", ") || "none"}.
@@ -395,7 +468,11 @@ export async function refreshDerived(root) {
   const state = await readState(root);
   const coverage = computeCoverage(state);
   await Promise.all([
-    saveJson(join(root, "research", "reference-ledger.json"), state.references),
+    saveJson(join(root, "research", "reference-ledger.json"), state.references.map(r => ({ ...r,
+      capture_status: captureStatus(r, state),
+      evidence: r.evidence.map(e => ({ ...e, qualified_for_visual_research: qualifiedEvidence(r, state).some(x => x.location === e.location) })),
+    }))),
+    saveJson(join(root, "research", "capture-sessions.json"), state.capture_sessions),
     saveJson(join(root, "research", "research-coverage.json"), coverage),
     saveJson(join(root, "taste", "feedback-ledger.json"), state.feedback),
     saveJson(join(root, "taste", "taste-profile.json"), tasteModel(state)),

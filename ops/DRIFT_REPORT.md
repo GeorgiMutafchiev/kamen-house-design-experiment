@@ -29,3 +29,7 @@ STOP full-site visual work. Research real operating websites in a real browser, 
 ## Research architecture update
 
 D-008 supersedes the browser-only prerequisite. The Design Intelligence layer now accepts other proven source channels and preserves completed research through live-network failure. Design synthesis remains blocked by actual coverage gaps, and the protected product UI remains unchanged. Human selection remains mandatory.
+
+## Capture integrity update
+
+D-009 quarantines all 15 current-run browser captures. Two failed render-complete recaptures are marked incomplete; the other 13 await audit. No browser screenshot or derived principle from this run contributes to positive coverage, owner calibration, holdout evaluation, or synthesis. Raw provenance is preserved. The research deficit is explicit rather than hidden by a false visual pass.
