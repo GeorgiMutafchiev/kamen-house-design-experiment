@@ -25,3 +25,7 @@ The ten former goldens are preserved as rejected-baseline evidence at tag `human
 ## Recommendation
 
 STOP full-site visual work. Research real operating websites in a real browser, create isolated homepage concepts, and require explicit human selection before any direction lock or production integration.
+
+## Research architecture update
+
+D-008 supersedes the browser-only prerequisite. The Design Intelligence layer now accepts other proven source channels and preserves completed research through live-network failure. Design synthesis remains blocked by actual coverage gaps, and the protected product UI remains unchanged. Human selection remains mandatory.

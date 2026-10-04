@@ -1,0 +1,14 @@
+{
+  "cloud_https_tunnel": {
+    "source": "cloud_https_tunnel",
+    "status": "unavailable",
+    "checked_at": "2026-10-04",
+    "detail": "Fresh curl https://example.com/ returned HTTP 503 during Design Intelligence implementation; see design-v2/NETWORK_RESEARCH_BLOCKER.md."
+  },
+  "example.com": {
+    "source": "example.com",
+    "status": "unavailable",
+    "checked_at": "2026-10-04T12:46:05.639Z",
+    "detail": "HTTP 503"
+  }
+}

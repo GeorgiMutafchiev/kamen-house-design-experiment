@@ -286,7 +286,7 @@ Validation:
 Unit 1/1, lint, build with 28 routes, and Playwright 23/23 passed before reset documentation was introduced.
 
 ### C-019 — Establish real-world Design Quality Discovery
-Status: BLOCKED — shared cloud HTTPS tunnel returns global 503
+Status: ACTIVE — live-web channel unavailable; other evidence channels now supported
 
 Problem:
 The prior process allowed AI to generate, judge, approve, and lock a visual direction without a trustworthy external professional anchor.
@@ -304,3 +304,23 @@ Real URLs and inspection evidence; independently inspectable concepts; desktop/m
 
 Blocker evidence:
 Internet reachability briefly succeeded after scoped trust of the exact environment proxy CA. During deeper inspection the shared `cloudflare_https_tunnel` began returning HTTP 503 for every destination, including `example.com`, through both Chromium and `curl`. Concurrency was removed and fresh serialized sessions still failed. Work stops before reference claims or concept generation, as required by the human override.
+
+Owner update:
+D-008 supersedes the live-browser prerequisite. The recorded 503 still blocks live inspection, but not structured, human-supplied, or local research. Concept generation remains blocked by actual evidence gaps in `design-intelligence/research/research-coverage.json`.
+
+### C-020 — Build resilient Design Intelligence infrastructure
+Status: ACCEPTED — infrastructure only
+
+Problem:
+The browser-only research gate could halt all discovery when one cloud tunnel failed, and prior successful research lacked a durable, queryable architecture.
+
+Scope:
+Add an append-only reference/provenance ledger, five source adapters, human taste feedback, atomic patterns, staged coverage and synthesis gate, holdout-filtered concept brief, independent rendered review records, network-failure isolation, and tests.
+
+Do not modify:
+Protected production UI, existing product assets, prior checkpoint tags, or the human design gate.
+
+Risk: B · Owner role: Orchestrator
+
+Validation:
+Unit and CLI tests for persistence, source failure, coverage, provenance, holdout filtering, human feedback, synthesis gate, independent evaluation, and concurrency; lint and build; source tree comparison.

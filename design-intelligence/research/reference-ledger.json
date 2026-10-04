@@ -1,0 +1,42 @@
+[
+  {
+    "id": "HUMAN_REJECTED_BASELINE_001",
+    "source": "KAMEN HOUSE protected checkpoint",
+    "source_type": "local_evidence",
+    "url_or_external_id": "git:98715a99bf60070cb21b26941fe72c504496ee0c",
+    "title": "The House Register baseline",
+    "category": "hospitality",
+    "operating_commercial": false,
+    "holdout": false,
+    "human_status": "rejected",
+    "researched_at": "2026-10-04",
+    "why_selected": "Preserve the human-rejected site as negative evidence",
+    "evidence": [
+      {
+        "kind": "rendered_capture",
+        "location": "tests/visual/golden/home-1440.png",
+        "observed_at": "2026-10-04",
+        "viewport": "desktop"
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "tests/visual/golden/home-390.png",
+        "observed_at": "2026-10-04",
+        "viewport": "mobile"
+      },
+      {
+        "kind": "document",
+        "location": "design-v2/HUMAN_REJECTED_BASELINE_001.md",
+        "observed_at": "2026-10-04",
+        "viewport": "unspecified"
+      }
+    ],
+    "usable_patterns": [],
+    "problematic_patterns": [],
+    "notes": "Technical functionality may be reused. Human verdict rejects the visual direction; do not infer specific disliked properties beyond recorded feedback.",
+    "provenance": {
+      "human_override": "HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md",
+      "recovery_tag": "human-rejected-baseline-001"
+    }
+  }
+]

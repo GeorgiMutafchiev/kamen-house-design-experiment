@@ -1,0 +1,16 @@
+{
+  "status": "reachability_only_not_researched",
+  "note": "These URLs returned HTTP 200 in an earlier cloud session. No complete desktop/mobile/interior inspection was recorded. They contribute zero positive research coverage until evidence is added.",
+  "candidates": [
+    { "url": "https://acehotel.com/", "category": "hospitality" },
+    { "url": "https://www.aesop.com/", "category": "premium consumer" },
+    { "url": "https://www.heckfieldplace.com/", "category": "hospitality" },
+    { "url": "https://fogoislandinn.ca/", "category": "hospitality" },
+    { "url": "https://hotelcorazon.com/", "category": "hospitality" },
+    { "url": "https://www.masseriamoroseta.it/", "category": "hospitality" },
+    { "url": "https://www.villa-lena.it/", "category": "hospitality" },
+    { "url": "https://casabonay.com/", "category": "hospitality" },
+    { "url": "https://www.hotelsinnombre.com/", "category": "hospitality" },
+    { "url": "https://thecalilehotel.com/", "category": "hospitality" }
+  ]
+}

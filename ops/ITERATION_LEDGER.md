@@ -255,3 +255,23 @@ BLOCKED. System Chromium returned `net::ERR_TUNNEL_CONNECTION_FAILED` for both `
 
 Internet retry:
 After the owner enabled access, scoped trust of the exact environment proxy CA allowed real Chromium HTTP 200 responses for Ace Hotel, Aesop, and eight hospitality homepages. The shared `cloudflare_https_tunnel` then degraded to a global HTTP 503 for every destination, reproduced by both `curl` and fresh Chromium against `example.com` after all concurrent researchers were paused. Initial reachability was not promoted into incomplete design claims; the corpus and concepts remain unstarted.
+
+## Iteration 9 — Resilient Design Intelligence infrastructure
+
+Starting checkpoint:
+`4052280`, with `HUMAN_REJECTED_BASELINE_001` protected at `98715a9`.
+
+Owner instruction:
+Replace the browser-only prerequisite with an evidence-based multi-source research layer. Keep the human visual gate and protected product intact.
+
+Changes:
+Added an append-only source/reference/pattern/feedback event log, five source adapters, immediate live-capture persistence, derived ledgers, coverage and staged gate, holdout-filtered concept brief, direction provenance and difference validation, independent rendered evaluation records, current design truth, and focused tests.
+
+Evidence status:
+The rejected baseline is recorded as negative human evidence. Earlier HTTP 200 checks remain candidate reachability only. The live HTTPS channel still returns HTTP 503. No positive external reference or new direction is claimed.
+
+Outcome:
+INFRASTRUCTURE ACCEPTED; DESIGN SYNTHESIS STILL BLOCKED BY SPECIFIC COVERAGE GAPS, not network state alone.
+
+Validation:
+10/10 unit tests passed, including a sufficient mixed corpus remaining eligible after a source outage, offline adapter ingest during a browser outage, rejected feedback persistence, holdout filtering, provenance, independent reviewer checks, and concurrent writes. Lint passed. Production build passed with the same 28 routes. A real `capture-live` attempt against `example.com` returned HTTP 503 and recorded only source health, without creating a false reference.

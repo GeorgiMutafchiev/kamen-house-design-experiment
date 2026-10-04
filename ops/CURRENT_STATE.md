@@ -1,12 +1,13 @@
 # Current State
 
-Project phase: Design Quality Discovery — human-directed visual reset
+Project phase: Design Quality Discovery — resilient research infrastructure complete; evidence collection next
 Design status: HUMAN_REJECTED; no replacement direction is accepted or locked
 Last recoverable product checkpoint: `HUMAN_REJECTED_BASELINE_001` at `98715a99bf60070cb21b26941fe72c504496ee0c`
 Current branch: `work`
 Run command: `npm run dev`
 Test command: `npm test && npm run lint && npm run build && npm run test:e2e`
 Browser/screenshot command: `npm run screenshots`
+Design research commands: `node design-intelligence/cli.mjs refresh` and `node design-intelligence/cli.mjs gate`
 
 ## Human verdict
 
@@ -34,11 +35,13 @@ Homepage/design laboratory only. Secondary pages, full-site redesign, production
 
 ## Design Lab
 
-Isolated work lives under `design-lab/`. Research and new visual evidence live under `design-v2/`. Concepts must remain independently inspectable and must not overwrite the preserved site.
+Isolated concept work remains under `design-lab/`. The persistent research system is `design-intelligence/`; its event log is authoritative and its derived coverage and `CURRENT_DESIGN_TRUTH.md` explain exactly what is known. Concepts must remain independently inspectable and must not overwrite the preserved site.
 
 ## Research gate
 
-BLOCKED. After Internet was enabled, Chromium loaded Ace Hotel, Aesop, and eight hospitality homepages with HTTP 200 using a scoped trust pin for the exact environment proxy CA. During deeper inspection, the shared `cloudflare_https_tunnel` began returning HTTP 503 for every destination, including `example.com`, through both Chromium and system `curl`. Initial reachability is not counted as completed reference inspection. Discovery remains paused before corpus creation and concept generation; imagined references are prohibited. See `design-v2/NETWORK_RESEARCH_BLOCKER.md`.
+The owner explicitly replaced the browser-only prerequisite with D-008. The live HTTPS source currently returns HTTP 503, but structured database exports, curated sources when reachable, human-supplied references, and existing local evidence can be ingested independently. Successful records persist before later failures. Initial HTTP 200 reachability is not counted as research. The current synthesis gate is FALSE because no positive reference has sufficient evidence and atomic extraction yet. Exact gaps are in `design-intelligence/CURRENT_DESIGN_TRUTH.md` and `design-intelligence/research/research-coverage.json`.
+
+Infrastructure validation: 10/10 unit tests passed, lint passed, production build emitted 28 routes, and the live adapter correctly recorded an actual HTTP 503 without creating a reference. No product UI file changed.
 
 ## Current drift status
 
@@ -46,9 +49,9 @@ HUMAN_REJECTED. The former GREEN report is preserved as evidence of `AI_SELF_EVA
 
 ## Highest-priority next actions
 
-1. Resume in an environment whose Chromium can open external professional reference sites.
-2. Assemble positive, negative, and holdout sets only from actually inspected pages and viewports.
-3. Then build six isolated homepage concepts, benchmark them, render surviving desktop/mobile candidates, and stop for the human gate.
+1. Collect 20–30 diverse, evidence-rich references through available adapters; use live Chromium opportunistically when the channel recovers.
+2. Extract atomic principles with provenance and fill the precise coverage gaps, including mobile and holdout evidence.
+3. When the synthesis gate passes, create isolated directions and six homepage concepts; benchmark and render finalists, then stop for explicit human approval.
 
 ## Files to read before continuing
 
@@ -60,3 +63,5 @@ HUMAN_REJECTED. The former GREEN report is preserved as evidence of `AI_SELF_EVA
 6. `design-v2/HUMAN_REJECTED_BASELINE_001.md`
 7. `design-lab/README.md`
 8. `KAMEN_CHAMPION_CHALLENGER_PROTOCOL.md`
+9. `design-intelligence/CURRENT_DESIGN_TRUTH.md`
+10. `design-intelligence/research/source-policy.md`

@@ -141,3 +141,22 @@ Preserving and reusing sound engineering, accessibility, content, and functional
 
 Not allowed:
 Defending or incrementally optimizing the rejected family; expanding a new design across secondary pages; declaring a direction accepted or locked; entering Conservation Mode; treating an AI score or review as final approval; or resuming Champion/Challenger evolution before explicit human approval.
+
+Supersession note:
+D-008 later changes only the rule that successful live-browser inspection is mandatory before any Design Lab research. The human visual gate and prohibition on unsupported synthesis remain in force.
+
+## D-008 — Use resilient Design Intelligence research sources
+Status: LOCKED — HUMAN OWNER INSTRUCTION
+Date/Checkpoint: 2026-10-04 / Design Intelligence infrastructure
+
+Decision:
+Live browser availability is no longer a mandatory prerequisite for all Design Lab research. The Design Intelligence layer accepts independently proven live, curated, structured, human-supplied, and local evidence. Completed work is appended durably; each source can fail independently. Isolated design synthesis still requires sufficient accumulated evidence and human approval remains the absolute visual gate.
+
+Reason:
+The shared HTTPS tunnel failed globally after initial successful live access. The owner explicitly superseded the earlier browser-only stop rule and requested resilient research infrastructure.
+
+Allowed:
+Persisting partial successful inspections, extracting cited atomic principles, using alternative permitted source adapters, calculating coverage and exact gaps, and preparing independent rendered evaluation with a holdout set.
+
+Not allowed:
+Fabricating live inspections; counting HTTP 200 or metadata as a researched visual reference; treating AI scores as owner preference; designing from an insufficient corpus; copying external sites; or modifying the protected production UI during infrastructure work.

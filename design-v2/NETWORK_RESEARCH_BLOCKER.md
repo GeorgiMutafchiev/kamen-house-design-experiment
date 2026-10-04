@@ -1,6 +1,6 @@
 # Real-Web Research Blocker
 
-Status: BLOCKED BY CLOUD HTTPS TUNNEL
+Status: HISTORICAL LIVE-WEB CHANNEL FAILURE — architecture superseded
 Date: 2026-10-04
 
 ## What was fixed
@@ -48,4 +48,4 @@ The failure was reproduced independently by:
 
 ## Consequence
 
-The required 30–50 positive references, 15–25 negative references, mobile states, interior pages, and holdout corpus cannot be truthfully assembled in this environment while the tunnel remains failed. Per the human owner override, research stops here. No memory-based reference claims, concept generation, benchmarking, or finalist rendering may proceed.
+The earlier owner rule made this outage a stop for all research. A later explicit owner instruction superseded that prerequisite and authorized `design-intelligence/`: live browsing now degrades independently, while structured sources, curated galleries when available, human-supplied references, and local evidence may continue. No memory-based reference claim is permitted. Design synthesis is still blocked unless the combined coverage gate is met.

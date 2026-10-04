@@ -1,0 +1,13 @@
+[
+  {
+    "id": "AI_SELF_EVALUATION_FAILURE_001",
+    "subject_id": "HUMAN_REJECTED_BASELINE_001",
+    "by": "human_owner",
+    "status": "rejected",
+    "reason": "The rendered website was perceived as generic, visibly AI-generated, aesthetically weak, and below professionally art-directed commercial work.",
+    "provenance": "HUMAN_OWNER_OVERRIDE_VISUAL_RESET.md",
+    "recorded_at": "2026-10-04",
+    "confidence": "high",
+    "limits": "No more granular owner preference was supplied; do not attribute specific typography, color, or layout objections to the owner."
+  }
+]
