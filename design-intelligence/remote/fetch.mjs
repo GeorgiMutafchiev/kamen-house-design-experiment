@@ -18,12 +18,13 @@ export function latestCompletedRun(branch) {
   return String(run.databaseId);
 }
 
-export async function fetchAndIngest({ runId, branch, queuePath, intelligenceRoot, updateQueueStatus = true }) {
+export async function fetchAndIngest({ runId, branch, queuePath, intelligenceRoot, proof = false, updateQueueStatus = true }) {
   const id = runId ?? latestCompletedRun(branch);
   if (!/^\d+$/.test(id)) throw new Error("GitHub run ID must be numeric");
   const dir = await mkdtemp(join(tmpdir(), `kamen-remote-${id}-`));
   gh(["run", "download", id, "--name", "kamen-research-evidence", "--dir", dir]);
-  const result = await ingestRemote({ artifactRoot: dir, intelligenceRoot, queuePath, updateQueueStatus, expectedRunId: id });
+  const result = await ingestRemote({ artifactRoot: dir, intelligenceRoot: proof ? join(intelligenceRoot, id) : intelligenceRoot,
+    queuePath, updateQueueStatus, expectedRunId: id });
   return result;
 }
 
@@ -31,7 +32,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const proof = process.argv.includes("--proof");
   fetchAndIngest({ runId: value("--run-id"), branch: value("--branch") || "design/autonomous-human-cro-v5-20261004",
     queuePath: proof ? "design-intelligence/remote/proof-queue.json" : "design-studio-v5/discovery/research-queue.json",
-    intelligenceRoot: proof ? "/tmp/kamen-v5-remote-proof" : "design-intelligence", updateQueueStatus: !proof })
+    intelligenceRoot: proof ? "/tmp/kamen-v5-remote-proof-runs" : "design-intelligence", proof, updateQueueStatus: !proof })
     .then(result => console.log(JSON.stringify(result, null, 2)))
     .catch(error => { console.error(error.message); process.exitCode = 2; });
 }

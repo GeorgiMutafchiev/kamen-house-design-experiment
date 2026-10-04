@@ -64,6 +64,17 @@ test("failed image and hidden reveal trigger retry and an incomplete state", asy
   assert.equal(JSON.parse(await readFile(result.diagnosticsPath, "utf8")).status, "VISUAL_CAPTURE_INCOMPLETE");
 });
 
+test("client-side navigation settles before the canonical initial capture", async t => {
+  const html = `<!doctype html><html><body><main><section style="height:800px"><h1>Final page</h1><p>This is the actual content after client-side navigation.</p></section><section style="height:800px"><h2>Second section</h2><p>Additional visible content makes the scroll sequence testable.</p></section></main><script>if(location.pathname==='/')setTimeout(()=>location.replace('/final'),300)</script></body></html>`;
+  const { root, browser, url } = await fixture(t, html);
+  const result = await captureVisualSession(browser, { url, viewport: { width: 800, height: 600 }, label: "desktop" },
+    { dir: join(root, "redirect-session"), page: "home" });
+  assert.equal(result.session.status, "VISUAL_CAPTURE_COMPLETE", JSON.stringify({ errors: result.session.browser_errors, warnings: result.session.readiness_warnings, reasons: result.final?.assessment.reasons }));
+  assert.match(result.session.resolved_url, /\/final$/);
+  assert.ok(result.session.navigation_history.some(x => x.url.endsWith("/final")));
+  assert.ok(result.evidence.some(e => e.page.includes("full-page-after-traversal")));
+});
+
 test("audit and incomplete captures cannot affect coverage, calibration, holdouts, or concept evidence", async t => {
   const root = await mkdtemp(join(tmpdir(), "kamen-capture-ledger-"));
   t.after(() => rm(root, { recursive: true, force: true }));

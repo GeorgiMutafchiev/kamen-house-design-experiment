@@ -26,7 +26,7 @@ The first isolated-branch push of this worker triggers the proof queue. After th
 node design-intelligence/remote/fetch.mjs --proof --run-id <numeric-github-run-id>
 ```
 
-This downloads the GitHub artifact via `gh`, validates every file and ingests into `/tmp/kamen-v5-remote-proof`, leaving the 19-candidate V5 corpus untouched. Inspect the manifest and screenshots to establish one simple static site, one image-heavy site, one lazy/growing page, at least one mobile session, and real external connectivity. A green workflow alone is not proof. The local-only probe in the Codex environment produced incomplete sessions because the HTTPS tunnel still returned 503; it is a failure-handling test, not external proof.
+This downloads the GitHub artifact via `gh`, validates every file and ingests into `/tmp/kamen-v5-remote-proof-runs/<run-id>`, leaving the 19-candidate V5 corpus untouched and allowing independent proof retries. Inspect the manifest and screenshots to establish one simple static site, one image-heavy site, one lazy/growing page, at least one mobile session, and real external connectivity. A green workflow alone is not proof. The local-only probe in the Codex environment produced incomplete sessions because the HTTPS tunnel still returned 503; it is a failure-handling test, not external proof.
 
 After proof, change `run-request.json` to `research` with up to three existing queued IDs and push this isolated branch, or dispatch the workflow. Then:
 

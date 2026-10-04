@@ -16,14 +16,13 @@
     },
     {
       "candidate_id": "PROOF_IMAGE",
-      "url": "https://fogoislandinn.ca/",
+      "url": "https://casabonay.com/",
       "category": "transport_probe",
       "reason_for_interest": "image-heavy page traversal proof only; no reference role",
       "priority": 2,
       "requested_viewports": ["desktop"],
-      "requested_routes": [{ "name": "home", "url": "https://fogoislandinn.ca/" }],
-      "source_discovery_provenance": "V5 existing render-complete home evidence; separate transport proof ID",
-      "dismiss_selector": "#consent-essential-only",
+      "requested_routes": [{ "name": "home", "url": "https://casabonay.com/" }],
+      "source_discovery_provenance": "V5 existing fast-audition home evidence; separate transport proof ID",
       "status": "QUEUED",
       "attempt_count": 0,
       "last_error": null
