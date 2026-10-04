@@ -38,7 +38,7 @@ Isolated work lives under `design-lab/`. Research and new visual evidence live u
 
 ## Research gate
 
-BLOCKED. Playwright with system Chromium attempted `https://www.acehotel.com/` and `https://www.aesop.com/`; both failed before content loaded with `net::ERR_TUNNEL_CONNECTION_FAILED`. No reference was claimed as inspected. Discovery is paused before corpus creation and concept generation; imagined references remain prohibited.
+BLOCKED. After Internet was enabled, Chromium loaded Ace Hotel, Aesop, and eight hospitality homepages with HTTP 200 using a scoped trust pin for the exact environment proxy CA. During deeper inspection, the shared `cloudflare_https_tunnel` began returning HTTP 503 for every destination, including `example.com`, through both Chromium and system `curl`. Initial reachability is not counted as completed reference inspection. Discovery remains paused before corpus creation and concept generation; imagined references are prohibited. See `design-v2/NETWORK_RESEARCH_BLOCKER.md`.
 
 ## Current drift status
 

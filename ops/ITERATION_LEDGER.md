@@ -252,3 +252,6 @@ Verify actual browser access, inspect real operating websites, create the refere
 
 Research-gate result:
 BLOCKED. System Chromium returned `net::ERR_TUNNEL_CONNECTION_FAILED` for both `https://www.acehotel.com/` and `https://www.aesop.com/`. No page content was inspected, no reference was fabricated, and no concept generation began.
+
+Internet retry:
+After the owner enabled access, scoped trust of the exact environment proxy CA allowed real Chromium HTTP 200 responses for Ace Hotel, Aesop, and eight hospitality homepages. The shared `cloudflare_https_tunnel` then degraded to a global HTTP 503 for every destination, reproduced by both `curl` and fresh Chromium against `example.com` after all concurrent researchers were paused. Initial reachability was not promoted into incomplete design claims; the corpus and concepts remain unstarted.

@@ -20,4 +20,4 @@ Each concept receives its own directory under `concepts/` and its own desktop/mo
 
 ## Current blocker
 
-On 2026-10-04, Playwright with system Chromium returned `net::ERR_TUNNEL_CONNECTION_FAILED` for both tested external reference sites. Per the human override, no concept generation may begin until real websites can actually be opened and inspected. The concept directories therefore remain intentionally empty.
+On 2026-10-04, Internet access briefly succeeded with a scoped trust pin for the environment proxy CA. During deeper inspection the shared `cloudflare_https_tunnel` began returning HTTP 503 for every destination, including `example.com`, through both Chromium and `curl`. Per the human override, no concept generation may begin until real websites can be opened and inspected reliably. The concept directories therefore remain intentionally empty. Full evidence is in `design-v2/NETWORK_RESEARCH_BLOCKER.md`.

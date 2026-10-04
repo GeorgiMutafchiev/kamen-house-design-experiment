@@ -1,6 +1,6 @@
 # Generic AI / Template Pattern Atlas
 
-Status: BLOCKED — REAL BROWSER ACCESS UNAVAILABLE
+Status: BLOCKED — CLOUD HTTPS TUNNEL FAILED DURING INSPECTION
 
 This atlas will document 15–25 actually inspected sites or recurring rendered patterns associated with AI builders, generic Webflow/Framer templates, generic luxury-hotel templates, repetitive SaaS aesthetics, and overused AI conventions.
 
@@ -18,4 +18,4 @@ Human-owner seed warnings, not research findings:
 
 Each researched entry must cite the real URL or identify the observed cross-site pattern, state what was actually inspected, explain the evidence, and separate abstraction from any protected creative expression.
 
-No researched entry has been added because Chromium received `net::ERR_TUNNEL_CONNECTION_FAILED` for external reference sites on 2026-10-04. The seed list above is preserved only as owner direction.
+No researched entry has been added. Internet reachability briefly succeeded, then the shared `cloudflare_https_tunnel` began returning HTTP 503 for all domains before negative-set inspection could complete. The seed list above is preserved only as owner direction.

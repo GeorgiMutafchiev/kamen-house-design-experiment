@@ -286,7 +286,7 @@ Validation:
 Unit 1/1, lint, build with 28 routes, and Playwright 23/23 passed before reset documentation was introduced.
 
 ### C-019 — Establish real-world Design Quality Discovery
-Status: BLOCKED — cloud browser egress unavailable
+Status: BLOCKED — shared cloud HTTPS tunnel returns global 503
 
 Problem:
 The prior process allowed AI to generate, judge, approve, and lock a visual direction without a trustworthy external professional anchor.
@@ -303,4 +303,4 @@ Validation:
 Real URLs and inspection evidence; independently inspectable concepts; desktop/mobile renders; concrete comparison records; no direction lock without explicit human approval.
 
 Blocker evidence:
-Playwright using system Chromium returned `net::ERR_TUNNEL_CONNECTION_FAILED` when opening both `https://www.acehotel.com/` and `https://www.aesop.com/`. No site content was available for inspection. Work stops before reference claims or concept generation, as required by the human override.
+Internet reachability briefly succeeded after scoped trust of the exact environment proxy CA. During deeper inspection the shared `cloudflare_https_tunnel` began returning HTTP 503 for every destination, including `example.com`, through both Chromium and `curl`. Concurrency was removed and fresh serialized sessions still failed. Work stops before reference claims or concept generation, as required by the human override.
