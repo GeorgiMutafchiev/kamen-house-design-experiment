@@ -1,0 +1,798 @@
+{
+  "status": "VISUAL_CAPTURE_COMPLETE",
+  "reasons": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "traversal_complete": true,
+      "document_height_initial": 11872,
+      "document_height_final": 11872,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_COMPLETE",
+        "reasons": []
+      },
+      "samples": [
+        {
+          "scroll_y": 0,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 76,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.13020833333333334,
+          "step": 0,
+          "at": "2026-10-04T17:23:45.233Z"
+        },
+        {
+          "scroll_y": 608,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 178,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.10416666666666667,
+          "step": 1,
+          "at": "2026-10-04T17:23:45.785Z"
+        },
+        {
+          "scroll_y": 1216,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 4,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 47,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.1284722222222222,
+          "step": 2,
+          "at": "2026-10-04T17:23:46.247Z"
+        },
+        {
+          "scroll_y": 1824,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 50,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.11284722222222222,
+          "step": 3,
+          "at": "2026-10-04T17:23:46.707Z"
+        },
+        {
+          "scroll_y": 2432,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 4,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 68,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.14930555555555555,
+          "step": 4,
+          "at": "2026-10-04T17:23:47.198Z"
+        },
+        {
+          "scroll_y": 3040,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 2,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 38,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.12152777777777778,
+          "step": 5,
+          "at": "2026-10-04T17:23:47.648Z"
+        },
+        {
+          "scroll_y": 3648,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 2,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 2,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 26,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.06770833333333333,
+          "step": 6,
+          "at": "2026-10-04T17:23:48.108Z"
+        },
+        {
+          "scroll_y": 4256,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 22,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.057291666666666664,
+          "step": 7,
+          "at": "2026-10-04T17:23:48.618Z"
+        },
+        {
+          "scroll_y": 4864,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 28,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.1076388888888889,
+          "step": 8,
+          "at": "2026-10-04T17:23:49.082Z"
+        },
+        {
+          "scroll_y": 5472,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 42,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.1111111111111111,
+          "step": 9,
+          "at": "2026-10-04T17:23:49.554Z"
+        },
+        {
+          "scroll_y": 6080,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 46,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.11284722222222222,
+          "step": 10,
+          "at": "2026-10-04T17:23:50.062Z"
+        },
+        {
+          "scroll_y": 6688,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            },
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 47,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.0642361111111111,
+          "step": 11,
+          "at": "2026-10-04T17:23:50.569Z"
+        },
+        {
+          "scroll_y": 7296,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 76,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.18055555555555555,
+          "step": 12,
+          "at": "2026-10-04T17:23:51.053Z"
+        },
+        {
+          "scroll_y": 7904,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 79,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.1232638888888889,
+          "step": 13,
+          "at": "2026-10-04T17:23:51.549Z"
+        },
+        {
+          "scroll_y": 8512,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 146,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.0642361111111111,
+          "step": 14,
+          "at": "2026-10-04T17:23:52.017Z"
+        },
+        {
+          "scroll_y": 9120,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 4,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 141,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.059027777777777776,
+          "step": 15,
+          "at": "2026-10-04T17:23:52.483Z"
+        },
+        {
+          "scroll_y": 9728,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 5,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 241,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.078125,
+          "step": 16,
+          "at": "2026-10-04T17:23:52.964Z"
+        },
+        {
+          "scroll_y": 10336,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 164,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.06944444444444445,
+          "step": 17,
+          "at": "2026-10-04T17:23:53.431Z"
+        },
+        {
+          "scroll_y": 10944,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 4,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.059027777777777776,
+          "step": 18,
+          "at": "2026-10-04T17:23:53.882Z"
+        },
+        {
+          "scroll_y": 11028,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 4,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.059027777777777776,
+          "step": 19,
+          "at": "2026-10-04T17:23:54.382Z"
+        },
+        {
+          "scroll_y": 11028,
+          "viewport_width": 390,
+          "viewport_height": 844,
+          "document_height": 11872,
+          "font_status": "loaded",
+          "total_images": 40,
+          "lazy_images": 6,
+          "visible_images": 4,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "VIDEO",
+              "source": null
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.059027777777777776,
+          "step": 20,
+          "at": "2026-10-04T17:23:54.882Z"
+        }
+      ]
+    }
+  ],
+  "readiness_warnings": [],
+  "failed_resources": [
+    {
+      "url": "https://fogoislandinn.ca/wp-content/uploads/2025/04/Sunset-Video-Loop-For-Website-Compressed-29.5rf.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LSLVXQD3Q4&gtm=45je6a10h2v899154320za20ozb9198611981zd9198611981xf1&_p=1791134619895&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1191416687.1791134621&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=390x844&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121280971&sid=1791134621&sct=1&seg=0&dl=https%3A%2F%2Ffogoislandinn.ca%2F&dt=Fogo%20Island%20Inn%20%7C%20All-Inclusive%20Hospitality%20%26%20Regenerative%20Travel&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1531",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-90YQT89N9J&gtm=45je6a10h2v888236834za20ozb9198611981zd9198611981xf1&_p=1791134619895&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=1191416687.1791134621&frm=0&pscdl=noapi&rcb=5&sr=390x844&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&sid=1791134621&sct=1&seg=0&dl=https%3A%2F%2Ffogoislandinn.ca%2F&dt=Fogo%20Island%20Inn%20%7C%20All-Inclusive%20Hospitality%20%26%20Regenerative%20Travel&en=page_view&_fv=2&_ss=1&tfd=1627",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://fogoislandinn.ca/wp-content/uploads/2025/04/Sunset-Video-Loop-For-Website-Compressed-29.5rf.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-90YQT89N9J&gtm=45je6a10h2v888236834z89198611981za20gzb9198611981zd9198611981xf1&_p=1791134619895&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&are=1&cid=1191416687.1791134621&frm=0&pscdl=noapi&rcb=5&sr=390x844&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&sid=1791134621&sct=1&seg=1&dl=https%3A%2F%2Ffogoislandinn.ca%2F&dt=Fogo%20Island%20Inn%20%7C%20All-Inclusive%20Hospitality%20%26%20Regenerative%20Travel&en=page_view&_et=4&tfd=6633",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://fogoislandinn.ca/wp-content/uploads/2026/05/V.Fii-Activity-Kayaking-Outdoor-Adventure-Guide-1.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "browser_errors": []
+}

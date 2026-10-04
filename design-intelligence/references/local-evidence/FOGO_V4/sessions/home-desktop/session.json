@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "requested_url": "https://fogoislandinn.ca/",
+  "resolved_url": "https://fogoislandinn.ca/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "device_scale_factor": 1,
+  "browser": "chromium",
+  "captured_at": "2026-10-04T17:23:25.045Z",
+  "adapter": "design-intelligence/lib/capture.mjs",
+  "redirects": [],
+  "navigation_status": 200,
+  "browser_errors": [],
+  "failed_resources": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LSLVXQD3Q4&gtm=45je69u2v899154320z89198611981za20gzb9198611981zd9198611981xf1&_p=1791134605788&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1816233861.1791134607&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1791134607&sct=1&seg=0&dl=https%3A%2F%2Ffogoislandinn.ca%2F&dt=Fogo%20Island%20Inn%20%7C%20All-Inclusive%20Hospitality%20%26%20Regenerative%20Travel&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=2008",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-90YQT89N9J&gtm=45je69u2v888236834z89198611981za20gzb9198611981zd9198611981xf1&_p=1791134605788&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=1816233861.1791134607&frm=0&pscdl=noapi&rcb=14&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1791134607&sct=1&seg=0&dl=https%3A%2F%2Ffogoislandinn.ca%2F&dt=Fogo%20Island%20Inn%20%7C%20All-Inclusive%20Hospitality%20%26%20Regenerative%20Travel&en=page_view&_fv=2&_ss=1&tfd=2434",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://fogoislandinn.ca/wp-content/uploads/2025/04/Sunset-Video-Loop-For-Website-Compressed-29.5rf.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-90YQT89N9J&gtm=45je69u2v888236834z89198611981za20gzb9198611981zd9198611981xf1&_p=1791134605788&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&are=1&cid=1816233861.1791134607&frm=0&pscdl=noapi&rcb=14&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1791134607&sct=1&seg=1&dl=https%3A%2F%2Ffogoislandinn.ca%2F&dt=Fogo%20Island%20Inn%20%7C%20All-Inclusive%20Hospitality%20%26%20Regenerative%20Travel&en=page_view&_et=5&tfd=7441",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://fogoislandinn.ca/wp-content/uploads/2026/05/V.Fii-Activity-Kayaking-Outdoor-Adventure-Guide-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://fogoislandinn.ca/wp-content/uploads/2026/05/V.Fii-Activity-Kayaking-Outdoor-Adventure-Guide-1.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "readiness_warnings": [],
+  "interactions": [
+    {
+      "action": "click",
+      "selector": "#consent-essential-only",
+      "at": "2026-10-04T17:23:30.173Z"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "artifact_dir": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01",
+      "traversal_complete": true,
+      "document_height_initial": 7933,
+      "document_height_final": 7933,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_COMPLETE",
+        "reasons": []
+      },
+      "evidence": [
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/00-initial.jpg",
+          "observed_at": "2026-10-04T17:23:30.100Z",
+          "viewport": "desktop",
+          "page": "home-00-initial",
+          "evidence_class": "static_visual",
+          "scroll_y": 0,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/01-after-load.jpg",
+          "observed_at": "2026-10-04T17:23:30.914Z",
+          "viewport": "desktop",
+          "page": "home-01-after-load",
+          "evidence_class": "static_visual",
+          "scroll_y": 0,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/02-scroll-00.jpg",
+          "observed_at": "2026-10-04T17:23:31.430Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-00",
+          "evidence_class": "interaction_state",
+          "scroll_y": 0,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/02-scroll-03.jpg",
+          "observed_at": "2026-10-04T17:23:32.991Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-03",
+          "evidence_class": "interaction_state",
+          "scroll_y": 2160,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/02-scroll-06.jpg",
+          "observed_at": "2026-10-04T17:23:34.635Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-06",
+          "evidence_class": "interaction_state",
+          "scroll_y": 4320,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/02-scroll-09.jpg",
+          "observed_at": "2026-10-04T17:23:36.141Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-09",
+          "evidence_class": "interaction_state",
+          "scroll_y": 6480,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/02-scroll-10.jpg",
+          "observed_at": "2026-10-04T17:23:36.680Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-10",
+          "evidence_class": "interaction_state",
+          "scroll_y": 6933,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/02-scroll-11.jpg",
+          "observed_at": "2026-10-04T17:23:37.191Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-11",
+          "evidence_class": "interaction_state",
+          "scroll_y": 6933,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/98-bottom.jpg",
+          "observed_at": "2026-10-04T17:23:38.136Z",
+          "viewport": "desktop",
+          "page": "home-98-bottom",
+          "evidence_class": "interaction_state",
+          "scroll_y": 6933,
+          "url": "https://fogoislandinn.ca/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+          "observed_at": "2026-10-04T17:23:39.344Z",
+          "viewport": "desktop",
+          "page": "home-full-page-after-traversal",
+          "evidence_class": "static_visual",
+          "url": "https://fogoislandinn.ca/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "state": "SOURCE_REACHABLE",
+      "at": "2026-10-04T17:23:26.850Z",
+      "http_status": 200
+    },
+    {
+      "state": "DOM_LOADED",
+      "at": "2026-10-04T17:23:26.850Z"
+    },
+    {
+      "state": "ASSETS_READY",
+      "at": "2026-10-04T17:23:30.044Z"
+    },
+    {
+      "state": "SCROLL_TRAVERSAL_COMPLETE",
+      "at": "2026-10-04T17:23:39.344Z",
+      "attempt": 1
+    },
+    {
+      "state": "VISUAL_CAPTURE_COMPLETE",
+      "at": "2026-10-04T17:23:39.344Z",
+      "attempt": 1
+    }
+  ],
+  "forced_visibility": false,
+  "status": "VISUAL_CAPTURE_COMPLETE",
+  "base_readiness": {
+    "scroll_y": 0,
+    "viewport_width": 1440,
+    "viewport_height": 1000,
+    "document_height": 7933,
+    "font_status": "loaded",
+    "total_images": 46,
+    "lazy_images": 6,
+    "visible_images": 3,
+    "visible_failed_images": [],
+    "visible_media": 6,
+    "video_states": [
+      {
+        "ready_state": 4,
+        "network_state": 1,
+        "error": null
+      }
+    ],
+    "zero_sized_media": [],
+    "offscreen_reveals": [],
+    "visible_hidden_reveals": [],
+    "visible_empty_sections": [],
+    "visible_main_text_chars": 0,
+    "fixed_overlays": []
+  },
+  "diagnostics_path": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/FOGO_V4/sessions/home-desktop/diagnostics.json"
+}

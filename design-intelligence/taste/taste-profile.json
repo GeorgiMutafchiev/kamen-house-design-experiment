@@ -39,7 +39,9 @@
     "AESOP",
     "OMA",
     "KINFOLK",
-    "BALTIC"
+    "BALTIC",
+    "FOGO_V4",
+    "NEWT_V5"
   ],
   "rule": "Only explicit human-owner feedback changes taste. AI judgments are diagnostic."
 }

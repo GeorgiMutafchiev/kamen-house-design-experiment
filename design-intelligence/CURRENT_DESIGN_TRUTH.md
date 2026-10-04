@@ -12,7 +12,7 @@ Generated from `research/events.jsonl`. This file reports evidence, not design a
 ## Research channels
 
 Supported: live websites, curated galleries, structured database exports, human-supplied references, and local evidence. Each channel can fail independently. Availability is recorded below.
-- cloud_https_tunnel: unavailable (2026-10-04T14:30:29.867Z) — Fresh HEAD probes for example.com, Heckfield Place, and ArchDaily all returned HTTP 503; direct no-proxy HTTPS connection also failed. Previously stored research artifacts remain local.
+- cloud_https_tunnel: unavailable (2026-10-04T17:53:00Z) — EXTERNAL_RESEARCH_BLOCKED_BY_ENVIRONMENT: One Google search HEAD returned HTTP 200 at 17:50 UTC, but subsequent Google and Bing search GETs, one hospitality research GET, and HEADs for three distinct candidate first-party sites returned HTTP 503 from the cloud HTTPS tunnel. No search result, candidate URL, or complete funnel was verified from those requests. Earlier same-day completed visual sessions remain available from persisted artifacts.
 - example.com: unavailable (2026-10-04T12:46:05.639Z) — HTTP 503
 - acehotel.com: unavailable (2026-10-04T14:27:36.312Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
 - fogoislandinn.ca: unavailable (2026-10-04T14:27:37.515Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
@@ -35,12 +35,12 @@ Supported: live websites, curated galleries, structured database exports, human-
 Browser captures are qualified only by the latest render-complete desktop and mobile sessions. The current-run audit is in research/capture-audit-2026-10-04.md. Raw images without a passing session remain in the ledger but are excluded from positive research, calibration, holdouts, and synthesis.
 
 - Researched non-holdout references: 0.
-- Partial or candidate references: 11.
+- Partial or candidate references: 13.
 - Human-rejected or forbidden references: 2.
 - Researched holdouts: 0.
-- Browser captures awaiting audit: 13.
+- Browser captures awaiting audit: 10.
 - Incomplete browser captures: 2.
-- Render-complete browser references: 0.
+- Render-complete browser references: 5.
 - References with mobile evidence: 0.
 - Operating commercial references: 0.
 - Source types represented: none.

@@ -1,6 +1,6 @@
 # Current State — V5 studio discovery
 
-Project phase: product truth and predeclared evaluation criteria are complete; broad autonomous reference discovery is active.
+Project phase: product truth and predeclared evaluation criteria are complete; broad autonomous reference discovery is blocked on verified source access. Local evidence audits and CRO learning studies are checkpointed.
 
 Design status: **no new visual direction is accepted, locked, or being synthesized**. The previous House Register and Spatial directions are both human-rejected. Spatial is `HUMAN_REJECTED_VISUAL_DIRECTION_002`, recoverable at `human-rejected-spatial-ff9d9d4` (`ff9d9d43f71d4ebdfcba78044d9cb5c46447b73a`). The older House Register is recoverable at `human-rejected-baseline-001` (`98715a99bf60070cb21b26941fe72c504496ee0c`). The protected pre-autonomous checkpoint is `protected-pre-autonomous-studio-4c12769` (`4c127692a088758b1bb9e7cb1c1669c030568589`).
 
@@ -18,7 +18,9 @@ KAMEN HOUSE is an imagined hospitality concept with eleven room concepts, a fire
 
 ## Network and evidence
 
-Earlier same-day render-complete captures and failed captures are preserved on the V4 branch. Their measured evidence may be reused after V5's broad discovery and audition, without assigning roles by historical name. A representative 2026-10-04 17:32 UTC HTTPS check returned 503 for four unrelated domains, classified `EXTERNAL_RESEARCH_BLOCKED_BY_ENVIRONMENT`; the V5 scout will make a small current check. No incomplete capture, source suggestion or model recollection may fill a discovery or audition gap.
+Earlier same-day render-complete captures and failed captures are preserved on the V4 branch. Five completed desktop/mobile home sessions were imported into V5 with original event provenance **after** the initial discovery pass, without V4 patterns or reference roles. The pool now has 19 source-backed candidates, five with reused home-only evidence and a fast audition; only four remain provisional for deeper questions. Deep multi-page audition is 0/12–20, dynamic role assignments are zero, and no complete external booking funnel or cross-page quality bar is established. Multiple unrelated HTTPS requests returned 503 through the cloud tunnel. A single Google HEAD returned 200 at 17:50 UTC, but subsequent search GETs and candidate-site HEADs again returned 503; see `design-studio-v5/discovery/network-status.json`. No incomplete capture, source suggestion or model recollection may fill a discovery or audition gap.
+
+Local work completed without visual synthesis: a source-limited scout report and query plan; the five-home fast audition; a six-task local visitor journey audit; six isolated, rendered CRO storyboards (hypotheses, not user tests); a 15-image coherence audit and concept-photography rule set; and an anti-reference constitution separating owner rejection from studio diagnoses. Research findings, visitor-intent model, and the exact missing evidence are under `design-studio-v5/`. Eight reference-derived visual reproduction studies, visual/CRO constitutions, theses, composition studies, homepage territories and champion selection remain gated by broader qualified evidence.
 
 ## Safety and conservation
 
@@ -28,6 +30,6 @@ Run command: `npm run dev`. Validation commands: `npm test`, `npm run lint`, `np
 
 ## Immediate next actions
 
-1. Generate product-derived search queries and a broad, source-provenanced candidate pool without hardcoded role assignments.
-2. Verify availability and run render-complete captures when the network permits; preserve failures without repeated blind retries.
-3. Fast-audition across diverse visual clusters, then deep-audition 12–20 credible references before roles, studies or homepage synthesis.
+1. Resume the stored product-derived search plan when content GETs and first-party pages actually work; expand the 19-candidate pool toward V5's suggested 40–80 without inventing URLs.
+2. Verify current URLs and run render-complete desktop/mobile captures on representative routes; preserve any failures without repeated blind retries.
+3. Fast-audition the expanded diversity, then deep-audition 12–20 credible multi-page references before assigning roles or starting reference-derived visual synthesis.

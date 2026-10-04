@@ -2,8 +2,8 @@
   "cloud_https_tunnel": {
     "source": "cloud_https_tunnel",
     "status": "unavailable",
-    "checked_at": "2026-10-04T14:30:29.867Z",
-    "detail": "Fresh HEAD probes for example.com, Heckfield Place, and ArchDaily all returned HTTP 503; direct no-proxy HTTPS connection also failed. Previously stored research artifacts remain local."
+    "checked_at": "2026-10-04T17:53:00Z",
+    "detail": "EXTERNAL_RESEARCH_BLOCKED_BY_ENVIRONMENT: One Google search HEAD returned HTTP 200 at 17:50 UTC, but subsequent Google and Bing search GETs, one hospitality research GET, and HEADs for three distinct candidate first-party sites returned HTTP 503 from the cloud HTTPS tunnel. No search result, candidate URL, or complete funnel was verified from those requests. Earlier same-day completed visual sessions remain available from persisted artifacts."
   },
   "example.com": {
     "source": "example.com",

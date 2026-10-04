@@ -1,0 +1,214 @@
+{
+  "status": "VISUAL_CAPTURE_COMPLETE",
+  "reasons": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "traversal_complete": true,
+      "document_height_initial": 3799,
+      "document_height_final": 3799,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_COMPLETE",
+        "reasons": []
+      },
+      "samples": [
+        {
+          "scroll_y": 0,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 3799,
+          "font_status": "loaded",
+          "total_images": 28,
+          "lazy_images": 0,
+          "visible_images": 6,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.0625,
+          "step": 0,
+          "at": "2026-10-04T15:21:05.031Z"
+        },
+        {
+          "scroll_y": 720,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 3799,
+          "font_status": "loaded",
+          "total_images": 28,
+          "lazy_images": 0,
+          "visible_images": 6,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.052083333333333336,
+          "step": 1,
+          "at": "2026-10-04T15:21:05.556Z"
+        },
+        {
+          "scroll_y": 1440,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 3799,
+          "font_status": "loaded",
+          "total_images": 28,
+          "lazy_images": 0,
+          "visible_images": 5,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.05381944444444445,
+          "step": 2,
+          "at": "2026-10-04T15:21:06.032Z"
+        },
+        {
+          "scroll_y": 2160,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 3799,
+          "font_status": "loaded",
+          "total_images": 28,
+          "lazy_images": 0,
+          "visible_images": 7,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.046875,
+          "step": 3,
+          "at": "2026-10-04T15:21:06.507Z"
+        },
+        {
+          "scroll_y": 2799,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 3799,
+          "font_status": "loaded",
+          "total_images": 28,
+          "lazy_images": 0,
+          "visible_images": 6,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.06944444444444445,
+          "step": 4,
+          "at": "2026-10-04T15:21:07.024Z"
+        },
+        {
+          "scroll_y": 2799,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 3799,
+          "font_status": "loaded",
+          "total_images": 28,
+          "lazy_images": 0,
+          "visible_images": 6,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.06944444444444445,
+          "step": 5,
+          "at": "2026-10-04T15:21:07.542Z"
+        }
+      ]
+    }
+  ],
+  "readiness_warnings": [],
+  "failed_resources": [
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=0&ae=g&auid=965784603.1791127261&dt=Casa%20Bonay%20%E2%80%93%20Boutique%20hotel%20in%20Barcelona%20%7C%20Official%20Website&tid=AW-927881758&dl=https%3A%2F%2Fcasabonay.com%2F&scrsrc=www.googletagmanager.com&rnd=1928687616.1791127261&navt=n&npa=0&us_privacy=1---&ep.ads_data_redaction=1&did=dMWZhNz&gdid=dMWZhNz&_tu=CA&gtm=45be69u2v894341948z877973084za20gzb77973084zd77973084xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938468~118131809~118897920~118897930~119381663~120213116~120385422~120469145~120469153&tft=1791127260635&tfd=3585&tids=AW-927881758&fmt=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=0&ae=g&auid=965784603.1791127261&dt=Casa%20Bonay%20%E2%80%93%20Boutique%20hotel%20in%20Barcelona%20%7C%20Official%20Website&tid=AW-927881758&dl=https%3A%2F%2Fcasabonay.com%2F&scrsrc=www.googletagmanager.com&rnd=1928687616.1791127261&navt=n&npa=0&us_privacy=1---&ep.ads_data_redaction=0&did=dMWZhNz&gdid=dMWZhNz&_tu=CA&gtm=45be69u2v894341948z877973084za20gzb77973084zd77973084xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938468~118131809~118897920~118897930~119381663~120213116~120385422~120469145~120469153&tft=1791127260636&tfd=3586&tids=AW-927881758&fmt=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/rmkt/collect/927881758/?random=1791127260113&cv=11&fst=1791127260113&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69u2v894341948z877973084za20gzb77973084zd77973084xeaxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938468~118131809~118897920~118897930~119381663~120213116~120385422~120469145~120469153&u_w=1440&u_h=1000&url=https%3A%2F%2Fcasabonay.com%2F&rcb=12&frm=0&tiba=Casa%20Bonay%20%E2%80%93%20Boutique%20hotel%20in%20Barcelona%20%7C%20Official%20Website&did=dMWZhNz&gdid=dMWZhNz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=965784603.1791127261&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dtrue&ept=68&gcp=5",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=965784603.1791127261&dt=Casa%20Bonay%20%E2%80%93%20Boutique%20hotel%20in%20Barcelona%20%7C%20Official%20Website&en=page_view&dl=https%3A%2F%2Fcasabonay.com%2F&scrsrc=www.googletagmanager.com&rnd=1928687616.1791127261&navt=n&npa=0&us_privacy=1---&ep.ads_data_redaction=1&gdid=dMWZhNz&_tu=CA&gtm=45He69u2v77973084za200zd77973084xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616986~115938465~115938469~118131809~118897920~118897930~119381663~120385423~120469145~120469153~121436580&tft=1791127260632&tfd=3582&fmt=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/rmkt/collect/927881758/?random=1791127260625&cv=11&fst=1791127260625&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69u2v894341948z877973084za20gzb77973084zd77973084xeaxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938468~118131809~118897920~118897930~119381663~120213116~120385422~120469145~120469153&u_w=1440&u_h=1000&url=https%3A%2F%2Fcasabonay.com%2F&rcb=12&frm=0&tiba=Casa%20Bonay%20%E2%80%93%20Boutique%20hotel%20in%20Barcelona%20%7C%20Official%20Website&did=dMWZhNz&gdid=dMWZhNz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=965784603.1791127261&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&ept=68&gcp=5",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=965784603.1791127261&gtm=45He69u2v77973084za200zd77973084xeaxf1&fmt=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://bat.bing.com/actionp/0?ti=13008649&tm=gtm002&Ver=2&mid=e2e00cb1-047c-4b91-8d62-5f7a8bdb360d&bo=1&evt=consent&src=update&cdb=AQIT&asc=G",
+      "status": 411
+    },
+    {
+      "url": "https://to.getnitropack.com/p",
+      "status": 403
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-WN702595E7&gtm=45be69u2v894341948z877973084za20gzb77973084zd77973084xf1&_p=1791127258950&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dMWZhNz&ecid=1969658692&_eu=EAAAAGAC&are=1&cid=1082744900.1791127263&frm=0&ir=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118131809~118897920~118897930~119381663~120213116~120385422~120469145~120469153&sid=1791127262&sct=1&seg=0&dl=https%3A%2F%2Fcasabonay.com%2F&dt=Casa%20Bonay%20%E2%80%93%20Boutique%20hotel%20in%20Barcelona%20%7C%20Official%20Website&_tu=CA&en=Page%20Load%20Time&_fv=1&_nsi=1&_ss=1&epn.load_time=5.8&tfd=5783",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "browser_errors": []
+}

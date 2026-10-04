@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-04T17:42:03.747Z",
+  "generated_at": "2026-10-04T17:53:16.317Z",
   "stage": "high_signal_exploration",
   "counts": {
     "researched": 0,
-    "partial_or_candidate": 11,
+    "partial_or_candidate": 13,
     "rejected": 2,
     "holdout": 0,
     "mobile": 0,
     "operating_commercial": 0,
-    "capture_audit_required": 13,
+    "capture_audit_required": 10,
     "capture_incomplete": 2,
-    "capture_complete": 0
+    "capture_complete": 5
   },
   "source_types": [],
   "categories": [],

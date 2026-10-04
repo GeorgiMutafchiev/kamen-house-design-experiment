@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "requested_url": "https://thenewtinsomerset.com/",
+  "resolved_url": "https://thenewtinsomerset.com/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "device_scale_factor": 1,
+  "browser": "chromium",
+  "captured_at": "2026-10-04T17:28:16.062Z",
+  "adapter": "design-intelligence/lib/capture.mjs",
+  "redirects": [],
+  "navigation_status": 200,
+  "browser_errors": [],
+  "failed_resources": [
+    {
+      "url": "https://forms-eu1.hsforms.com/embed/v3/form/147899537/b098f417-36b0-40ca-8418-6a18d97497da/json?hs_static_app=forms-embed&hs_static_app_version=1.11444&X-HubSpot-Static-App-Info=forms-embed-1.11444",
+      "status": 403
+    },
+    {
+      "url": "https://analytics-api-s.cloudinary.com/video_player_source?autoplay=true&className=+cld-video-player+cld-fluid&cloudinaryAnalyticsOptions=false&fluid=true&loop=true&muted=true&controlBar=false&sourceTypes=mp4%2Cwebm&vpVersion=2.3.3&vpInstanceId=39ff5b0c-56d2-450a-b193-2b6c7ad46d4a&cloudName=babylon",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fthenewtinsomerset.com&scrsrc=www.googletagmanager.com&rnd=226482655.1791134899&navt=n&npa=1&ep.ads_data_redaction=1&gdid=dMWZhNz&_tu=CA&gtm=45He69u2v9226256070za200zd9226256070xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120385422~120469145~120469153&tft=1791134898519&tfd=2442&fmt=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1791134899882&cv=11&tid=G-PGL2XLQKJ3&fst=1791134899882&fmt=8&en=session_start&gtm=45je69u2v9115589069z89226256070za20gzb9226256070zd9226256070xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&u_w=1440&u_h=1000&url=https%3A%2F%2Fthenewtinsomerset.com&gacid=1589264249.1791134900&hn=www.googleadservices.com&frm=0&tiba=Welcome%20to%20the%20Newt%20in%20Somerset%20%7C%20The%20Newt%20in%20Somerset&gdid=dMWZhNz&npa=1&us_privacy=1YNY&pscdl=denied&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&rcb=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PGL2XLQKJ3&gtm=45je69u2v9115589069z89226256070za20gzb9226256070zd9226256070xf1&_p=1791134897881&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dMWZhNz&_eu=EAAAAGAC&_prs=ok&are=1&cid=1589264249.1791134900&frm=0&ir=1&pscdl=denied&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1791134899&sct=1&seg=0&dl=https%3A%2F%2Fthenewtinsomerset.com%2F&dt=Welcome%20to%20the%20Newt%20in%20Somerset%20%7C%20The%20Newt%20in%20Somerset&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=2&ep.allowLinker=true&tfd=3826",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/measurement/conversion?random=1791134899882&cv=11&tid=G-PGL2XLQKJ3&fst=1791134899882&fmt=8&en=session_start&gtm=45je69u2v9115589069z89226256070za20gzb9226256070zd9226256070xecxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121191155&u_w=1440&u_h=1000&url=https%3A%2F%2Fthenewtinsomerset.com%2F&gacid=1589264249.1791134900&hn=www.googleadservices.com&frm=0&tiba=Welcome%20to%20the%20Newt%20in%20Somerset%20%7C%20The%20Newt%20in%20Somerset&gdid=dMWZhNz&npa=0&us_privacy=1---&pscdl=noapi&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&rcb=8&auid=924803552.1791134903&capi=1&gcu=1",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=924803552.1791134903&dt=Welcome%20to%20the%20Newt%20in%20Somerset%20%7C%20The%20Newt%20in%20Somerset&en=consent_update&dl=https%3A%2F%2Fthenewtinsomerset.com%2F&scrsrc=www.googletagmanager.com&rnd=226482655.1791134899&navt=n&npa=0&ep.ads_data_redaction=1&gdid=dMWZhNz&_tu=CA&gcu=1&us_privacy=1---&gtm=45He69u2v9226256070za200zd9226256070xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120385422~120469145~120469153~121191155&tft=1791134902887&tfd=6809&fmt=8",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-PGL2XLQKJ3&gtm=45je69u2v9115589069za20gzb9226256070zd9226256070xf1&_p=1791134897881&_gaz=1&gcs=G111&gcu=1&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dMWZhNz&_eu=EAAAAGQC&are=1&cid=1589264249.1791134900&frm=0&gcut=3&ir=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121191155&sid=1791134899&sct=1&seg=0&dl=https%3A%2F%2Fthenewtinsomerset.com%2F&dt=Welcome%20to%20the%20Newt%20in%20Somerset%20%7C%20The%20Newt%20in%20Somerset&_tu=CA&en=user_engagement&ep.allowLinker=true&ep.ga_temp_client_id=1589264249.1791134900&_et=2953&tfd=6785",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=924803552.1791134903&gtm=45He69u2v9226256070za200zd9226256070xeaxf1&fmt=8",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "readiness_warnings": [],
+  "interactions": [
+    {
+      "action": "click",
+      "selector": "text=Allow all cookies",
+      "at": "2026-10-04T17:28:22.594Z"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "artifact_dir": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01",
+      "traversal_complete": true,
+      "document_height_initial": 6648,
+      "document_height_final": 6933,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_COMPLETE",
+        "reasons": []
+      },
+      "evidence": [
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/00-initial.jpg",
+          "observed_at": "2026-10-04T17:28:22.459Z",
+          "viewport": "desktop",
+          "page": "home-00-initial",
+          "evidence_class": "static_visual",
+          "scroll_y": 0,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/01-after-load.jpg",
+          "observed_at": "2026-10-04T17:28:23.353Z",
+          "viewport": "desktop",
+          "page": "home-01-after-load",
+          "evidence_class": "static_visual",
+          "scroll_y": 0,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/02-scroll-00.jpg",
+          "observed_at": "2026-10-04T17:28:23.980Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-00",
+          "evidence_class": "interaction_state",
+          "scroll_y": 0,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/02-scroll-03.jpg",
+          "observed_at": "2026-10-04T17:28:25.617Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-03",
+          "evidence_class": "interaction_state",
+          "scroll_y": 2160,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/02-scroll-06.jpg",
+          "observed_at": "2026-10-04T17:28:27.253Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-06",
+          "evidence_class": "interaction_state",
+          "scroll_y": 4320,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/02-scroll-09.jpg",
+          "observed_at": "2026-10-04T17:28:28.884Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-09",
+          "evidence_class": "interaction_state",
+          "scroll_y": 5933,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/02-scroll-10.jpg",
+          "observed_at": "2026-10-04T17:28:29.434Z",
+          "viewport": "desktop",
+          "page": "home-02-scroll-10",
+          "evidence_class": "interaction_state",
+          "scroll_y": 5933,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/98-bottom.jpg",
+          "observed_at": "2026-10-04T17:28:30.383Z",
+          "viewport": "desktop",
+          "page": "home-98-bottom",
+          "evidence_class": "interaction_state",
+          "scroll_y": 5933,
+          "url": "https://thenewtinsomerset.com/"
+        },
+        {
+          "kind": "rendered_capture",
+          "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+          "observed_at": "2026-10-04T17:28:32.953Z",
+          "viewport": "desktop",
+          "page": "home-full-page-after-traversal",
+          "evidence_class": "static_visual",
+          "url": "https://thenewtinsomerset.com/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "state": "SOURCE_REACHABLE",
+      "at": "2026-10-04T17:28:18.303Z",
+      "http_status": 200
+    },
+    {
+      "state": "DOM_LOADED",
+      "at": "2026-10-04T17:28:18.303Z"
+    },
+    {
+      "state": "ASSETS_READY",
+      "at": "2026-10-04T17:28:22.383Z"
+    },
+    {
+      "state": "SCROLL_TRAVERSAL_COMPLETE",
+      "at": "2026-10-04T17:28:32.953Z",
+      "attempt": 1
+    },
+    {
+      "state": "VISUAL_CAPTURE_COMPLETE",
+      "at": "2026-10-04T17:28:32.953Z",
+      "attempt": 1
+    }
+  ],
+  "forced_visibility": false,
+  "status": "VISUAL_CAPTURE_COMPLETE",
+  "base_readiness": {
+    "scroll_y": 0,
+    "viewport_width": 1440,
+    "viewport_height": 1000,
+    "document_height": 6648,
+    "font_status": "loaded",
+    "total_images": 50,
+    "lazy_images": 8,
+    "visible_images": 5,
+    "visible_failed_images": [],
+    "visible_media": 11,
+    "video_states": [
+      {
+        "ready_state": 4,
+        "network_state": 1,
+        "error": null
+      },
+      {
+        "ready_state": 4,
+        "network_state": 1,
+        "error": null
+      },
+      {
+        "ready_state": 4,
+        "network_state": 1,
+        "error": null
+      }
+    ],
+    "zero_sized_media": [
+      {
+        "tag": "IMG",
+        "source": "https://res.cloudinary.com/babylon/video/upload/c_limit,h_700,w_1400/v1/thenewt/statamic/xzkxpxquew7jfty1wnqy.jpg"
+      },
+      {
+        "tag": "VIDEO",
+        "source": null
+      },
+      {
+        "tag": "VIDEO",
+        "source": null
+      },
+      {
+        "tag": "IMG",
+        "source": "https://res.cloudinary.com/babylon/image/upload/w_1280,q_auto:eco/v1/thenewt/statamic/d0v7qvgwvrod8tsey7op"
+      },
+      {
+        "tag": "VIDEO",
+        "source": null
+      },
+      {
+        "tag": "VIDEO",
+        "source": null
+      },
+      {
+        "tag": "IMG",
+        "source": "https://res.cloudinary.com/babylon/image/upload/w_1280,q_auto:eco/v1/thenewt/statamic/d0v7qvgwvrod8tsey7op"
+      },
+      {
+        "tag": "IMG",
+        "source": "https://res.cloudinary.com/babylon/image/upload/q_auto,w_640,q_auto:eco/v1/thenewt/statamic/components/footer-split-images/discoversomerset-1620960870-_1"
+      },
+      {
+        "tag": "IMG",
+        "source": "https://res.cloudinary.com/babylon/image/upload/q_auto,w_640,q_auto:eco/v1/thenewt/statamic/xztyjjql7q0de6rq2zm9"
+      }
+    ],
+    "offscreen_reveals": [],
+    "visible_hidden_reveals": [],
+    "visible_empty_sections": [],
+    "visible_main_text_chars": 324,
+    "fixed_overlays": []
+  },
+  "diagnostics_path": "/workspace/kamen-house-design-experiment/design-intelligence/references/local-evidence/NEWT_V5/sessions/home-desktop/diagnostics.json"
+}
