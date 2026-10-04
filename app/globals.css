@@ -265,7 +265,7 @@ main { min-height: 70vh; overflow: hidden; }
   .field-note h2 { margin-top: 3rem; }
   .page-intro { padding-top: 3.5rem; padding-bottom: 3.5rem; }
   .margin-note { grid-column: 3 / 13; margin-top: 2rem; }
-  .index-mark, .chapter-number, .margin-note, figcaption, dt, .fact-line span { font-size: .84rem; }
+  .index-mark, .chapter-number, .margin-note, figcaption, dt, .fact-line span, .footer-note { font-size: .88rem; line-height: 1.35; }
   .rooms-lead { padding-top: 1rem; padding-bottom: 5rem; }
   .rooms-image, .stay-facts { grid-column: 1 / 13; }
   .rooms-image { min-height: 80vh; }
