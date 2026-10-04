@@ -1,0 +1,79 @@
+name: V5 remote research evidence
+
+on:
+  push:
+    branches:
+      - design/autonomous-human-cro-v5-20261004
+    paths:
+      - .github/workflows/remote-research.yml
+      - design-intelligence/remote/**
+      - design-intelligence/lib/capture.mjs
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Proof first; research only after the remote proof has been ingested
+        required: true
+        type: choice
+        options: [proof, research]
+        default: proof
+      candidate_ids:
+        description: Optional comma-separated queue IDs, at most three per run
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: v5-remote-research-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CI: "true"
+      MODE_INPUT: ${{ inputs.mode || '' }}
+      IDS_INPUT: ${{ inputs.candidate_ids || '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install pinned repository dependencies and Chromium
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Resolve bounded queue request
+        run: |
+          node --input-type=module -e '
+            import { readFileSync, appendFileSync } from "node:fs";
+            const saved = JSON.parse(readFileSync("design-intelligence/remote/run-request.json", "utf8"));
+            const mode = process.env.MODE_INPUT || saved.mode;
+            const ids = process.env.IDS_INPUT || saved.candidate_ids.join(",");
+            if (!["proof", "research"].includes(mode) || (ids && !/^[A-Za-z0-9_-]+(?:,[A-Za-z0-9_-]+){0,2}$/.test(ids))) throw new Error("invalid remote research request");
+            appendFileSync(process.env.GITHUB_ENV, `MODE=${mode}\nCANDIDATE_IDS=${ids}\n`);
+          '
+      - name: Capture queued public pages
+        run: |
+          if [ "$MODE" = proof ]; then
+            QUEUE=design-intelligence/remote/proof-queue.json
+          elif [ "$MODE" = research ]; then
+            QUEUE=design-studio-v5/discovery/research-queue.json
+          else
+            exit 2
+          fi
+          node design-intelligence/remote/worker.mjs --queue "$QUEUE" --out remote-research-evidence --limit 3 --ids "$CANDIDATE_IDS"
+      - name: Upload evidence and manifest even when a site is incomplete
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kamen-research-evidence
+          path: remote-research-evidence/
+          if-no-files-found: warn
+          retention-days: 14
+          compression-level: 6

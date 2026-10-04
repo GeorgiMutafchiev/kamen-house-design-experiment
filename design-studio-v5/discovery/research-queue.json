@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "candidate_id": "ACE",
+      "url": "https://acehotel.com/",
+      "category": "hospitality",
+      "reason_for_interest": "rooms and high intent path",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://acehotel.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "FOGO_V4",
+      "url": "https://fogoislandinn.ca/",
+      "category": "hospitality",
+      "reason_for_interest": "sense of place and stay path",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://fogoislandinn.ca/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
+      "status": "AUDIT_READY",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "STJOHN",
+      "url": "https://stjohnrestaurant.com/",
+      "category": "food",
+      "reason_for_interest": "fire kitchen and food information",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://stjohnrestaurant.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
+      "status": "AUDIT_READY",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "APARTAMENTO",
+      "url": "https://www.apartamentomagazine.com/",
+      "category": "editorial",
+      "reason_for_interest": "journal and content depth",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.apartamentomagazine.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "HECKFIELD",
+      "url": "https://www.heckfieldplace.com/",
+      "category": "hospitality",
+      "reason_for_interest": "rooms food place comprehension",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.heckfieldplace.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "CORAZON",
+      "url": "https://hotelcorazon.com/",
+      "category": "hospitality",
+      "reason_for_interest": "small property room discovery",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://hotelcorazon.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "DAVIDCHIPPERFIELD",
+      "url": "https://www.davidchipperfield.com/",
+      "category": "architecture",
+      "reason_for_interest": "architecture and material story",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.davidchipperfield.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
+      "status": "AUDIT_READY",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "NOMA",
+      "url": "https://noma.dk/",
+      "category": "food",
+      "reason_for_interest": "fire kitchen and food story",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://noma.dk/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "FRAMA",
+      "url": "https://framacph.com/",
+      "category": "lifestyle_product",
+      "reason_for_interest": "physical material identity",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://framacph.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "CASABONAY",
+      "url": "https://casabonay.com/",
+      "category": "hospitality",
+      "reason_for_interest": "hospitality and food mix",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://casabonay.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
+      "status": "AUDIT_READY",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "MOROSETA",
+      "url": "https://www.masseriamoroseta.it/",
+      "category": "hospitality",
+      "reason_for_interest": "small property and food mix",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.masseriamoroseta.it/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "AESOP",
+      "url": "https://www.aesop.com/",
+      "category": "lifestyle_product",
+      "reason_for_interest": "material story and mobile navigation",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.aesop.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "OMA",
+      "url": "https://www.oma.com/",
+      "category": "architecture",
+      "reason_for_interest": "architecture and editorial density",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.oma.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "KINFOLK",
+      "url": "https://www.kinfolk.com/",
+      "category": "editorial",
+      "reason_for_interest": "journal and story sequence",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.kinfolk.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "BALTIC",
+      "url": "https://baltic.art/",
+      "category": "cultural",
+      "reason_for_interest": "place and visitor information",
+      "priority": 3,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://baltic.art/"
+        }
+      ],
+      "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "VILLALENA",
+      "url": "https://www.villa-lena.it/",
+      "category": "hospitality",
+      "reason_for_interest": "destination property and experiences",
+      "priority": 1,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.villa-lena.it/"
+        }
+      ],
+      "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "SOMBRE",
+      "url": "https://www.hotelsinnombre.com/",
+      "category": "hospitality",
+      "reason_for_interest": "small property room discovery",
+      "priority": 1,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.hotelsinnombre.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "CALILE",
+      "url": "https://thecalilehotel.com/",
+      "category": "hospitality",
+      "reason_for_interest": "booking path and mobile conversion",
+      "priority": 1,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://thecalilehotel.com/"
+        }
+      ],
+      "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "NEWT_V5",
+      "url": "https://thenewtinsomerset.com/",
+      "category": "hospitality",
+      "reason_for_interest": "place food and stay path",
+      "priority": 2,
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://thenewtinsomerset.com/"
+        }
+      ],
+      "source_discovery_provenance": "same_day_reused_capture | design-studio-v5/REUSED_EVIDENCE.md",
+      "status": "AUDIT_READY",
+      "attempt_count": 0,
+      "last_error": null
+    }
+  ]
+}

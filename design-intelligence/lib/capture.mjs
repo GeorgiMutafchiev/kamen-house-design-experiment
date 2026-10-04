@@ -173,20 +173,28 @@ async function captureAttempt(page, target, attempt, options, session) {
 
 export async function captureVisualSession(browser, target, options) {
   const page = await browser.newPage({ viewport: target.viewport, deviceScaleFactor: 1 });
+  if (options.requestGuard) await page.route("**/*", route => {
+    if (options.requestGuard(route.request().url())) return route.continue();
+    return route.abort("blockedbyclient");
+  });
   const session = {
     schema_version: 1, requested_url: target.url, resolved_url: null,
     viewport: target.viewport, device_scale_factor: 1, browser: "chromium", captured_at: new Date().toISOString(),
-    adapter: "design-intelligence/lib/capture.mjs", redirects: [], navigation_status: null,
-    browser_errors: [], failed_resources: [], readiness_warnings: [], interactions: [], attempts: [], milestones: [],
+    adapter: options.adapter ?? "design-intelligence/lib/capture.mjs", runner: options.runner ?? "local",
+    browser_version: browser.version(), user_agent: await page.evaluate(() => navigator.userAgent),
+    redirects: [], navigation_status: null, navigation_timing: null,
+    console_errors: [], browser_errors: [], failed_resources: [], readiness_warnings: [], interactions: [], attempts: [], milestones: [],
     forced_visibility: false, status: "REQUESTED",
   };
   page.on("pageerror", error => session.browser_errors.push(error.message));
+  page.on("console", message => { if (message.type() === "error") session.console_errors.push(message.text()); });
   page.on("requestfailed", request => session.failed_resources.push({ url: request.url(), error: request.failure()?.errorText ?? "unknown" }));
   page.on("response", response => { if (response.status() >= 400) session.failed_resources.push({ url: response.url(), status: response.status() }); });
   await mkdir(options.dir, { recursive: true });
   try {
     const response = await page.goto(target.url, { waitUntil: "domcontentloaded", timeout: 30_000 });
     session.navigation_status = response?.status() ?? null;
+    session.navigation_timing = response?.request().timing() ?? null;
     session.resolved_url = page.url();
     if (!response || response.status() >= 400) throw new Error(`HTTP ${response?.status() ?? "no response"}`);
     session.milestones.push({ state: "SOURCE_REACHABLE", at: new Date().toISOString(), http_status: response.status() });
@@ -221,7 +229,7 @@ export async function captureVisualSession(browser, target, options) {
         attempt: a.attempt, traversal_complete: a.traversal_complete, document_height_initial: a.document_height_initial,
         document_height_final: a.document_height_final, assessment: a.assessment, samples: a.samples,
       })), readiness_warnings: session.readiness_warnings, failed_resources: session.failed_resources,
-      browser_errors: session.browser_errors,
+      browser_errors: session.browser_errors, console_errors: session.console_errors,
     }, null, 2)}\n`);
     await writeFile(sessionPath, `${JSON.stringify({ ...session, attempts: session.attempts.map(a => ({
       attempt: a.attempt, artifact_dir: a.dir, traversal_complete: a.traversal_complete,

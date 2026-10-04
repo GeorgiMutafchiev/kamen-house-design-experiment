@@ -2,5 +2,5 @@
 node_modules/
 playwright-report/
 test-results/
+design-intelligence/references/remote-evidence/
 .DS_Store
-

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "candidate_id": "PROOF_STATIC",
+      "url": "https://example.com/",
+      "category": "transport_probe",
+      "reason_for_interest": "simple public static-page connectivity and artifact proof only",
+      "priority": 1,
+      "requested_viewports": ["desktop", "mobile"],
+      "requested_routes": [{ "name": "home", "url": "https://example.com/" }],
+      "source_discovery_provenance": "remote-worker protocol connectivity fixture; excluded from V5 reference selection",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "PROOF_IMAGE",
+      "url": "https://casabonay.com/",
+      "category": "transport_probe",
+      "reason_for_interest": "image-heavy page traversal proof only; no reference role",
+      "priority": 2,
+      "requested_viewports": ["desktop"],
+      "requested_routes": [{ "name": "home", "url": "https://casabonay.com/" }],
+      "source_discovery_provenance": "V5 existing capture candidate; separate transport proof ID",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    },
+    {
+      "candidate_id": "PROOF_LAZY",
+      "url": "https://thenewtinsomerset.com/",
+      "category": "transport_probe",
+      "reason_for_interest": "growing-document and lazy-section traversal proof only; no reference role",
+      "priority": 3,
+      "requested_viewports": ["desktop"],
+      "requested_routes": [{ "name": "home", "url": "https://thenewtinsomerset.com/" }],
+      "source_discovery_provenance": "V5 existing capture candidate; separate transport proof ID",
+      "dismiss_selector": "text=Allow all cookies",
+      "status": "QUEUED",
+      "attempt_count": 0,
+      "last_error": null
+    }
+  ]
+}
