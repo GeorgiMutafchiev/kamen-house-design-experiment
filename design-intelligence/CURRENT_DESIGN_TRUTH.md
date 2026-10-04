@@ -18,7 +18,7 @@ Supported: live websites, curated galleries, structured database exports, human-
 - fogoislandinn.ca: unavailable (2026-10-04T14:27:37.515Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
 - stjohnrestaurant.com: available (2026-10-04T13:59:22.720Z) — HTTP 200
 - www.apartamentomagazine.com: available (2026-10-04T13:59:30.822Z) — HTTP 200
-- www.heckfieldplace.com: available (2026-10-04T14:01:59.858Z) — HTTP 200
+- www.heckfieldplace.com: available (2026-10-04T18:39:20.222Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
 - hotelcorazon.com: available (2026-10-04T14:02:08.245Z) — HTTP 200
 - www.davidchipperfield.com: available (2026-10-04T14:02:18.674Z) — HTTP 200
 - noma.dk: available (2026-10-04T14:02:27.285Z) — HTTP 200
@@ -29,8 +29,8 @@ Supported: live websites, curated galleries, structured database exports, human-
 - www.oma.com: available (2026-10-04T14:05:08.834Z) — HTTP 200
 - www.kinfolk.com: available (2026-10-04T14:05:19.217Z) — HTTP 200
 - baltic.art: available (2026-10-04T14:05:27.969Z) — HTTP 200
-- www.villa-lena.it: available (2026-10-04T18:31:13.459Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
-- www.hotelsinnombre.com: available (2026-10-04T18:32:20.358Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
+- www.villa-lena.it: available (2026-10-04T18:40:25.510Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
+- www.hotelsinnombre.com: available (2026-10-04T18:41:32.533Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
 - thecalilehotel.com: available (2026-10-04T18:33:14.235Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
 - github_actions_playwright: available (2026-10-04T18:35:10Z) — Remote proof run 37224526387 on ubuntu-latest captured complete desktop/mobile static, complete image-heavy desktop, and complete lazy-image desktop sessions; GitHub artifact 11310978254 downloaded, SHA-256 validated and ingested in an isolated proof ledger. V5 run 37224667588 then ingested six real candidate sessions; incomplete cookie-obstructed sessions remain excluded.
 
@@ -42,8 +42,8 @@ Browser captures are qualified only by the latest render-complete desktop and mo
 - Partial or candidate references: 16.
 - Human-rejected or forbidden references: 2.
 - Researched holdouts: 0.
-- Browser captures awaiting audit: 10.
-- Incomplete browser captures: 4.
+- Browser captures awaiting audit: 9.
+- Incomplete browser captures: 5.
 - Render-complete browser references: 6.
 - References with mobile evidence: 0.
 - Operating commercial references: 0.

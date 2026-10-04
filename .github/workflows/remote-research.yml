@@ -1,13 +1,6 @@
 name: V5 remote research evidence
 
 on:
-  push:
-    branches:
-      - design/autonomous-human-cro-v5-20261004
-    paths:
-      - .github/workflows/remote-research.yml
-      - design-intelligence/remote/**
-      - design-intelligence/lib/capture.mjs
   workflow_dispatch:
     inputs:
       mode:

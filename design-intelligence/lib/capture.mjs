@@ -44,8 +44,9 @@ export async function inspectViewport(page) {
     const fixedOverlays = [...document.querySelectorAll("body *")].filter(element => {
       const css = getComputedStyle(element);
       const rect = element.getBoundingClientRect();
-      return ["fixed", "sticky"].includes(css.position) && intersects(rect) && rect.width * rect.height > width * height * 0.32 &&
-        Number(css.zIndex) >= 2;
+      return ["fixed", "sticky"].includes(css.position) && css.display !== "none" &&
+        css.visibility !== "hidden" && Number(css.opacity) >= 0.05 && intersects(rect) &&
+        rect.width * rect.height > width * height * 0.32 && Number(css.zIndex) >= 2;
     }).slice(0, 5).map(element => ({ tag: element.tagName, class_name: String(element.className).slice(0, 100) }));
     const zeroSizedMedia = [...document.querySelectorAll("img,video,canvas")].filter(element => {
       const css = getComputedStyle(element), rect = element.getBoundingClientRect();

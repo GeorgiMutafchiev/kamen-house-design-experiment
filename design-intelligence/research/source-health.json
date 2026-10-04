@@ -38,8 +38,8 @@
   "www.heckfieldplace.com": {
     "source": "www.heckfieldplace.com",
     "status": "available",
-    "checked_at": "2026-10-04T14:01:59.858Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T18:39:20.222Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
   },
   "hotelcorazon.com": {
     "source": "hotelcorazon.com",
@@ -104,13 +104,13 @@
   "www.villa-lena.it": {
     "source": "www.villa-lena.it",
     "status": "available",
-    "checked_at": "2026-10-04T18:31:13.459Z",
+    "checked_at": "2026-10-04T18:40:25.510Z",
     "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
   },
   "www.hotelsinnombre.com": {
     "source": "www.hotelsinnombre.com",
     "status": "available",
-    "checked_at": "2026-10-04T18:32:20.358Z",
+    "checked_at": "2026-10-04T18:41:32.533Z",
     "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
   },
   "thecalilehotel.com": {

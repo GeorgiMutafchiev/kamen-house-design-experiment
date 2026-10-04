@@ -75,6 +75,15 @@ test("client-side navigation settles before the canonical initial capture", asyn
   assert.ok(result.evidence.some(e => e.page.includes("full-page-after-traversal")));
 });
 
+test("an invisible fixed layer is not misclassified as an obstructing overlay", async t => {
+  const html = `<!doctype html><html><body><div style="position:fixed;inset:0;z-index:100;opacity:0;pointer-events:none">Inactive drawer</div><main><section style="height:800px"><h1>Visible opening with substantial content</h1></section><section style="height:800px"><h2>Visible continuation of the page</h2></section></main></body></html>`;
+  const { root, browser, url } = await fixture(t, html);
+  const result = await captureVisualSession(browser, { url, viewport: { width: 800, height: 600 }, label: "desktop" },
+    { dir: join(root, "hidden-overlay-session"), page: "home" });
+  assert.equal(result.session.status, "VISUAL_CAPTURE_COMPLETE", JSON.stringify(result.final?.assessment.reasons));
+  assert.ok(result.final.samples.every(sample => sample.fixed_overlays.length === 0));
+});
+
 test("audit and incomplete captures cannot affect coverage, calibration, holdouts, or concept evidence", async t => {
   const root = await mkdtemp(join(tmpdir(), "kamen-capture-ledger-"));
   t.after(() => rm(root, { recursive: true, force: true }));

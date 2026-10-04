@@ -6,7 +6,7 @@ This is a transport layer only. It uses the same `captureVisualSession` traversa
 
 `queue → GitHub Actions ubuntu-latest + Playwright Chromium → render-complete sessions → EvidenceBundle v1 → workflow artifact → fetch/validate/materialize → Design Intelligence events → V5 audition`
 
-The [workflow](../../.github/workflows/remote-research.yml) uses read-only repository permission, does not pass secrets to the browser, and uploads `kamen-research-evidence` even if a page is incomplete. A push changing worker/workflow files on the isolated V5 branch launches the saved [`run-request.json`](run-request.json), initially `proof`. A later push can request `research` with one to three queue IDs. A manual workflow dispatch can also specify mode and IDs once GitHub accepts dispatches for the branch. Do not run broad research until the remote proof has been ingested.
+The [workflow](../../.github/workflows/remote-research.yml) uses read-only repository permission, does not pass secrets to the browser, and uploads `kamen-research-evidence` even if a page is incomplete. It runs only by manual `workflow_dispatch` on the isolated V5 branch; the saved [`run-request.json`](run-request.json) is a bounded default if dispatch inputs are omitted. Select `proof` or `research` and at most three queue IDs. No commit or queue-status update launches a surprise capture job. Do not run broad research until the remote proof has been ingested.
 
 The runner installs dependencies from the lockfile, installs Playwright Chromium, captures up to three candidates per job, and has a 45-minute job limit. Queue entries allow at most three routes and two fixed viewports. Navigation has a 30-second timeout; each visual session makes at most two bounded traversals. A failed page retains its diagnostic bundle. Artifacts expire after 14 days; ingest selected evidence promptly and curate long-lived references before expiry. `references/remote-evidence/` is deliberately gitignored to avoid committing unreviewed bulk images. The manifest retains SHA-256 hashes and remote run provenance.
 
@@ -20,7 +20,7 @@ The artifact root contains `research-evidence-manifest.json` and one directory p
 
 ## Proof and ingestion commands
 
-The first isolated-branch push of this worker triggers the proof queue. After the run completes, inspect its status and download/ingest with:
+Dispatch the proof queue on the isolated branch with `gh workflow run remote-research.yml --ref design/autonomous-human-cro-v5-20261004 -f mode=proof`. After the run completes, inspect its status and download/ingest with:
 
 ```bash
 node design-intelligence/remote/fetch.mjs --proof --run-id <numeric-github-run-id>
@@ -28,7 +28,7 @@ node design-intelligence/remote/fetch.mjs --proof --run-id <numeric-github-run-i
 
 This downloads the GitHub artifact via `gh`, validates every file and ingests into `/tmp/kamen-v5-remote-proof-runs/<run-id>`, leaving the 19-candidate V5 corpus untouched and allowing independent proof retries. Inspect the manifest and screenshots to establish one simple static site, one image-heavy site, one lazy/growing page, at least one mobile session, and real external connectivity. A green workflow alone is not proof. The local-only probe in the Codex environment produced incomplete sessions because the HTTPS tunnel still returned 503; it is a failure-handling test, not external proof.
 
-After proof, change `run-request.json` to `research` with up to three existing queued IDs and push this isolated branch, or dispatch the workflow. Then:
+After proof, dispatch `research` with up to three existing queued IDs; for example `gh workflow run remote-research.yml --ref design/autonomous-human-cro-v5-20261004 -f mode=research -f candidate_ids=VILLALENA,SOMBRE`. Then:
 
 ```bash
 node design-intelligence/remote/fetch.mjs --run-id <numeric-github-run-id>
