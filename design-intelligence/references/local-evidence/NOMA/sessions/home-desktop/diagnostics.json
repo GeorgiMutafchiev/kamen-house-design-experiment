@@ -1,0 +1,800 @@
+{
+  "status": "VISUAL_CAPTURE_INCOMPLETE",
+  "reasons": [
+    "large hidden/reveal elements at 1 sampled scroll positions"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "traversal_complete": true,
+      "document_height_initial": 7134,
+      "document_height_final": 7134,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_INCOMPLETE",
+        "reasons": [
+          "large hidden/reveal elements at 1 sampled scroll positions"
+        ]
+      },
+      "samples": [
+        {
+          "scroll_y": 0,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 4,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 2,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 78,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.052083333333333336,
+          "step": 0,
+          "at": "2026-10-04T15:19:36.459Z"
+        },
+        {
+          "scroll_y": 720,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 3,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 2,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 292,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.09027777777777778,
+          "step": 1,
+          "at": "2026-10-04T15:19:36.998Z"
+        },
+        {
+          "scroll_y": 1440,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 1276,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.2725694444444444,
+          "step": 2,
+          "at": "2026-10-04T15:19:37.486Z"
+        },
+        {
+          "scroll_y": 2160,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 1588,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5329861111111112,
+          "step": 3,
+          "at": "2026-10-04T15:19:37.955Z"
+        },
+        {
+          "scroll_y": 2880,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 1167,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5729166666666666,
+          "step": 4,
+          "at": "2026-10-04T15:19:38.454Z"
+        },
+        {
+          "scroll_y": 3600,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.03993055555555555,
+          "step": 5,
+          "at": "2026-10-04T15:19:38.945Z"
+        },
+        {
+          "scroll_y": 4320,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.08159722222222222,
+          "step": 6,
+          "at": "2026-10-04T15:19:39.406Z"
+        },
+        {
+          "scroll_y": 5040,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [
+            {
+              "tag": "P",
+              "class_name": "has-m-font-size wp-block-paragraph",
+              "text": "Welcome to Barr – A place to gather"
+            },
+            {
+              "tag": "P",
+              "class_name": "has-zero-margin-top wp-block-paragraph",
+              "text": "Book your table"
+            }
+          ],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 859,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 2
+          },
+          "uniform_pixel_fraction": 0.2604166666666667,
+          "step": 7,
+          "at": "2026-10-04T15:19:41.290Z"
+        },
+        {
+          "scroll_y": 5760,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 925,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.3559027777777778,
+          "step": 8,
+          "at": "2026-10-04T15:19:41.766Z"
+        },
+        {
+          "scroll_y": 6134,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 533,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5329861111111112,
+          "step": 9,
+          "at": "2026-10-04T15:19:42.239Z"
+        },
+        {
+          "scroll_y": 6134,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 533,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5329861111111112,
+          "step": 10,
+          "at": "2026-10-04T15:19:42.736Z"
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "traversal_complete": true,
+      "document_height_initial": 7134,
+      "document_height_final": 7134,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_INCOMPLETE",
+        "reasons": [
+          "large hidden/reveal elements at 1 sampled scroll positions"
+        ]
+      },
+      "samples": [
+        {
+          "scroll_y": 0,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 4,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 78,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.050347222222222224,
+          "step": 0,
+          "at": "2026-10-04T15:19:48.498Z"
+        },
+        {
+          "scroll_y": 720,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 3,
+          "video_states": [
+            {
+              "ready_state": 4,
+              "network_state": 1,
+              "error": null
+            }
+          ],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 292,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.08506944444444445,
+          "step": 1,
+          "at": "2026-10-04T15:19:49.510Z"
+        },
+        {
+          "scroll_y": 1440,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 1276,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.2690972222222222,
+          "step": 2,
+          "at": "2026-10-04T15:19:50.454Z"
+        },
+        {
+          "scroll_y": 2160,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 1588,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5329861111111112,
+          "step": 3,
+          "at": "2026-10-04T15:19:51.405Z"
+        },
+        {
+          "scroll_y": 2880,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 1167,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5729166666666666,
+          "step": 4,
+          "at": "2026-10-04T15:19:52.389Z"
+        },
+        {
+          "scroll_y": 3600,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.03993055555555555,
+          "step": 5,
+          "at": "2026-10-04T15:19:53.343Z"
+        },
+        {
+          "scroll_y": 4320,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.08159722222222222,
+          "step": 6,
+          "at": "2026-10-04T15:19:54.293Z"
+        },
+        {
+          "scroll_y": 5040,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 3,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [
+            {
+              "tag": "P",
+              "class_name": "has-m-font-size wp-block-paragraph",
+              "text": "Welcome to Barr – A place to gather"
+            },
+            {
+              "tag": "P",
+              "class_name": "has-zero-margin-top wp-block-paragraph",
+              "text": "Book your table"
+            }
+          ],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 859,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 2
+          },
+          "uniform_pixel_fraction": 0.2604166666666667,
+          "step": 7,
+          "at": "2026-10-04T15:19:57.690Z"
+        },
+        {
+          "scroll_y": 5760,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 1,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 925,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.3559027777777778,
+          "step": 8,
+          "at": "2026-10-04T15:19:58.639Z"
+        },
+        {
+          "scroll_y": 6134,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 533,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5329861111111112,
+          "step": 9,
+          "at": "2026-10-04T15:19:59.599Z"
+        },
+        {
+          "scroll_y": 6134,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 7134,
+          "font_status": "loaded",
+          "total_images": 20,
+          "lazy_images": 10,
+          "visible_images": 1,
+          "visible_failed_images": [],
+          "visible_media": 2,
+          "video_states": [],
+          "zero_sized_media": [
+            {
+              "tag": "IMG",
+              "source": "https://i0.wp.com/noma.dk/wp-content/uploads/2026/01/NomaLA26_Banner_Home_01.jpg?ssl=1"
+            }
+          ],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 533,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.5329861111111112,
+          "step": 10,
+          "at": "2026-10-04T15:20:00.589Z"
+        }
+      ]
+    }
+  ],
+  "readiness_warnings": [],
+  "failed_resources": [
+    {
+      "url": "https://videos.files.wordpress.com/VWr2QBTg/20250521_nomadoor_02_169.mov",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://videos.files.wordpress.com/VWr2QBTg/20250521_nomadoor_02_169.mov",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://videos.files.wordpress.com/VWr2QBTg/20250521_nomadoor_02_169.mov",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://videos.files.wordpress.com/VWr2QBTg/20250521_nomadoor_02_169.mov",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CZHETKNWPR&gtm=45Pe69u2v9209123750za200zd9209123750xf1&_p=1791127172114&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&are=1&cid=1003180065.1791127173&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046262~121046270~121246027~121246035~121284208~121427141&sid=1791127173&sct=1&seg=0&dl=https%3A%2F%2Fnoma.dk%2F&dt=noma&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2277",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=TkvajH",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=TkvajH",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CZHETKNWPR&gtm=45Pe69u2v9209123750za200zd9209123750xf1&_p=1791127172114&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AEAAAAQ&ae=a&are=1&cid=1003180065.1791127173&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046262~121046270~121246027~121246035~121284208~121427141&sid=1791127173&sct=1&seg=0&dl=https%3A%2F%2Fnoma.dk%2F&dt=noma&en=scroll&epn.percent_scrolled=90&_et=7864&tfd=15144",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "browser_errors": []
+}

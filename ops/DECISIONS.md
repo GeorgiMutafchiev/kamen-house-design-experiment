@@ -176,3 +176,32 @@ Storing raw and corrected sessions side by side; retrying incomplete pages; usin
 
 Not allowed:
 Promoting old screenshots on apparent completeness alone, inferring intentional whitespace from a failed render, forcing animations off to manufacture a canonical reference, or modifying production UI during this correction.
+
+## D-010 — Adopt autonomous studio mode
+Status: LOCKED — EXPLICIT HUMAN OWNER INSTRUCTION
+Date/Checkpoint: 2026-10-04 / pre-studio checkout `4c12769`
+
+Decision:
+`KAMEN_HOUSE_AUTONOMOUS_DESIGN_STUDIO_MODE.md` supersedes D-007's owner taste-calibration and intermediate design-approval gate. Four fundamentally different isolated systems must be rendered, critiqued and compared before one working champion is expanded across the full site. Human review is reserved for the finished result. The former human-rejected direction remains rejected and recoverable; the newest pre-studio checkout is tagged `protected-pre-autonomous-studio-4c12769`.
+
+Reason:
+The owner explicitly delegated routine design decisions and requested a complete, working, distinctive website. An unreliable research tunnel is no longer allowed to block the separate creative lane. D-009 capture integrity and all factual, accessibility and conservation rules remain in force.
+
+Allowed:
+Honest Lane B creative prototypes using product truth, local assets and design reasoning; autonomous working-champion selection; full-site integration after four comparable renders; continued Lane A research whenever verified access works.
+
+Not allowed:
+Promoting unqualified screenshots as research, fabricating provenance, counting prototypes toward research coverage, reviving the rejected visual family, claiming human approval from AI reviews, or touching any other repository or production infrastructure.
+
+## D-011 — Select Spatial as working champion
+Status: WORKING CANDIDATE — NOT HUMAN APPROVED
+Date/Checkpoint: 2026-10-04 / autonomous studio first pass
+
+Decision:
+Select the Spatial system from four isolated, independently renderable prototypes for the site-wide implementation. It organizes the visitor journey around the house section, positions the fire kitchen as the shared heart, uses measured rules and varied images, and gives rooms, food, directions and editorial content a coherent grammar.
+
+Evidence:
+`design-lab/AUTONOMOUS_STUDIO_REVIEW.md`, anonymous candidate captures, three viewport sizes, mobile and desktop axe checks, and the preserved human-rejected baseline. A later verified research checkpoint from St. JOHN, David Chipperfield and Casa Bonay challenged the champion's uniform image rhythm; the final homepage varied room-image widths and added a smaller path image. These references were not the original source of Lane B.
+
+Limit:
+The review is internal and procedurally blinded only. The prior AI self-evaluation failure prohibits treating it as human design acceptance. The Design Intelligence Lane A synthesis gate is still false.

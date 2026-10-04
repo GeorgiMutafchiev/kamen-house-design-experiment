@@ -3,44 +3,39 @@ import { ConceptImage } from "./ui/concept-image";
 import { rooms } from "@/lib/content";
 
 export default function HomePage() {
-  return (
-    <>
-      <section className="home-opening register-grid">
-        <p className="index-mark">Bulgaria<br />Rhodope Mountains</p>
-        <h1>Eleven rooms<br />above a fire kitchen.</h1>
-        <p className="opening-lead">A small mountain house for walking, eating, reading and staying a few days.</p>
-        <Link className="text-action" href="/stay">Plan a stay <span aria-hidden="true">→</span></Link>
-        <ConceptImage src="/images/house-concept.webp" alt="Concept study of a stone and timber mountain house beside a wet path at dusk" caption="Exterior approach in autumn rain — generated concept study, not a real property." className="home-hero" priority sizes="(max-width: 768px) 100vw, 78vw" />
-        <aside className="weather-note"><span>Autumn note</span><strong>Wet paths. Cold evenings.</strong><p>Bring boots with a proper sole. The stove is lit before dusk.</p></aside>
-      </section>
+  return <>
+    <section className="sp-home-opening">
+      <div className="sp-coordinate"><span>RHODOPE MOUNTAINS / BULGARIA</span><span>11 ROOMS / 01 FIRE KITCHEN</span></div>
+      <h1>Eleven rooms.<br />The fire downstairs.</h1>
+      <div className="sp-opening-bottom"><p>A small mountain house for walking out, coming back, and eating together.</p><Link href="/house">ENTER THE HOUSE ↓</Link></div>
+      <ConceptImage src="/images/house-concept.webp" alt="Generated concept study of a stone mountain house at dusk" caption="Exterior approach — generated architectural study of a fictional property." className="sp-home-hero" priority sizes="100vw" />
+    </section>
 
-      <section className="chapter register-grid" aria-labelledby="home-house">
-        <p className="chapter-number">01 / The house</p>
-        <h2 id="home-house">One long table and eleven different rooms.</h2>
-        <div className="chapter-copy"><p>Its eleven rooms are simple, warm and different from one another.</p><p>Breakfast is downstairs. Dinner follows what is good that week and what the fire can do well. The rest of the day is yours.</p></div>
-        <Link className="text-action" href="/house">Read about the house →</Link>
-      </section>
+    <section className="sp-home-plan" aria-labelledby="sp-plan-heading">
+      <p className="sp-side-label">01 / HOUSE SECTION</p>
+      <div><h2 id="sp-plan-heading">Built around<br />the fire.</h2>
+        <div className="sp-levels" aria-label="Illustrative house organization">
+          <div><b>UPPER</b><span>Rooms 01, 03–05, 07–09, 11</span></div>
+          <div><b>LOWER</b><span>Rooms 02 and 10</span></div>
+          <div className="sp-level-fire"><b>GROUND / HEART</b><span>Fire kitchen, Room 06 · one shared table</span></div>
+        </div>
+        <p className="sp-plan-note">An illustrative reading of this fictional house, not a measured floor plan.</p>
+      </div>
+    </section>
 
-      <section className="room-register" aria-labelledby="home-rooms">
-        <div className="section-heading register-grid"><p className="chapter-number">02 / Rooms</p><h2 id="home-rooms">The register</h2><p>Eleven rooms. No live availability. Use the inquiry preview to check dates and note what might fit.</p></div>
-        <ol>
-          {rooms.slice(0, 5).map((room) => (
-            <li key={room.slug}><Link href={`/rooms/${room.slug}`}><span>{room.number}</span><strong>{room.name}</strong><span>{room.outlook}</span><span>{room.sleeps} guests</span><span aria-hidden="true">→</span></Link></li>
-          ))}
-        </ol>
-        <Link className="register-more" href="/rooms">See all eleven rooms →</Link>
-      </section>
+    <section className="sp-home-rooms" aria-labelledby="sp-rooms-heading">
+      <div className="sp-room-head"><p className="sp-side-label">02 / PRIVATE SPACE</p><h2 id="sp-rooms-heading">Rooms are<br />places, not types.</h2><p>Choose for the view, stair, sound and light you want to wake to.</p></div>
+      <div className="sp-room-gallery">
+        {rooms.slice(0, 2).map((room) => <Link href={`/rooms/${room.slug}`} key={room.slug}><ConceptImage src={room.image} alt={room.imageAlt} caption={room.imageCaption} className="sp-gallery-image" sizes="(max-width: 700px) 100vw, 38vw" /><strong>{room.number} / {room.name.toUpperCase()}</strong><span>{room.note}</span></Link>)}
+        <Link className="sp-all-rooms" href="/rooms"><strong>11</strong><span>ROOMS IN ALL</span><b>VIEW THE REGISTER →</b></Link>
+      </div>
+    </section>
 
-      <section className="split-chapter">
-        <ConceptImage src="/images/kitchen-concept.webp" alt="Concept study of hands preparing peppers beside a wood-fired stove" caption="Peppers and beans beside the stove — generated kitchen study." className="wide-image" sizes="(max-width: 768px) 100vw, 62vw" />
-        <div className="split-copy"><p className="chapter-number">03 / Fire kitchen</p><h2>The stove is lit at 15:00.</h2><p>Bread, beans, river fish, peppers and orchard fruit move through the menu as the season changes.</p><p className="fact-line"><span>Dinner</span><strong>19:30, one sitting</strong></p><Link className="text-action" href="/food">At the kitchen table →</Link></div>
-      </section>
+    <section className="sp-home-table" aria-labelledby="sp-table-heading">
+      <ConceptImage src="/images/hearth-concept.webp" alt="Generated concept study of a pot beside the fire" caption="Pot beside beech embers — generated kitchen study." className="sp-table-image" sizes="(max-width: 700px) 100vw, 55vw" />
+      <div className="sp-table-copy"><p className="sp-side-label">03 / SHARED SPACE</p><h2 id="sp-table-heading">The kitchen<br />sets the hour.</h2><p>One fire and one sitting at 19:30. Food takes time here, and the room makes that visible.</p><Link href="/food">AT THE TABLE →</Link></div>
+    </section>
 
-      <section className="field-note register-grid">
-        <p className="chapter-number">04 / Outside</p>
-        <ConceptImage src="/images/path-concept.webp" alt="Concept study of a wet forest path marked on a stone" caption="Wet roots on a marked forest path — generated field study." className="portrait-image" sizes="(max-width: 768px) 100vw, 38vw" />
-        <div><h2>The south path begins at the lower gate.</h2><p>It climbs through beech and spruce. After rain, roots and stone stay slick well into the afternoon.</p><Link className="text-action" href="/around">Notes from around the house →</Link></div>
-      </section>
-    </>
-  );
+    <section className="sp-home-terrain" aria-labelledby="sp-terrain-heading"><p className="sp-side-label">04 / OUTSIDE</p><h2 id="sp-terrain-heading">From the lower gate, the path is already underfoot.</h2><ConceptImage src="/images/path-concept.webp" alt="Generated concept study of a wet forest path" caption="South path after rain — generated field study." className="sp-terrain-image" sizes="(max-width: 700px) 100vw, 25vw" /><div><p>Three walks start at the house. Weather decides which is sensible.</p><Link href="/around">ROUTES & CONDITIONS →</Link></div></section>
+  </>;
 }

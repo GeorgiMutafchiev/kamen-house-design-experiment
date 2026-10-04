@@ -1,0 +1,152 @@
+{
+  "status": "VISUAL_CAPTURE_COMPLETE",
+  "reasons": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "traversal_complete": true,
+      "document_height_initial": 1166,
+      "document_height_final": 1166,
+      "assessment": {
+        "status": "VISUAL_CAPTURE_COMPLETE",
+        "reasons": []
+      },
+      "samples": [
+        {
+          "scroll_y": 0,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 1166,
+          "font_status": "loaded",
+          "total_images": 5,
+          "lazy_images": 0,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.3177083333333333,
+          "step": 0,
+          "at": "2026-10-04T15:17:58.789Z"
+        },
+        {
+          "scroll_y": 166,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 1166,
+          "font_status": "loaded",
+          "total_images": 5,
+          "lazy_images": 0,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.3159722222222222,
+          "step": 1,
+          "at": "2026-10-04T15:17:59.301Z"
+        },
+        {
+          "scroll_y": 166,
+          "viewport_width": 1440,
+          "viewport_height": 1000,
+          "document_height": 1166,
+          "font_status": "loaded",
+          "total_images": 5,
+          "lazy_images": 0,
+          "visible_images": 2,
+          "visible_failed_images": [],
+          "visible_media": 0,
+          "video_states": [],
+          "zero_sized_media": [],
+          "offscreen_reveals": [],
+          "visible_hidden_reveals": [],
+          "visible_empty_sections": [],
+          "visible_main_text_chars": 0,
+          "fixed_overlays": [],
+          "initial_signals": {
+            "failed_images": 0,
+            "hidden_reveals": 0
+          },
+          "uniform_pixel_fraction": 0.3159722222222222,
+          "step": 2,
+          "at": "2026-10-04T15:17:59.832Z"
+        }
+      ]
+    }
+  ],
+  "readiness_warnings": [],
+  "failed_resources": [
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/api/collect",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.opentable.co.uk/widget/reservation/cookie-check/set-cookie",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/shopify_pay/accelerated_checkout",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3C6F5ZD4L8&gtm=45je69u2v9126090063za200zd9126090063xf1&_p=1791127074634&gcs=G111&gcd=13n3n3n3n5l1&npa=0&dma=0&gdid=dMDg0Yz.dMmQyMD&_eu=EA&are=1&cid=729098052.1791127075&frm=2&ir=1&ngs=1&pscdl=noapi&rcb=8&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B151.0.7922.173%7CNot%253DA%253FBrand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1791127075&sct=1&seg=0&dl=https%3A%2F%2Fstjohnrestaurant.com%2F&dt=St.%20JOHN&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1359",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/2178/3315/t/1/assets/uncomplicated.search.min.js?5176865826146859668&shop=st-john-restaurant-company.myshopify.com",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/api/collect",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://stjohnrestaurant.com/.well-known/shopify/monorail/unstable/produce_batch",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "browser_errors": []
+}

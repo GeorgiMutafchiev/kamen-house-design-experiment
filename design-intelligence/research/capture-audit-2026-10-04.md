@@ -23,3 +23,9 @@ The following is an audit of the stored desktop and mobile images. An apparently
 | BALTIC | Gallery, event and footer content appear, but a large cookie modal covers the entry state. **Holdout.** | `CAPTURE_AUDIT_REQUIRED`. |
 
 Current corpus qualification after the two failed recapture attempts: **0 valid positive**, **13 audit-required**, **2 incomplete**, **0 valid holdouts**, **1 human-rejected local baseline**. No calibration item may be selected from these images yet. Fresh HEAD probes for `example.com`, Heckfield Place and ArchDaily all returned HTTP 503; direct no-proxy HTTPS failed to connect. This is a source outage, separate from the evidence gate.
+
+## Later same-day recapture checkpoint
+
+The global HTTPS route briefly recovered. Fresh render-complete desktop and mobile sessions passed for **STJOHN**, **DAVIDCHIPPERFIELD**, and **CASABONAY**. Their completed viewport files were manually inspected and each received a researched-at annotation plus provenance-backed atomic patterns. Earlier raw files remain preserved and quarantined; the latest passing sessions, not the old files, establish qualification. No interior page or interaction claim is made for these three homepage inspections.
+
+**NOMA** returned HTTP 200 but both new sessions remained `VISUAL_CAPTURE_INCOMPLETE`, so no positive pattern or coverage was added for it. ACE and FOGO remain incomplete; all other legacy captures still await new sessions. The current counts are generated from `research/events.jsonl` into `research/research-coverage.json`, not from the historical snapshot above.

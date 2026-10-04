@@ -24,8 +24,7 @@ for (const item of cases) {
       }
       window.scrollTo(0, 0);
     });
-    const images = page.locator("img");
-    if (await images.count()) await images.last().waitFor({ state: "visible" });
+    await page.waitForFunction(() => [...document.images].every((image) => image.complete && image.naturalWidth > 0), undefined, { timeout: 10_000 });
     await page.screenshot({ path: `tests/visual/current/${item.name}`, fullPage: true });
   });
 }

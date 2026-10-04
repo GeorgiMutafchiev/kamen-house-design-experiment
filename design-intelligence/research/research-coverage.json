@@ -1,19 +1,25 @@
 {
-  "generated_at": "2026-10-04T14:35:35.549Z",
+  "generated_at": "2026-10-04T15:26:13.558Z",
   "stage": "high_signal_exploration",
   "counts": {
-    "researched": 0,
-    "partial_or_candidate": 11,
+    "researched": 3,
+    "partial_or_candidate": 8,
     "rejected": 1,
     "holdout": 0,
-    "mobile": 0,
-    "operating_commercial": 0,
-    "capture_audit_required": 13,
-    "capture_incomplete": 2,
-    "capture_complete": 0
+    "mobile": 3,
+    "operating_commercial": 3,
+    "capture_audit_required": 9,
+    "capture_incomplete": 3,
+    "capture_complete": 3
   },
-  "source_types": [],
-  "categories": [],
+  "source_types": [
+    "live_website"
+  ],
+  "categories": [
+    "restaurant",
+    "architecture",
+    "hospitality"
+  ],
   "dimensions": {
     "typography": {
       "confidence": "insufficient",
@@ -34,16 +40,24 @@
       "reference_ids": []
     },
     "photography": {
-      "confidence": "insufficient",
-      "reference_count": 0,
-      "source_types": [],
-      "reference_ids": []
+      "confidence": "low",
+      "reference_count": 1,
+      "source_types": [
+        "live_website"
+      ],
+      "reference_ids": [
+        "CASABONAY"
+      ]
     },
     "layout_rhythm": {
-      "confidence": "insufficient",
-      "reference_count": 0,
-      "source_types": [],
-      "reference_ids": []
+      "confidence": "low",
+      "reference_count": 1,
+      "source_types": [
+        "live_website"
+      ],
+      "reference_ids": [
+        "DAVIDCHIPPERFIELD"
+      ]
     },
     "grid": {
       "confidence": "insufficient",
@@ -52,10 +66,14 @@
       "reference_ids": []
     },
     "content_density": {
-      "confidence": "insufficient",
-      "reference_count": 0,
-      "source_types": [],
-      "reference_ids": []
+      "confidence": "low",
+      "reference_count": 1,
+      "source_types": [
+        "live_website"
+      ],
+      "reference_ids": [
+        "DAVIDCHIPPERFIELD"
+      ]
     },
     "cta_hierarchy": {
       "confidence": "insufficient",
@@ -70,10 +88,14 @@
       "reference_ids": []
     },
     "mobile_responsive": {
-      "confidence": "insufficient",
-      "reference_count": 0,
-      "source_types": [],
-      "reference_ids": []
+      "confidence": "low",
+      "reference_count": 1,
+      "source_types": [
+        "live_website"
+      ],
+      "reference_ids": [
+        "CASABONAY"
+      ]
     },
     "footer": {
       "confidence": "insufficient",
@@ -82,10 +104,14 @@
       "reference_ids": []
     },
     "hospitality_credibility": {
-      "confidence": "insufficient",
-      "reference_count": 0,
-      "source_types": [],
-      "reference_ids": []
+      "confidence": "low",
+      "reference_count": 1,
+      "source_types": [
+        "live_website"
+      ],
+      "reference_ids": [
+        "STJOHN"
+      ]
     },
     "originality_differentiation": {
       "confidence": "insufficient",
@@ -111,10 +137,10 @@
   ],
   "synthesis_ready": false,
   "gate_reasons": [
-    "need 20 more researched references",
-    "need 3 more independent source types",
-    "need 4 more design categories",
-    "need 8 more mobile reference captures",
+    "need 17 more researched references",
+    "need 2 more independent source types",
+    "need 1 more design categories",
+    "need 5 more mobile reference captures",
     "need 4 more researched holdouts",
     "under-covered dimensions: typography, navigation, hero, photography, layout_rhythm, grid, content_density, cta_hierarchy, interaction_motion, mobile_responsive, footer, hospitality_credibility, originality_differentiation"
   ]

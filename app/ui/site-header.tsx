@@ -31,7 +31,7 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
-      <Link className="wordmark" href="/" onClick={() => setOpen(false)} aria-label="KAMEN HOUSE home">KAMEN<br />HOUSE</Link>
+      <Link className="wordmark" href="/" onClick={() => setOpen(false)} aria-label="KAMEN HOUSE home">KAMEN / HOUSE</Link>
       <button ref={menuButton} className="menu-button" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen(!open)}>
         {open ? "Close" : "Menu"}
       </button>
@@ -40,7 +40,7 @@ export function SiteHeader() {
           <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={pathname.startsWith(href) ? "page" : undefined}>{label}</Link>
         ))}
       </nav>
-      <Link className="stay-link" href="/stay" onClick={() => setOpen(false)}>Plan a stay <span aria-hidden="true">→</span></Link>
+      <Link className="stay-link" href="/stay" aria-label="Plan a stay" onClick={() => setOpen(false)}>STAY / ENQUIRE <span aria-hidden="true">→</span></Link>
     </header>
   );
 }

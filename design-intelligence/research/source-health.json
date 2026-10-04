@@ -1,9 +1,9 @@
 {
   "cloud_https_tunnel": {
     "source": "cloud_https_tunnel",
-    "status": "unavailable",
-    "checked_at": "2026-10-04T14:30:29.867Z",
-    "detail": "Fresh HEAD probes for example.com, Heckfield Place, and ArchDaily all returned HTTP 503; direct no-proxy HTTPS connection also failed. Previously stored research artifacts remain local."
+    "status": "available",
+    "checked_at": "2026-10-04T15:22:53.646Z",
+    "detail": "Heckfield Place, Ace Hotel and Apartamento HEAD probes responded; render-complete desktop/mobile sessions succeeded for STJOHN, DAVIDCHIPPERFIELD and CASABONAY. Availability may be transient."
   },
   "example.com": {
     "source": "example.com",
@@ -26,8 +26,8 @@
   "stjohnrestaurant.com": {
     "source": "stjohnrestaurant.com",
     "status": "available",
-    "checked_at": "2026-10-04T13:59:22.720Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T15:18:09.863Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_COMPLETE"
   },
   "www.apartamentomagazine.com": {
     "source": "www.apartamentomagazine.com",
@@ -50,14 +50,14 @@
   "www.davidchipperfield.com": {
     "source": "www.davidchipperfield.com",
     "status": "available",
-    "checked_at": "2026-10-04T14:02:18.674Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T15:19:14.849Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_COMPLETE"
   },
   "noma.dk": {
     "source": "noma.dk",
     "status": "available",
-    "checked_at": "2026-10-04T14:02:27.285Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T15:20:45.534Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
   },
   "framacph.com": {
     "source": "framacph.com",
@@ -68,8 +68,8 @@
   "casabonay.com": {
     "source": "casabonay.com",
     "status": "available",
-    "checked_at": "2026-10-04T14:04:20.984Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T15:21:21.957Z",
+    "detail": "HTTP 200; VISUAL_CAPTURE_COMPLETE"
   },
   "www.masseriamoroseta.it": {
     "source": "www.masseriamoroseta.it",

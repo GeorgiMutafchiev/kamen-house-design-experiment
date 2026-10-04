@@ -1,23 +1,18 @@
 # KAMEN HOUSE Design Lab
 
-Status: RESEARCH INFRASTRUCTURE ACTIVE — DESIGN SYNTHESIS AWAITS EVIDENCE
+Status: AUTONOMOUS STUDIO — four independent first-pass directions completed; Spatial selected as working champion and expanded across the site.
 
-This directory isolates replacement visual exploration from the preserved application. No concept here is accepted, production-ready, a Champion, or eligible for full-site expansion until the human owner explicitly selects it from rendered desktop and mobile evidence.
+The owner explicitly superseded the former taste-calibration and intermediate human-approval workflow with `KAMEN_HOUSE_AUTONOMOUS_DESIGN_STUDIO_MODE.md`. Routine design decisions are delegated. The human-rejected product is protected at `human-rejected-baseline-001`; the immediately preceding clean checkout is protected at `protected-pre-autonomous-studio-4c12769`.
 
-## Boundaries
+## Separate lanes
 
-- Homepage/design laboratory only.
-- At least six independently inspectable, materially different concepts.
-- No rewriting of the preserved production-like homepage during exploration.
-- No secondary-page redesign or production integration.
-- No copied layouts, photography, logos, copy, brand assets, or signature animations.
-- Evidence-rich professional references from supported channels must pass the Design Intelligence coverage gate before concept generation. Live browser inspection remains required for claims about live websites, but network availability is not itself the gate.
-- AI review is a filter only; the human owner is the absolute design gate.
+- **Lane A — verified research:** `design-intelligence/` is evidence strict. Its coverage gate has not been met. Only render-complete, provenance-backed references can contribute to the research corpus. Research captures never become product imagery.
+- **Lane B — autonomous studio:** `public/design-lab/{editorial,spatial,cinema,vernacular}/index.html` are independently renderable first passes. Their starting evidence was product truth, local assets, typography and layout reasoning. They are `UNVERIFIED_CREATIVE_PROTOTYPE`, not research references.
 
-## Planned structure
+`AUTONOMOUS_STUDIO_REVIEW.md` records the seven-role critique and working selection. `renders/` holds desktop, laptop, mobile and anonymous panels. The selected prototype was challenged against newly qualified external research only after those references passed capture integrity, without pretending the original creative work came from those sources.
 
-Each concept receives its own directory under `concepts/` and its own desktop/mobile renders under `renders/`. Shared code is permitted only when it does not homogenize the concepts.
+## Working champion
 
-## Current blocker
+Spatial is the working champion because a house-section grammar expresses the actual lodging and the fire kitchen while supporting useful room, food, arrival, journal and booking information. The final application is at `/`, with all existing visitor routes retained. It is still a fictional hospitality experiment: its inquiry form validates locally and transmits nothing; generated images are disclosed; no verified travel address exists.
 
-On 2026-10-04, Internet access briefly succeeded, then the shared `cloudflare_https_tunnel` returned HTTP 503 for every destination. The owner subsequently authorized the resilient architecture in `design-intelligence/`. The concept directories remain empty because the accumulated evidence is insufficient under `design-intelligence/research/research-coverage.json`, not because the browser channel is down. Full historical network evidence is in `design-v2/NETWORK_RESEARCH_BLOCKER.md`.
+The earlier House Register remains HUMAN_REJECTED as visual evidence. AI self-review cannot overrule that verdict or claim final human approval for the new result.

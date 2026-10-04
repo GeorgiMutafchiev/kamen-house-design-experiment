@@ -411,9 +411,9 @@ Generated from \`research/events.jsonl\`. This file reports evidence, not design
 ## Protected baseline and design status
 
 - Preserved baseline: \`HUMAN_REJECTED_BASELINE_001\`, tag \`human-rejected-baseline-001\`, commit \`98715a99bf60070cb21b26941fe72c504496ee0c\`.
-- Protected baseline visual direction: HUMAN_REJECTED. Production UI is unchanged by this research layer.
-- Human-approved new directions: ${humanApprovedDirections.join(", ") || "none"}. A direction lock is a separate governance decision.
-- Human owner remains the final design gate.
+- Protected baseline visual direction: HUMAN_REJECTED. Its recovery tag remains intact; the current experimental product state is recorded in ops/CURRENT_STATE.md.
+- Human-approved new directions: ${humanApprovedDirections.join(", ") || "none"}. The autonomous studio may select a working champion under the newer owner directive; that does not create owner taste evidence.
+- Human review is reserved for the finished result, under KAMEN_HOUSE_AUTONOMOUS_DESIGN_STUDIO_MODE.md.
 
 ## Research channels
 
@@ -449,14 +449,14 @@ Owner-approved positive references: ${state.references.filter(r => r.human_statu
 
 ## Synthesis gate
 
-Status: ${coverage.synthesis_ready ? "EVIDENCE SUFFICIENT FOR ISOLATED CONCEPT EXPLORATION" : "INSUFFICIENT EVIDENCE — NO DESIGN SYNTHESIS"}.
+Lane A status: ${coverage.synthesis_ready ? "EVIDENCE SUFFICIENT FOR VERIFIED RESEARCH-BASED SYNTHESIS" : "INSUFFICIENT VERIFIED EVIDENCE — NO RESEARCH-BASED SYNTHESIS"}. Lane B autonomous creative prototypes are separately permitted and do not increase this coverage.
 ${coverage.gate_reasons.length ? coverage.gate_reasons.map(r => `- ${r}`).join("\n") : "- No coverage gap remains under the current conservative thresholds."}
 
 ## Candidate directions and evaluation
 
-${state.directions.length ? state.directions.map(d => `- ${d.id}: ${JSON.stringify(d.visual_grammar)}. Review: ${JSON.stringify(candidateReview(state, d.id))}`).join("\n") : "- No new candidate direction exists."}
+${state.directions.length ? state.directions.map(d => `- ${d.id}: ${JSON.stringify(d.visual_grammar)}. Review: ${JSON.stringify(candidateReview(state, d.id))}`).join("\n") : "- No verified Lane A candidate direction is registered. Lane B prototypes are documented in design-lab/."}
 
-Independent screen review and holdout comparison are diagnostic filters. Only explicit human-owner feedback can approve a rendered direction.
+Independent screen review and holdout comparison are diagnostic filters. Only explicit human-owner feedback can set owner-approved taste status; autonomous working-champion selection is tracked separately.
 
 ## Next research action
 

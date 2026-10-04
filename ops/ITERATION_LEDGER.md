@@ -295,3 +295,29 @@ Deterministic local Chromium fixtures and ledger tests passed. Lint and unchange
 
 Next:
 Use valid alternative visual exports if available, or recapture first-party sites when external access returns. Inspect the complete viewport sessions before promoting any source, then resume gap-directed research and prepare owner taste calibration.
+
+## Iteration 11 — Autonomous studio and working champion
+
+Starting checkpoint:
+Clean `work` checkout `4c127692a088758b1bb9e7cb1c1669c030568589`, protected with tag `protected-pre-autonomous-studio-4c12769`. The human-rejected `98715a9` baseline remains separately tagged.
+
+Owner instruction:
+The new autonomous studio directive supersedes the old owner taste-calibration and intermediate approval flow. Four independent design systems and a complete working site are required; verified browser research remains separate from creative prototyping.
+
+First-pass directions:
+Editorial (text-led reading), Spatial (architectural house section), Cinema (image-led sequence), and Vernacular (material register). Each has its own hierarchy, page rhythm, image treatment, food treatment and mobile sequence. Static routes and three-size renders are under `public/design-lab/` and `design-lab/renders/`.
+
+Review:
+The seven-role critique rejected Cinema for image dependence and weak room utility. Editorial and Vernacular were too close to the human-rejected serif/paper family. Spatial was selected provisionally for a coherent full-site grammar. Anonymous render panels were used, but implementer/reviewer identity was not independent; no human-quality verdict is claimed.
+
+Adversarial revision and implementation:
+The homepage now leads with the eleven-room/fire relationship, an illustrative building section, differentiated room imagery, a strong food section and a path note. Fire kitchen and House received distinctive route compositions. Existing room detail, journal, arrival, inquiry, legal and recovery routes remain in the same spatial system. The generated concept imagery and non-transmitting booking preview remain explicit.
+
+Verified research return:
+HTTPS resumed briefly. STJOHN, DAVIDCHIPPERFIELD and CASABONAY passed render-complete desktop/mobile sessions, were visually inspected and yielded five provenance-backed atomic patterns. NOMA sessions remained incomplete and were excluded. The new references challenged the champion's uniform image rhythm, prompting varied room widths and a smaller path image. Lane A still fails the broader research synthesis gate and the Lane B work was not retroactively labelled research-backed.
+
+Functional validation:
+13/13 unit/integration tests; lint pass; production build of 28 static routes; Playwright 32/32 pass. Static export under the GitHub Pages repository subpath passed local HTTP route, image and client navigation checks. Representative route scans at 320, 375, 390, 650, 768, 1024 and 1440 px found no document overflow. Full-page desktop/laptop/mobile captures of the finished routes were preserved.
+
+Drift status:
+Working candidate, with original human-rejected visual family preserved rather than promoted. Human judgment of the finished result remains pending.

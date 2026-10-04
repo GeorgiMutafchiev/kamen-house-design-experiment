@@ -9,6 +9,34 @@ test("primary routes render and navigation has no dead links", async ({ page }) 
   }
 });
 
+test("visitor routes expose only working internal destinations", async ({ page, request }) => {
+  const destinations = new Set<string>();
+  for (const route of ["/", "/rooms", "/food", "/house", "/around", "/journal", "/find-us", "/stay"]) {
+    await page.goto(route);
+    const hrefs = await page.locator('a[href^="/"]').evaluateAll((links) => links.map((link) => link.getAttribute("href")!));
+    hrefs.forEach((href) => destinations.add(href.split("#")[0]));
+  }
+  for (const destination of destinations) {
+    const response = await request.get(destination);
+    expect(response.ok(), destination).toBeTruthy();
+  }
+});
+
+test("home photography loads after the full scroll journey", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/");
+  await page.evaluate(async () => {
+    for (let y = 0; y < document.documentElement.scrollHeight; y += 600) {
+      window.scrollTo(0, y);
+      await new Promise((resolve) => setTimeout(resolve, 60));
+    }
+  });
+  await expect.poll(() => page.locator("img").evaluateAll((images) => images.filter((image) => {
+    const img = image as HTMLImageElement;
+    return !img.complete || img.naturalWidth === 0;
+  }).map((image) => image.getAttribute("src"))), { timeout: 10_000 }).toEqual([]);
+});
+
 test("mobile menu is keyboard-operable and routes to rooms", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
@@ -94,7 +122,7 @@ test("representative mobile pages do not overflow horizontally", async ({ page }
 test("representative mobile links have 44px targets", async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 812 });
   await page.goto("/");
-  for (const selector of [".wordmark", ".stay-link", ".text-action"]) {
+  for (const selector of [".wordmark", ".stay-link", ".menu-button", ".sp-opening-bottom a", ".sp-table-copy a", ".sp-home-terrain a"]) {
     const boxes = await page.locator(selector).evaluateAll((items) => items.map((item) => item.getBoundingClientRect().height));
     expect(boxes.every((height) => height >= 44), `${selector}: ${boxes.join(", ")}`).toBeTruthy();
   }

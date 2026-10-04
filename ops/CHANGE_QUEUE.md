@@ -341,3 +341,37 @@ Risk: B · Owner role: Orchestrator
 
 Validation:
 Deterministic local Chromium fixtures test lazy media, reveal state, growing document height, retries, invalidation, and provenance. All 15 old live captures are quarantined; two new attempts failed with real HTTP 503 and remain incomplete. Coverage remains zero valid positive references.
+
+### C-022 — Four-lane autonomous creative exploration
+Status: ACCEPTED AS WORKING DESIGN EVIDENCE — NO HUMAN QUALITY VERDICT
+
+Problem:
+The human-rejected register aesthetic and a stalled research channel left no strong replacement site.
+
+Scope:
+Protect the clean pre-studio checkout; create four isolated structural visual grammars; render desktop, laptop and mobile; conduct seven-role critique and reject severe failures.
+
+Do not modify:
+The preserved baseline tag, capture qualification policy, or other repositories and infrastructure.
+
+Risk: C · Owner role: Autonomous studio under D-010
+
+Validation:
+Four renderable routes, twelve viewport captures, no broken static images, no mobile overflow, and no serious automated axe findings in the candidates. Spatial is selected as a provisional working champion with the limits recorded in the Design Lab review.
+
+### C-023 — Integrate and test the Spatial working champion
+Status: IMPLEMENTED AND TECHNICALLY VALIDATED — HUMAN VISUAL REVIEW PENDING
+
+Problem:
+The isolated champion must become a coherent visitor website, with stronger food identity and practical pages that work outside the homepage.
+
+Scope:
+Replace the old page-level visual language across all existing routes; rebuild the home, food and house compositions; preserve factual room and editorial content, booking-preview honesty, navigation and recovery routes; run build, accessibility, responsive and functional checks.
+
+Do not modify:
+The protected recovery tags, fictional facts without evidence, the research capture standard, or any external production UI.
+
+Risk: C · Owner role: Autonomous studio under D-010
+
+Validation:
+13 unit/integration tests, lint, 28-route production build, 32 Playwright checks, working static preview export and seven-width overflow checks. The owner remains the final judge of the rendered quality.

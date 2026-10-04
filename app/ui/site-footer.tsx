@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <div className="footer-mark">KAMEN<br />HOUSE</div>
+      <div className="footer-mark">KAMEN / HOUSE</div>
       <p className="footer-address">Rhodope Mountains<br />Bulgaria</p>
       <div className="footer-links">
         <Link href="/stay">Plan a stay</Link>
@@ -14,4 +14,3 @@ export function SiteFooter() {
     </footer>
   );
 }
-
