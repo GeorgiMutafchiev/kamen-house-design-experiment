@@ -68,13 +68,14 @@ async function manifest(root, bundles) {
   return value;
 }
 
-test("queue keeps all 19 V5 candidates and rejects unsafe or duplicate work", async () => {
+test("queue preserves the original 19 V5 candidates while allowing verified expansion", async () => {
   const queue = await loadQueue("design-studio-v5/discovery/research-queue.json");
   const csv = await readFile("design-studio-v5/discovery/candidates.csv", "utf8");
   const discoveredUrls = csv.trim().split("\n").slice(1).map(line => line.split(",")[0]);
-  assert.equal(queue.items.length, 19);
-  assert.deepEqual(new Set(queue.items.map(x => x.url)), new Set(discoveredUrls));
-  assert.equal(new Set(queue.items.map(x => x.candidate_id)).size, 19);
+  assert.ok(queue.items.length >= 19);
+  const queuedUrls = new Set(queue.items.map(x => x.url));
+  for (const url of discoveredUrls) assert.ok(queuedUrls.has(url), `original candidate missing: ${url}`);
+  assert.equal(new Set(queue.items.map(x => x.candidate_id)).size, queue.items.length);
   assert.equal(selectQueue(queue, [], 3).length, 3);
   assert.throws(() => validateQueue({ ...queue, items: [queue.items[0], queue.items[0]] }), /duplicate/);
   assert.throws(() => validateQueue({ ...queue, items: [{ ...queue.items[0], url: "https://127.0.0.1/" }] }), /public HTTPS/);

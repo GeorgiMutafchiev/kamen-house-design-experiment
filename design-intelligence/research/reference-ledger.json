@@ -739,6 +739,9 @@
     "url_or_external_id": "https://www.apartamentomagazine.com/",
     "title": "Apartamento – Everyday Interiors Magazine & Publisher",
     "category": "editorial",
+    "operating_commercial": true,
+    "holdout": false,
+    "researched_at": null,
     "evidence": [
       {
         "kind": "rendered_capture",
@@ -759,21 +762,2243 @@
         "url": "https://www.apartamentomagazine.com/",
         "status": 200,
         "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b4cabc9c35673cf72810f0fbfa21c79b327a8678b860893eb0333e6dd1125066"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "366617021e3cc18cd6dbb4de74ffa1065a3ff0da94a53cb044ce9f2c1da6de99"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-15.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-18.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-21.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-24.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-27.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-30.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-33.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-36.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-39.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-42.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-45.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-48.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-51.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-54.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-57.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-60.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-63.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-66.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-69.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-72.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-75.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-78.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-81.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-84.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-87.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-90.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-93.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-96.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/02-scroll-99.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b8bb758731e128d1c8ef059a2ca9ec4d965bd28f9a4dff7eebc9306f37294b5c"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-15.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-18.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-21.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-24.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-27.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-30.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-33.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-36.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-39.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-42.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-45.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-48.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-51.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-54.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-57.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-60.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-63.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-66.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-69.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-72.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-75.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-78.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-81.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-84.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-87.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-90.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-93.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-96.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/02-scroll-99.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/97-upward-return.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-upward",
+        "evidence_class": "static_visual",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bad4e7c70e2b46328f939835a07edaa876810d3e80b5b27d4cfe98fbbb291dfc"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-desktop/attempt-02/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:08:21.635Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "c993d646-8b7b-42bb-b0b7-93f1c4461a71",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b8bb758731e128d1c8ef059a2ca9ec4d965bd28f9a4dff7eebc9306f37294b5c"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-15.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-18.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-21.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-24.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-27.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-30.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-33.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-36.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-39.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-42.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-45.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-48.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-51.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-54.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-57.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-60.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-63.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-66.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-69.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-72.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-75.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-78.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-81.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-84.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-87.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-90.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-93.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-96.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/02-scroll-99.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "ddcaa84d3dd241b7adadcf0e7bd28fb96714760c5fc1ba8e00340799246509bd"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-15.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-18.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-21.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-24.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-27.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-30.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-33.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-36.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-39.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-42.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-45.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-48.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-51.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-54.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-57.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-60.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-63.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-66.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-69.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-72.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-75.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-78.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-81.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-84.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-87.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-90.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-93.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-96.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/02-scroll-99.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/97-upward-return.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-upward",
+        "evidence_class": "static_visual",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "954002847708bc511232195d3f5aa1b11d238144e8a960dd246bfed0a5edb5d8"
+        },
+        "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/APARTAMENTO/home-mobile/attempt-02/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:11:00.108Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "fb260a44-c1a9-45a7-87fd-c77545c4097c",
+        "url": "https://www.apartamentomagazine.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "ddcaa84d3dd241b7adadcf0e7bd28fb96714760c5fc1ba8e00340799246509bd"
+        },
+        "qualified_for_visual_research": false
       }
     ],
-    "operating_commercial": true,
-    "holdout": false,
     "usable_patterns": [],
     "problematic_patterns": [],
     "provenance": {
       "adapter": "live-browser",
       "source_url": "https://www.apartamentomagazine.com/",
-      "captured_by": "design-intelligence/cli.mjs"
+      "captured_by": "design-intelligence/cli.mjs",
+      "remote_capture_runs": [
+        "37227072156"
+      ],
+      "discovery": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
+      "capture_adapter": "github_actions_playwright"
     },
-    "human_status": "unreviewed",
     "notes": "",
-    "researched_at": null,
-    "capture_status": "CAPTURE_AUDIT_REQUIRED"
+    "human_status": "unreviewed",
+    "capture_status": "VISUAL_CAPTURE_INCOMPLETE"
   },
   {
     "id": "HECKFIELD",
@@ -2880,6 +5105,201 @@
           "sha256": "1779bf0c1ce4fe648e41fa8d4168d606a3f2c479140f0df95413c5c0c5f1f9cb"
         },
         "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:13:34.027Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "a5eb4298-cc1f-478d-8525-da5b7a44c099",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b75407978e3d88936590ec2759a1edf1940c92c4eab7f3de52a719a0b2a64353"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:13:34.027Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a5eb4298-cc1f-478d-8525-da5b7a44c099",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "e69bb38af9a3f475824c77de65887731fe11b21c72b42e7a7e6686628491d490"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:13:34.027Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a5eb4298-cc1f-478d-8525-da5b7a44c099",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b25465237919fbf061f819b26742cbf07e59f7f9637d19f903e3e9fe030fe13c"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-desktop/attempt-01/02-scroll-04.jpg",
+        "observed_at": "2026-10-04T19:13:34.027Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a5eb4298-cc1f-478d-8525-da5b7a44c099",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "a3db90412f2292b67b895a8a17cb76154eb2dd8024438e211f932f77ca7d2271"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:13:34.027Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "a5eb4298-cc1f-478d-8525-da5b7a44c099",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "a3db90412f2292b67b895a8a17cb76154eb2dd8024438e211f932f77ca7d2271"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:13:34.027Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "a5eb4298-cc1f-478d-8525-da5b7a44c099",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "1a9a1e1f44a7d9b9b811d20b8d7467cad66d91b13bd9b54d381995a378fcdaad"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "54523955592646960441293040d8828e9ebfeacec8808e6c45faeea53a7f3b65"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "d4df8f21978ae4ba1b92d82f7d5c1a8c5020cfc6307a48a17d115b1f16995698"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "5ce58470af00b86fc305fbf0dbc3363f759ee72554276ce6aa2a33ddbfc2a1d7"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/02-scroll-04.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6fe819f10d99eeeb0407bbddf0547a145a9ba8cfdb2d00e8d9b9728eb26da726"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/02-scroll-05.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6fe819f10d99eeeb0407bbddf0547a145a9ba8cfdb2d00e8d9b9728eb26da726"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6fe819f10d99eeeb0407bbddf0547a145a9ba8cfdb2d00e8d9b9728eb26da726"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/MOROSETA/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:13:49.210Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "97ad47fc-5650-4c37-ab36-3cd651fd0e73",
+        "url": "https://www.masseriamoroseta.it/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6cc42ee2d87dfd63e8503d6f9d2e67c22a0a400db3301cfd879b374dbf71ce2d"
+        },
+        "qualified_for_visual_research": true
       }
     ],
     "usable_patterns": [],
@@ -2889,14 +5309,15 @@
       "source_url": "https://www.masseriamoroseta.it/",
       "captured_by": "design-intelligence/cli.mjs",
       "remote_capture_runs": [
-        "37226517217"
+        "37226517217",
+        "37227072156"
       ],
       "discovery": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
       "capture_adapter": "github_actions_playwright"
     },
     "notes": "",
     "human_status": "unreviewed",
-    "capture_status": "VISUAL_CAPTURE_INCOMPLETE"
+    "capture_status": "VISUAL_CAPTURE_COMPLETE"
   },
   {
     "id": "AESOP",
@@ -7073,6 +9494,306 @@
           "sha256": "95df7bf0f4b0ca382c06abf31a990c166f455a517af2404d67ffbdc7e7e21809"
         },
         "qualified_for_visual_research": false
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "20d34ec1f63f4b2a038db27bedf0bfb0ec5d493630c8328f4d6d7865a69935b2"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b8bcc77c5e403f7ce9ac2231afe88502005a15e146d09f74bce28f0441f75298"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "bfddfeaf85e30d1e02cbcb874f051db42895c100761b097f156142622a997a81"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "24381820be620daebab615d2ed0a39eba59e4d8272f7adf87a1d5fa3b0adcb1f"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "e43bdbe786b34835232c4266f8a8cedeb4a60e334706b22bdddac3f71f1f17b2"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6391299cce52fd8359f44b1794c05375fb85ec88bc0afe1f5a52199f054afe0b"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/02-scroll-13.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6391299cce52fd8359f44b1794c05375fb85ec88bc0afe1f5a52199f054afe0b"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "6391299cce52fd8359f44b1794c05375fb85ec88bc0afe1f5a52199f054afe0b"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-desktop/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:14:00.876Z",
+        "viewport": "desktop",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "3d834bb5-a37d-4e6a-9992-d2b41e25c6e7",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "627eca419ff0ba8b53be47182749db4ce8c43cd925e9020f4ed62500fa6dd1b6"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/00-initial.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-initial",
+        "evidence_class": "static_visual",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "44b64821cbc1d24245e551780bbfd8b39e9afe87f56beafc56cd6ea69df341a0"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-00.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "fd5c557aa19a3cbfa6fbfaf279a7682ac4bdd165484a3334bf7432ee5764a24c"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-03.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "a9a24cd4a696c39739e4aed1cf7da29cc794edf5ac40ad09bb8bc2f747aa7e3a"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-06.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "ba9cea2906c1b0d2ee3a151ae06174fbbe2ef46ec21ba5d313d85f1e15f08667"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-09.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "d1f6576bbc3cbfd26c82b6b71ec3d389f7540db462d16f315d36e2f5437a3bd5"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-12.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "b5f5b7828cccfd31e554b81beeae4c35d2e7770453d82edb78305cc34b961d23"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-15.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "855866ea132ac299c36a3e4da279d49f08f026aa616d8fef143769c5837c0ecc"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-16.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "97fb4d80e637c4f5a2f70aa69a1eade8acb4ba566eee609bf5f01cae824d28b7"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/02-scroll-17.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-scroll",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "97fb4d80e637c4f5a2f70aa69a1eade8acb4ba566eee609bf5f01cae824d28b7"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/98-bottom.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-bottom",
+        "evidence_class": "interaction_state",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "97fb4d80e637c4f5a2f70aa69a1eade8acb4ba566eee609bf5f01cae824d28b7"
+        },
+        "qualified_for_visual_research": true
+      },
+      {
+        "kind": "rendered_capture",
+        "location": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/SOMBRE/home-mobile/attempt-01/99-full-page-after-traversal.jpg",
+        "observed_at": "2026-10-04T19:14:15.028Z",
+        "viewport": "mobile",
+        "page": "home-full_after_traversal",
+        "evidence_class": "static_visual",
+        "capture_session_id": "ecf3ae60-c0b2-457d-8daf-ee678b617d50",
+        "url": "https://www.hotelsinnombre.com/",
+        "provenance": {
+          "manifest": "/workspace/kamen-house-design-experiment/design-intelligence/references/remote-evidence/37227072156/research-evidence-manifest.json",
+          "sha256": "e176aae082bd11fb7030983676d4fa318142be6299f8ac68193024b206aa49bd"
+        },
+        "qualified_for_visual_research": true
       }
     ],
     "usable_patterns": [],
@@ -7082,14 +9803,15 @@
         "37224667588",
         "37225083725",
         "37225739903",
-        "37226517217"
+        "37226517217",
+        "37227072156"
       ],
       "discovery": "prior_reachability_list | design-intelligence/research/candidate-references.json",
       "capture_adapter": "github_actions_playwright"
     },
     "notes": "Remote capture awaiting V5 human/agent audition; no role assigned.",
     "human_status": "unreviewed",
-    "capture_status": "VISUAL_CAPTURE_INCOMPLETE"
+    "capture_status": "VISUAL_CAPTURE_COMPLETE"
   },
   {
     "id": "CALILE",

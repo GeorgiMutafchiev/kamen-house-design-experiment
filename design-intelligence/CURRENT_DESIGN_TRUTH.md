@@ -17,20 +17,20 @@ Supported: live websites, curated galleries, structured database exports, human-
 - acehotel.com: available (2026-10-04T19:04:06.190Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after visual audit: hero player error and privacy overlay.
 - fogoislandinn.ca: unavailable (2026-10-04T14:27:37.515Z) — HTTP no response; VISUAL_CAPTURE_INCOMPLETE
 - stjohnrestaurant.com: available (2026-10-04T13:59:22.720Z) — HTTP 200
-- www.apartamentomagazine.com: available (2026-10-04T13:59:30.822Z) — HTTP 200
+- www.apartamentomagazine.com: available (2026-10-04T19:11:00.108Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
 - www.heckfieldplace.com: available (2026-10-04T18:39:20.222Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
 - hotelcorazon.com: available (2026-10-04T18:58:34.602Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: hero player error on desktop and mobile.
 - www.davidchipperfield.com: available (2026-10-04T14:02:18.674Z) — HTTP 200
 - noma.dk: available (2026-10-04T14:02:27.285Z) — HTTP 200
 - framacph.com: available (2026-10-04T14:02:38.028Z) — HTTP 200
 - casabonay.com: available (2026-10-04T14:04:20.984Z) — HTTP 200
-- www.masseriamoroseta.it: available (2026-10-04T19:00:59.901Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE
+- www.masseriamoroseta.it: available (2026-10-04T19:13:49.210Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
 - www.aesop.com: available (2026-10-04T14:04:59.664Z) — HTTP 200
 - www.oma.com: available (2026-10-04T14:05:08.834Z) — HTTP 200
 - www.kinfolk.com: available (2026-10-04T14:05:19.217Z) — HTTP 200
 - baltic.art: available (2026-10-04T14:05:27.969Z) — HTTP 200
 - www.villa-lena.it: available (2026-10-04T18:58:34.612Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after audit. Manual visual audit overruled runner completion: final full-page images have large blank middle sections.
-- www.hotelsinnombre.com: available (2026-10-04T19:04:06.198Z) — HTTP 200; VISUAL_CAPTURE_INCOMPLETE after visual audit: consent panel persists on both viewports.
+- www.hotelsinnombre.com: available (2026-10-04T19:14:15.028Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
 - thecalilehotel.com: available (2026-10-04T18:33:14.235Z) — remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE
 - github_actions_playwright: available (2026-10-04T18:35:10Z) — Remote proof run 37224526387 on ubuntu-latest captured complete desktop/mobile static, complete image-heavy desktop, and complete lazy-image desktop sessions; GitHub artifact 11310978254 downloaded, SHA-256 validated and ingested in an isolated proof ledger. V5 run 37224667588 then ingested six real candidate sessions; incomplete cookie-obstructed sessions remain excluded.
 
@@ -42,9 +42,9 @@ Browser captures are qualified only by the latest render-complete desktop and mo
 - Partial or candidate references: 16.
 - Human-rejected or forbidden references: 2.
 - Researched holdouts: 0.
-- Browser captures awaiting audit: 7.
-- Incomplete browser captures: 7.
-- Render-complete browser references: 6.
+- Browser captures awaiting audit: 6.
+- Incomplete browser captures: 6.
+- Render-complete browser references: 8.
 - References with mobile evidence: 0.
 - Operating commercial references: 0.
 - Source types represented: none.

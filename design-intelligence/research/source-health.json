@@ -32,8 +32,8 @@
   "www.apartamentomagazine.com": {
     "source": "www.apartamentomagazine.com",
     "status": "available",
-    "checked_at": "2026-10-04T13:59:30.822Z",
-    "detail": "HTTP 200"
+    "checked_at": "2026-10-04T19:11:00.108Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
   },
   "www.heckfieldplace.com": {
     "source": "www.heckfieldplace.com",
@@ -74,8 +74,8 @@
   "www.masseriamoroseta.it": {
     "source": "www.masseriamoroseta.it",
     "status": "available",
-    "checked_at": "2026-10-04T19:00:59.901Z",
-    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_INCOMPLETE"
+    "checked_at": "2026-10-04T19:13:49.210Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE"
   },
   "www.aesop.com": {
     "source": "www.aesop.com",
@@ -110,8 +110,8 @@
   "www.hotelsinnombre.com": {
     "source": "www.hotelsinnombre.com",
     "status": "available",
-    "checked_at": "2026-10-04T19:04:06.198Z",
-    "detail": "HTTP 200; VISUAL_CAPTURE_INCOMPLETE after visual audit: consent panel persists on both viewports."
+    "checked_at": "2026-10-04T19:14:15.028Z",
+    "detail": "remote github_actions_playwright: HTTP 200; VISUAL_CAPTURE_COMPLETE"
   },
   "thecalilehotel.com": {
     "source": "thecalilehotel.com",

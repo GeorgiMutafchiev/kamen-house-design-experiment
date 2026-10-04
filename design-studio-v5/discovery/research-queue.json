@@ -82,9 +82,10 @@
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: scroll traversal did not reach a stable document bottom; failed visible video at 100 sampled scroll positions; large fixed overlay obstructed 100 sampled positions | home/mobile: scroll traversal did not reach a stable document bottom; failed visible video at 100 sampled scroll positions; large fixed overlay obstructed 100 sampled positions",
+      "last_run_id": "37227072156"
     },
     {
       "candidate_id": "HECKFIELD",
@@ -231,11 +232,11 @@
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
-      "status": "CAPTURE_INCOMPLETE",
-      "attempt_count": 1,
-      "last_error": "home/desktop: large fixed overlay obstructed 5 sampled positions | home/mobile: large fixed overlay obstructed 6 sampled positions",
-      "last_run_id": "37226517217",
-      "dismiss_selector": ".spu-close-popup"
+      "status": "AUDIT_READY",
+      "attempt_count": 2,
+      "last_error": null,
+      "dismiss_selector": ".spu-close-popup",
+      "last_run_id": "37227072156"
     },
     {
       "candidate_id": "AESOP",
@@ -361,11 +362,11 @@
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "CAPTURE_INCOMPLETE",
-      "attempt_count": 4,
-      "last_error": "Manual visual audit: cookie consent banner persists after logged Accept click and across scroll-state screenshots.",
+      "status": "AUDIT_READY",
+      "attempt_count": 5,
+      "last_error": null,
       "dismiss_selector": "[data-tid=\"banner-accept\"]",
-      "last_run_id": "37226517217"
+      "last_run_id": "37227072156"
     },
     {
       "candidate_id": "CALILE",
@@ -381,10 +382,18 @@
         {
           "name": "home",
           "url": "https://thecalilehotel.com/"
+        },
+        {
+          "name": "rooms",
+          "url": "https://thecalilehotel.com/luxury-accommodation-james-street/"
+        },
+        {
+          "name": "essential",
+          "url": "https://thecalilehotel.com/rooms/essential/"
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 1,
       "last_error": null,
       "last_run_id": "37224667588"
