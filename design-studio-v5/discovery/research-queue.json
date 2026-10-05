@@ -35,12 +35,20 @@
       ],
       "requested_routes": [
         {
-          "name": "home",
-          "url": "https://fogoislandinn.ca/"
+          "name": "rooms",
+          "url": "https://fogoislandinn.ca/our-inn/rooms-suites/"
+        },
+        {
+          "name": "food",
+          "url": "https://fogoislandinn.ca/food-drink/"
+        },
+        {
+          "name": "rates",
+          "url": "https://fogoislandinn.ca/your-stay/rates-and-inclusions/"
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 0,
       "last_error": null
     },
@@ -56,12 +64,20 @@
       ],
       "requested_routes": [
         {
-          "name": "home",
-          "url": "https://stjohnrestaurant.com/"
+          "name": "smithfield",
+          "url": "https://stjohnrestaurant.com/a/restaurants/smithfield"
+        },
+        {
+          "name": "story",
+          "url": "https://stjohnrestaurant.com/pages/our-story"
+        },
+        {
+          "name": "events",
+          "url": "https://stjohnrestaurant.com/pages/private-events"
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 0,
       "last_error": null
     },
@@ -206,12 +222,20 @@
       ],
       "requested_routes": [
         {
-          "name": "home",
-          "url": "https://casabonay.com/"
+          "name": "rooms",
+          "url": "https://casabonay.com/rooms/"
+        },
+        {
+          "name": "room",
+          "url": "https://casabonay.com/rooms/passage-medium/"
+        },
+        {
+          "name": "food",
+          "url": "https://casabonay.com/dining-drinks/"
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger+same_day_reused_capture | design-intelligence/research/reference-ledger.json; design-studio-v5/REUSED_EVIDENCE.md",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 0,
       "last_error": null
     },
@@ -227,12 +251,20 @@
       ],
       "requested_routes": [
         {
-          "name": "home",
-          "url": "https://www.masseriamoroseta.it/"
+          "name": "rooms",
+          "url": "https://www.masseriamoroseta.it/stanze/"
+        },
+        {
+          "name": "booking",
+          "url": "https://www.masseriamoroseta.it/booking-room/"
+        },
+        {
+          "name": "table",
+          "url": "https://www.masseriamoroseta.it/table/"
         }
       ],
       "source_discovery_provenance": "prior_browser_ledger | design-intelligence/research/reference-ledger.json",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 2,
       "last_error": null,
       "dismiss_selector": ".spu-close-popup",
@@ -357,12 +389,20 @@
       ],
       "requested_routes": [
         {
-          "name": "home",
-          "url": "https://www.hotelsinnombre.com/"
+          "name": "rooms",
+          "url": "https://www.hotelsinnombre.com/rooms"
+        },
+        {
+          "name": "house",
+          "url": "https://www.hotelsinnombre.com/the-house"
+        },
+        {
+          "name": "food",
+          "url": "https://www.hotelsinnombre.com/cantinita"
         }
       ],
       "source_discovery_provenance": "prior_reachability_list | design-intelligence/research/candidate-references.json",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 5,
       "last_error": null,
       "dismiss_selector": "[data-tid=\"banner-accept\"]",
@@ -410,12 +450,20 @@
       ],
       "requested_routes": [
         {
-          "name": "home",
-          "url": "https://thenewtinsomerset.com/"
+          "name": "hotel",
+          "url": "https://thenewtinsomerset.com/hotel"
+        },
+        {
+          "name": "restaurants",
+          "url": "https://thenewtinsomerset.com/restaurants"
+        },
+        {
+          "name": "garden",
+          "url": "https://thenewtinsomerset.com/plan-your-visit/garden"
         }
       ],
       "source_discovery_provenance": "same_day_reused_capture | design-studio-v5/REUSED_EVIDENCE.md",
-      "status": "AUDIT_READY",
+      "status": "QUEUED",
       "attempt_count": 0,
       "last_error": null
     },
