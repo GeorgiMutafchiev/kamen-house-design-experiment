@@ -44,7 +44,13 @@
     "NEWT_V5",
     "VILLALENA",
     "SOMBRE",
-    "CALILE"
+    "CALILE",
+    "DEER_MOUNTAIN",
+    "STOOS_LODGE",
+    "TRAILBORN",
+    "MTN_HOME_FOOD",
+    "MOUNTAIN_HOUSE",
+    "WEST_MOUNTAIN_INN"
   ],
   "rule": "Only explicit human-owner feedback changes taste. AI judgments are diagnostic."
 }

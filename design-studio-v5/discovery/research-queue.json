@@ -484,9 +484,10 @@
         }
       ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 9 | design-studio-v5/discovery/search-results-brave-2026-10-04.json | verified first-party HTTP 200 and product metadata",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: failed visible video at 2 sampled scroll positions | home/mobile: failed visible video at 2 sampled scroll positions",
+      "last_run_id": "37263496551"
     },
     {
       "candidate_id": "STOOS_LODGE",
@@ -505,9 +506,10 @@
         }
       ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 7 | design-studio-v5/discovery/search-results-brave-2026-10-04.json | verified first-party HTTP 200 and product metadata",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: failed visible video at 2 sampled scroll positions | home/mobile: failed visible video at 1 sampled scroll positions",
+      "last_run_id": "37263496551"
     },
     {
       "candidate_id": "TRAILBORN",
@@ -526,9 +528,10 @@
         }
       ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 2 | design-studio-v5/discovery/search-results-brave-2026-10-04.json | verified first-party HTTP 200 and product metadata",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "home/desktop: large hidden/reveal elements at 12 sampled scroll positions | home/mobile: large hidden/reveal elements at 15 sampled scroll positions; large fixed overlay obstructed 15 sampled positions",
+      "last_run_id": "37263496551"
     },
     {
       "candidate_id": "MOUNTAIN_TOP",
@@ -536,8 +539,16 @@
       "category": "mountain_hotel",
       "reason_for_interest": "Mountain lodging, outdoor activity, lakeside dining and direct stay path",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://www.mountaintopinn.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.mountaintopinn.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 1 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -549,12 +560,21 @@
       "category": "small_destination",
       "reason_for_interest": "Small mountain stay with an explicit food and overnight-stay relationship",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "food", "url": "https://www.mtnhomeinn.com/eat/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "food",
+          "url": "https://www.mtnhomeinn.com/eat/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 2 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "food/desktop: large hidden/reveal elements at 1 sampled scroll positions | food/mobile: large hidden/reveal elements at 1 sampled scroll positions",
+      "last_run_id": "37263506502"
     },
     {
       "candidate_id": "MOUNTAIN_HOUSE",
@@ -562,12 +582,21 @@
       "category": "mountain_hotel",
       "reason_for_interest": "Mountain property dining narrative and its relationship to the stay product",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "dining", "url": "https://themountainhouse.com/dining-room/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "dining",
+          "url": "https://themountainhouse.com/dining-room/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 3 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching page title 2026-10-05",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "AUDIT_READY",
+      "attempt_count": 1,
+      "last_error": "Manual visual audit 2026-10-05: technically complete and readable, but the captured route is a single restaurant menu page; it does not establish a lodging product or multi-page stay journey.",
+      "last_run_id": "37263506502"
     },
     {
       "candidate_id": "GUESTHOUSE_LOST_RIVER",
@@ -575,8 +604,16 @@
       "category": "small_destination",
       "reason_for_interest": "Independent mountainside lodge joining rooms, restaurant and bar",
       "priority": 1,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "stay", "url": "https://www.guesthouselostriver.com/stay/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "stay",
+          "url": "https://www.guesthouselostriver.com/stay/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 4 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -588,8 +625,16 @@
       "category": "mountain_hotel",
       "reason_for_interest": "Independent lodge with suites, dining and events",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://www.housemountaininn.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.housemountaininn.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 5 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -601,8 +646,16 @@
       "category": "mountain_hotel",
       "reason_for_interest": "Adobe-style boutique mountain hotel and direct booking presentation",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://www.tablemountaininn.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.tablemountaininn.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 6 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -614,8 +667,16 @@
       "category": "group_lodging",
       "reason_for_interest": "Large private mountain-house offer and group conversion narrative",
       "priority": 3,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://themountainhouseinn.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://themountainhouseinn.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 7 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching page title 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -627,12 +688,21 @@
       "category": "country_inn",
       "reason_for_interest": "Independent inn explicitly joining food, sleep and gathering",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://westmountaininn.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://westmountaininn.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: independent mountain guesthouse rooms dining official site | result 11 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching page title 2026-10-05",
-      "status": "QUEUED",
-      "attempt_count": 0,
-      "last_error": null
+      "status": "CAPTURE_INCOMPLETE",
+      "attempt_count": 1,
+      "last_error": "Manual visual audit 2026-10-05 overruled nominal completion: desktop and mobile full-page renders expose raw [trx_sc_layouts] shortcodes and large blank sections, so the page is not trustworthy positive evidence.",
+      "last_run_id": "37263506502"
     },
     {
       "candidate_id": "SHASHI_HOTEL",
@@ -640,8 +710,16 @@
       "category": "urban_hotel",
       "reason_for_interest": "Contemporary hotel joining rooms, destination context and restaurant offer",
       "priority": 3,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://www.shashihotel.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.shashihotel.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 3 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -653,8 +731,16 @@
       "category": "mountain_hotel",
       "reason_for_interest": "Alpine luxury hotel with winter place story and high-intent booking path",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://giardinohotels.ch/en/mountain/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://giardinohotels.ch/en/mountain/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 8 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -666,8 +752,16 @@
       "category": "hospitality_group",
       "reason_for_interest": "Mountain hotel group with strong place narrative and multiple stay choices",
       "priority": 2,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://www.bestmontblanc.com/en/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://www.bestmontblanc.com/en/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: small design hotel mountain rooms restaurant official site | result 9 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -679,8 +773,16 @@
       "category": "food",
       "reason_for_interest": "Menu hierarchy and fire-led restaurant conversion behavior",
       "priority": 3,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "menu", "url": "https://risewoodfire.com/menus/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "menu",
+          "url": "https://risewoodfire.com/menus/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: wood fire restaurant seasonal menu official website | result 1 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -692,8 +794,16 @@
       "category": "food",
       "reason_for_interest": "Wood-fire restaurant story, reservation action and menu structure",
       "priority": 4,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://woodfiredining.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://woodfiredining.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: wood fire restaurant seasonal menu official website | result 3 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -705,8 +815,16 @@
       "category": "food",
       "reason_for_interest": "Restaurant menu presentation and high-intent ordering or reservation cues",
       "priority": 4,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "menu", "url": "https://www.woodandfiremelrose.com/menu"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "menu",
+          "url": "https://www.woodandfiremelrose.com/menu"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: wood fire restaurant seasonal menu official website | result 4 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching page title 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -718,8 +836,16 @@
       "category": "food",
       "reason_for_interest": "Fire-kitchen menu information architecture and conversion action",
       "priority": 4,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "menu", "url": "https://www.oakwoodfirekitchen.com/menu/main-menu/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "menu",
+          "url": "https://www.oakwoodfirekitchen.com/menu/main-menu/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: wood fire restaurant seasonal menu official website | result 6 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -731,8 +857,16 @@
       "category": "food",
       "reason_for_interest": "Seasonal fire-led food identity and reservation narrative",
       "priority": 3,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "home", "url": "https://smokewoodfiregrill.com/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "home",
+          "url": "https://smokewoodfiregrill.com/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: wood fire restaurant seasonal menu official website | result 11 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching product metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -744,8 +878,16 @@
       "category": "hospitality_editorial",
       "reason_for_interest": "Editorial treatment of local soil, climate, craft and vernacular hospitality",
       "priority": 3,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "article", "url": "https://www.roomandwild.com/blog/living-heritage-vernacular-architecture-in-hotels"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "article",
+          "url": "https://www.roomandwild.com/blog/living-heritage-vernacular-architecture-in-hotels"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: architecture practice rural hospitality stone timber project | result 2 | search-results-brave-2026-10-04.json | verified publisher HTTP 200 and matching editorial metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -757,8 +899,16 @@
       "category": "architecture_practice",
       "reason_for_interest": "Professional hospitality architecture portfolio and spatial image direction",
       "priority": 3,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "hospitality", "url": "https://papavasilistudio.com/hospitality-architecture/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "hospitality",
+          "url": "https://papavasilistudio.com/hospitality-architecture/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: architecture practice rural hospitality stone timber project | result 4 | search-results-brave-2026-10-04.json | verified first-party HTTP 200 and matching page title 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
@@ -770,8 +920,16 @@
       "category": "architecture_editorial",
       "reason_for_interest": "Curated place-based hotel architecture across multiple spatial approaches",
       "priority": 4,
-      "requested_viewports": ["desktop", "mobile"],
-      "requested_routes": [{"name": "article", "url": "https://architizer.com/blog/inspiration/collections/award-winning-place-based-hotel-and-resort-design/"}],
+      "requested_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "requested_routes": [
+        {
+          "name": "article",
+          "url": "https://architizer.com/blog/inspiration/collections/award-winning-place-based-hotel-and-resort-design/"
+        }
+      ],
       "source_discovery_provenance": "Brave Search public HTML 2026-10-04 | query: architecture practice rural hospitality stone timber project | result 10 | search-results-brave-2026-10-04.json | verified publisher HTTP 200 and matching editorial metadata 2026-10-05",
       "status": "QUEUED",
       "attempt_count": 0,
